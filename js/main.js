@@ -156,12 +156,11 @@ function badgeClass(source){
 }
 
 function productCardHTML(p){
-  const img = `https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=600&q=60`;
   return `
     <article class="product-card" data-id="${p.id}">
       <div class="pc-media">
         <span class="badge ${badgeClass(p.source)} pc-badge">${p.source}</span>
-        <img src="${productImage(p)}" alt="${p.nom}" loading="lazy">
+        ${visualTileHTML(CATEGORY_VISUALS, p.categorie, p.id)}
       </div>
       <div class="pc-body">
         <span class="pc-cat">${p.categorie}</span>
@@ -182,17 +181,37 @@ function productCardHTML(p){
   `;
 }
 
-/* Deterministic placeholder photo per category, royalty-free Unsplash sources */
-function productImage(p){
-  const map = {
-    'Bois & Charpente': 'https://images.unsplash.com/photo-1601058268499-e52658b8bb88?auto=format&fit=crop&w=700&q=60',
-    'Métaux': 'https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=700&q=60',
-    'Cuivre': 'https://images.unsplash.com/photo-1620207418302-439b387441b0?auto=format&fit=crop&w=700&q=60',
-    'Cloisons & Doublages': 'https://images.unsplash.com/photo-1629905870252-8c8e60d6f0a6?auto=format&fit=crop&w=700&q=60',
-    'Isolants': 'https://images.unsplash.com/photo-1632759145355-9a4cd9b9a73f?auto=format&fit=crop&w=700&q=60',
-    'Fixations': 'https://images.unsplash.com/photo-1517646287270-a5a9ca602e5c?auto=format&fit=crop&w=700&q=60'
-  };
-  return map[p.categorie] || map['Métaux'];
+/* ---------- Visual tiles ----------
+   In place of stock photography (generic and rarely a true match for a
+   specific reference), each category gets its own brand-consistent
+   illustration: a gradient drawn from the palette, a glyph echoing the
+   icons used on the homepage, and the item's reference for context. */
+const CATEGORY_VISUALS = {
+  'Bois & Charpente':     { cls: 'vt-bois',      icon: '▥' },
+  'Métaux':               { cls: 'vt-metaux',    icon: '▦' },
+  'Cuivre':               { cls: 'vt-cuivre',    icon: '◉' },
+  'Cloisons & Doublages': { cls: 'vt-cloisons',  icon: '▤' },
+  'Isolants':             { cls: 'vt-isolants',  icon: '▧' },
+  'Fixations':            { cls: 'vt-fixations', icon: '✚' }
+};
+const ARTICLE_VISUALS = {
+  'Marchés & Cotations':   { cls: 'vt-marches',  icon: '▲' },
+  'Conseils achat':        { cls: 'vt-conseils', icon: '✎' },
+  'BTP & Réglementation':  { cls: 'vt-btp',      icon: '⚖' },
+  'Cohesif Négoce':        { cls: 'vt-cohesif',  icon: '⬢' }
+};
+function visualTileHTML(map, categorie, ref){
+  const fallback = Object.values(map)[0];
+  const v = map[categorie] || fallback;
+  return `
+    <div class="visual-tile ${v.cls}" role="img" aria-label="${categorie}${ref ? ' — réf. ' + ref : ''}">
+      <span class="vt-icon" aria-hidden="true">${v.icon}</span>
+      <div class="vt-meta">
+        <span class="vt-cat">${categorie}</span>
+        ${ref ? `<span class="vt-ref">Réf. ${ref}</span>` : ''}
+      </div>
+    </div>
+  `;
 }
 
 /* ---------- Catalogue page ---------- */
@@ -297,23 +316,8 @@ function initProductDetail(produits){
   }
 
   // Gallery
-  const mainImg = document.querySelector('[data-pd-main-img]');
-  const thumbsWrap = document.querySelector('[data-pd-thumbs]');
-  const baseImg = productImage(produit);
-  const variants = [baseImg, baseImg + '&flip=h', baseImg + '&sat=-30', baseImg + '&blur=1'];
-  if (mainImg) mainImg.src = baseImg;
-  if (thumbsWrap){
-    thumbsWrap.innerHTML = variants.map((src, i) => `
-      <button class="${i === 0 ? 'active' : ''}" data-thumb="${i}"><img src="${src}" alt="Vue ${i+1} — ${produit.nom}"></button>
-    `).join('');
-    thumbsWrap.querySelectorAll('button').forEach(btn => {
-      btn.addEventListener('click', () => {
-        thumbsWrap.querySelectorAll('button').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        if (mainImg) mainImg.src = variants[parseInt(btn.getAttribute('data-thumb'), 10)];
-      });
-    });
-  }
+  const mainVisual = document.querySelector('[data-pd-main-visual]');
+  if (mainVisual) mainVisual.innerHTML = visualTileHTML(CATEGORY_VISUALS, produit.categorie, produit.id);
 
   // Price block
   const priceMain = document.querySelector('[data-pd-price-main]');
@@ -465,7 +469,7 @@ function initActualites(articles){
   const featEl = document.querySelector('[data-featured-article]');
   if (featEl && featured){
     featEl.innerHTML = `
-      <div class="fa-media"><img src="${articleImage(featured)}" alt="${featured.titre}" loading="lazy"></div>
+      <div class="fa-media">${visualTileHTML(ARTICLE_VISUALS, featured.categorie)}</div>
       <div class="fa-body">
         <span class="cat-pill">${featured.categorie}</span>
         <h2>${featured.titre}</h2>
@@ -489,7 +493,7 @@ function initActualites(articles){
 
     grid.innerHTML = slice.map(a => `
       <article class="article-card">
-        <div class="ac-media"><img src="${articleImage(a)}" alt="${a.titre}" loading="lazy"></div>
+        <div class="ac-media">${visualTileHTML(ARTICLE_VISUALS, a.categorie)}</div>
         <div class="ac-body">
           <span class="cat-pill">${a.categorie}</span>
           <h3>${a.titre}</h3>
@@ -521,16 +525,6 @@ function initActualites(articles){
   });
 
   render();
-}
-
-function articleImage(article){
-  const map = {
-    'Marchés & Cotations': 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=700&q=60',
-    'Conseils achat': 'https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=700&q=60',
-    'BTP & Réglementation': 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=700&q=60',
-    'Cohesif Négoce': 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=700&q=60'
-  };
-  return map[article.categorie] || map['Marchés & Cotations'];
 }
 function formatDateFR(iso){
   const d = new Date(iso);
