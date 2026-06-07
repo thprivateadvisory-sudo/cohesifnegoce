@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fiche produit — Cohesif Négoce</title>
+<meta name="description" content="Fiche produit détaillée Cohesif Négoce : prix HT/TTC, caractéristiques, conditionnement, livraison et fournisseur.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== Navbar ===== -->
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo"><span class="logo-mark">CN</span> Cohesif Négoce</a>
+    <nav class="nav-links">
+      <a href="catalogue.html">Catalogue</a>
+      <a href="fournisseurs.html">Fournisseurs</a>
+      <a href="abonnements.html">Abonnements</a>
+      <a href="actualites.html">Actualités</a>
+      <a href="a-propos.html">À propos</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="fournisseurs.html" class="btn btn-outline btn-sm">Déposer une annonce</a>
+      <a href="devis.html" class="btn btn-primary btn-sm">Demander un devis</a>
+    </div>
+    <button class="burger" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu">
+    <a href="catalogue.html">Catalogue</a>
+    <a href="fournisseurs.html">Fournisseurs</a>
+    <a href="abonnements.html">Abonnements</a>
+    <a href="actualites.html">Actualités</a>
+    <a href="a-propos.html">À propos</a>
+    <div class="nav-actions">
+      <a href="fournisseurs.html" class="btn btn-outline">Déposer une annonce</a>
+      <a href="devis.html" class="btn btn-primary">Demander un devis</a>
+    </div>
+  </div>
+</header>
+
+<section style="padding-bottom:0;">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Fil d'ariane">
+      <a href="index.html">Accueil</a><span class="sep">/</span>
+      <a href="catalogue.html">Catalogue</a><span class="sep">/</span>
+      <a href="catalogue.html" data-crumb-categorie>Catégorie</a><span class="sep">/</span>
+      <span class="current" data-crumb-nom>Produit</span>
+    </nav>
+  </div>
+</section>
+
+<section data-product-detail style="padding-top:8px;">
+  <div class="container">
+    <div class="product-detail">
+
+      <!-- Galerie -->
+      <div class="pd-gallery">
+        <div class="pd-main"><img data-pd-main-img src="" alt="Photo du produit"></div>
+        <div class="pd-thumbs" data-pd-thumbs></div>
+      </div>
+
+      <!-- Infos -->
+      <div class="pd-info">
+        <span class="badge" data-pd-badge>Source</span>
+        <h1 data-pd-title>Nom du produit</h1>
+        <p class="pd-ref" data-pd-ref>Référence</p>
+
+        <div class="pd-price-block">
+          <div>
+            <div class="pd-price-main" data-pd-price-main><span class="price-number">0,00 €</span></div>
+            <div class="pd-price-sub" data-pd-price-sub>Soit … TTC</div>
+          </div>
+          <div class="htttc-toggle">
+            <button data-mode="HT" class="active">HT</button>
+            <button data-mode="TTC">TTC</button>
+          </div>
+        </div>
+
+        <div class="pd-meta-row">
+          <div class="meta-item"><strong data-pd-delai>—</strong>Délai de livraison</div>
+          <div class="meta-item"><strong data-pd-dispo>—</strong>Disponibilité</div>
+          <div class="meta-item"><strong data-pd-zones>—</strong>Zones desservies</div>
+        </div>
+
+        <div class="qty-row">
+          <div class="qty-selector">
+            <button type="button" data-pd-qty-btn="dec" aria-label="Diminuer la quantité">−</button>
+            <input type="number" min="1" value="1" data-pd-qty aria-label="Quantité">
+            <button type="button" data-pd-qty-btn="inc" aria-label="Augmenter la quantité">+</button>
+          </div>
+          <div class="qty-total">Total estimé : <span data-pd-total>0,00 €</span></div>
+        </div>
+
+        <div class="pd-ctas">
+          <button class="btn btn-primary" data-pd-add>Ajouter au devis</button>
+          <a href="devis.html" class="btn btn-outline">Demander un prix sur volume</a>
+        </div>
+
+        <div class="mini-reassurance">
+          <span>Réponse 24h</span>
+          <span>Paiement sécurisé</span>
+          <span>Groupe Cohesif Paris 15e</span>
+        </div>
+
+        <!-- Onglets desktop / Accordéon mobile -->
+        <div class="pd-tabs-nav">
+          <button class="active" data-pd-tab="caracteristiques">Caractéristiques</button>
+          <button data-pd-tab="conditionnement">Conditionnement</button>
+          <button data-pd-tab="livraison">Livraison</button>
+          <button data-pd-tab="fournisseur">Fournisseur</button>
+        </div>
+        <div class="pd-tab-panel active" data-pd-panel="caracteristiques">
+          <ul data-pd-specs></ul>
+        </div>
+        <div class="pd-tab-panel" data-pd-panel="conditionnement">
+          <p data-pd-description>Description du produit.</p>
+          <p>Conditionnement standard selon la référence (unité, mètre linéaire, m² ou panneau — voir caractéristiques). Pour des conditionnements spécifiques ou des volumes palettisés, contactez notre équipe via le devis express ci-dessous.</p>
+        </div>
+        <div class="pd-tab-panel" data-pd-panel="livraison">
+          <p>Expédition organisée vers la France, la Belgique, la Suisse et le Luxembourg selon les zones desservies par ce produit. Le délai indiqué correspond à une livraison standard ; des options express peuvent être proposées sur demande.</p>
+          <p>Les commandes volumineuses ou palettisées font l'objet d'une cotation logistique dédiée, communiquée avec votre devis sous 24h.</p>
+        </div>
+        <div class="pd-tab-panel" data-pd-panel="fournisseur">
+          <p>Ce produit est référencé par un fournisseur du réseau Cohesif Négoce, sélectionné selon nos critères de qualité, de conformité aux normes en vigueur et de fiabilité logistique.</p>
+          <p>Le badge affiché (Stock Cohesif, Partenaire Vérifié ou Import Direct) précise l'origine de la référence et le niveau de contrôle appliqué avant mise en ligne.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Devis express -->
+    <div class="quote-express">
+      <h3>Devis express pour ce produit</h3>
+      <p>Quatre champs, une réponse personnalisée sous 24h — sans engagement.</p>
+      <form data-quote-express-form onsubmit="event.preventDefault(); this.querySelector('[data-qe-confirm]').style.display='block'; this.querySelector('.qe-fields').style.display='none';">
+        <div class="qe-fields full" style="display:contents;">
+          <div class="field-group">
+            <label for="qe-qty">Quantité souhaitée</label>
+            <input type="number" id="qe-qty" min="1" value="1" data-qe-qty required>
+          </div>
+          <div class="field-group">
+            <label for="qe-delai">Délai souhaité</label>
+            <select id="qe-delai" required>
+              <option value="">Sélectionner…</option>
+              <option>Dès que possible</option>
+              <option>Sous 1 semaine</option>
+              <option>Sous 1 mois</option>
+              <option>Plus de 1 mois</option>
+            </select>
+          </div>
+          <div class="field-group">
+            <label for="qe-ville">Ville / Code postal</label>
+            <input type="text" id="qe-ville" placeholder="Ex. Lyon, 69003" required>
+          </div>
+          <div class="field-group">
+            <label for="qe-contact">Email ou téléphone</label>
+            <input type="text" id="qe-contact" placeholder="vous@exemple.fr ou 06 00 00 00 00" required>
+          </div>
+        </div>
+        <div class="full" style="margin-top:6px;">
+          <button type="submit" class="btn btn-primary">Envoyer ma demande de devis express</button>
+        </div>
+        <p class="full" data-qe-confirm style="display:none; color:var(--green); font-weight:700; margin:0;">Merci ! Votre demande a bien été enregistrée — notre équipe vous répond sous 24h.</p>
+      </form>
+    </div>
+
+    <!-- Souvent achetés ensemble -->
+    <div class="section-head" style="text-align:left; margin-bottom:24px; max-width:none;">
+      <span class="eyebrow">Complémentaires</span>
+      <h2>Souvent achetés ensemble</h2>
+    </div>
+    <div class="carousel" data-pd-carousel></div>
+
+    <!-- Dans la même catégorie -->
+    <div class="section-head" style="text-align:left; margin: 56px 0 24px; max-width:none;">
+      <span class="eyebrow">À explorer</span>
+      <h2>Dans la même catégorie</h2>
+    </div>
+    <div class="grid-3" data-pd-samecat></div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a href="index.html" class="logo"><span class="logo-mark">CN</span> Cohesif Négoce</a>
+        <p>« La matière première des professionnels. »<br>
+        Groupe Cohesif — 200 rue de la Croix-Nivert, 75015 Paris<br>
+        SIRET 889 287 462 00036</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="catalogue.html">Catalogue</a></li>
+          <li><a href="fournisseurs.html">Fournisseurs</a></li>
+          <li><a href="abonnements.html">Abonnements</a></li>
+          <li><a href="actualites.html">Actualités</a></li>
+          <li><a href="devis.html">Devis</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Groupe Cohesif</h4>
+        <ul>
+          <li><a href="https://cohesifbtp.fr" target="_blank" rel="noopener">cohesifbtp.fr</a></li>
+          <li><a href="https://cohesifenergy.fr" target="_blank" rel="noopener">cohesifenergy.fr</a></li>
+          <li><a href="https://cohesifauto.fr" target="_blank" rel="noopener">cohesifauto.fr</a></li>
+          <li><a href="https://cohesifaccess.fr" target="_blank" rel="noopener">cohesifaccess.fr</a></li>
+          <li><a href="https://cohesifcommerce.fr" target="_blank" rel="noopener">cohesifcommerce.fr</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:contact@cohesifnegoce.fr">contact@cohesifnegoce.fr</a></li>
+          <li>Lun–Ven · 9h–18h</li>
+          <li><a href="devis.html">Demander un devis</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Cohesif Négoce — Groupe Cohesif</span>
+      <div class="legal-links">
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="cgv.html">CGV</a>
+        <a href="confidentialite.html">Confidentialité</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="sticky-mobile-bar">
+  <span>Devis <span class="count-pill"><span data-sticky-cart-count>0</span> produit(s)</span></span>
+  <a href="devis.html" class="btn btn-white btn-sm">Voir mon devis</a>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

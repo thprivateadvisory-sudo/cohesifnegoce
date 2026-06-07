@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Actualités — Cohesif Négoce</title>
+<meta name="description" content="Marchés et cotations, conseils d'achat, BTP et réglementation : suivez l'actualité du négoce de matériaux avec Cohesif Négoce.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== Navbar ===== -->
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo"><span class="logo-mark">CN</span> Cohesif Négoce</a>
+    <nav class="nav-links">
+      <a href="catalogue.html">Catalogue</a>
+      <a href="fournisseurs.html">Fournisseurs</a>
+      <a href="abonnements.html">Abonnements</a>
+      <a href="actualites.html">Actualités</a>
+      <a href="a-propos.html">À propos</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="fournisseurs.html" class="btn btn-outline btn-sm">Déposer une annonce</a>
+      <a href="devis.html" class="btn btn-primary btn-sm">Demander un devis</a>
+    </div>
+    <button class="burger" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu">
+    <a href="catalogue.html">Catalogue</a>
+    <a href="fournisseurs.html">Fournisseurs</a>
+    <a href="abonnements.html">Abonnements</a>
+    <a href="actualites.html">Actualités</a>
+    <a href="a-propos.html">À propos</a>
+    <div class="nav-actions">
+      <a href="fournisseurs.html" class="btn btn-outline">Déposer une annonce</a>
+      <a href="devis.html" class="btn btn-primary">Demander un devis</a>
+    </div>
+  </div>
+</header>
+
+<!-- ===== En-tête ===== -->
+<section class="page-header">
+  <div class="container">
+    <h1>Actualités &amp; tendances négoce</h1>
+    <p>Marchés et cotations, conseils d'achat, BTP et réglementation, vie de la plateforme : suivez l'essentiel du secteur.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="actu-filters">
+      <button class="active" data-actu-filter="Toutes">Toutes</button>
+      <button data-actu-filter="Marchés & Cotations">Marchés &amp; Cotations</button>
+      <button data-actu-filter="Conseils achat">Conseils achat</button>
+      <button data-actu-filter="BTP & Réglementation">BTP &amp; Réglementation</button>
+      <button data-actu-filter="Cohesif Négoce">Cohesif Négoce</button>
+    </div>
+
+    <article class="featured-article" data-featured-article></article>
+
+    <div class="grid-3" data-articles-grid></div>
+
+    <div class="pagination" data-actu-pagination></div>
+
+    <div class="newsletter-block">
+      <h3>Recevez nos analyses chaque mois</h3>
+      <p>Cotations, conseils d'achat et actualités réglementaires directement dans votre boîte mail.</p>
+      <form class="newsletter-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Inscription confirmée ✓'; this.querySelector('button').disabled=true;">
+        <input type="email" placeholder="vous@exemple.fr" required aria-label="Adresse email">
+        <button type="submit" class="btn btn-primary">S'inscrire</button>
+      </form>
+      <p class="newsletter-rgpd">En vous inscrivant, vous acceptez de recevoir nos communications par email. Vos données sont traitées conformément à notre <a href="confidentialite.html" style="color:var(--green); font-weight:700;">politique de confidentialité</a> et vous pouvez vous désinscrire à tout moment.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a href="index.html" class="logo"><span class="logo-mark">CN</span> Cohesif Négoce</a>
+        <p>« La matière première des professionnels. »<br>
+        Groupe Cohesif — 200 rue de la Croix-Nivert, 75015 Paris<br>
+        SIRET 889 287 462 00036</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="catalogue.html">Catalogue</a></li>
+          <li><a href="fournisseurs.html">Fournisseurs</a></li>
+          <li><a href="abonnements.html">Abonnements</a></li>
+          <li><a href="actualites.html">Actualités</a></li>
+          <li><a href="devis.html">Devis</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Groupe Cohesif</h4>
+        <ul>
+          <li><a href="https://cohesifbtp.fr" target="_blank" rel="noopener">cohesifbtp.fr</a></li>
+          <li><a href="https://cohesifenergy.fr" target="_blank" rel="noopener">cohesifenergy.fr</a></li>
+          <li><a href="https://cohesifauto.fr" target="_blank" rel="noopener">cohesifauto.fr</a></li>
+          <li><a href="https://cohesifaccess.fr" target="_blank" rel="noopener">cohesifaccess.fr</a></li>
+          <li><a href="https://cohesifcommerce.fr" target="_blank" rel="noopener">cohesifcommerce.fr</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:contact@cohesifnegoce.fr">contact@cohesifnegoce.fr</a></li>
+          <li>Lun–Ven · 9h–18h</li>
+          <li><a href="devis.html">Demander un devis</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Cohesif Négoce — Groupe Cohesif</span>
+      <div class="legal-links">
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="cgv.html">CGV</a>
+        <a href="confidentialite.html">Confidentialité</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="sticky-mobile-bar">
+  <span>Demander un devis — Réponse 24h</span>
+  <a href="devis.html" class="btn btn-white btn-sm">Démarrer</a>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

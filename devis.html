@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Demander un devis — Cohesif Négoce</title>
+<meta name="description" content="Demandez votre devis matériaux en 3 minutes. Professionnels et particuliers : réponse personnalisée sous 24h, sans engagement.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== Navbar ===== -->
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo"><span class="logo-mark">CN</span> Cohesif Négoce</a>
+    <nav class="nav-links">
+      <a href="catalogue.html">Catalogue</a>
+      <a href="fournisseurs.html">Fournisseurs</a>
+      <a href="abonnements.html">Abonnements</a>
+      <a href="actualites.html">Actualités</a>
+      <a href="a-propos.html">À propos</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="fournisseurs.html" class="btn btn-outline btn-sm">Déposer une annonce</a>
+      <a href="devis.html" class="btn btn-primary btn-sm">Demander un devis</a>
+    </div>
+    <button class="burger" aria-label="Ouvrir le menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu">
+    <a href="catalogue.html">Catalogue</a>
+    <a href="fournisseurs.html">Fournisseurs</a>
+    <a href="abonnements.html">Abonnements</a>
+    <a href="actualites.html">Actualités</a>
+    <a href="a-propos.html">À propos</a>
+    <div class="nav-actions">
+      <a href="fournisseurs.html" class="btn btn-outline">Déposer une annonce</a>
+      <a href="devis.html" class="btn btn-primary">Demander un devis</a>
+    </div>
+  </div>
+</header>
+
+<!-- ===== Hero devis ===== -->
+<section class="devis-hero">
+  <div class="container">
+    <span class="eyebrow">Demande de devis</span>
+    <h1>Votre devis en 3 minutes. Réponse sous 24h.</h1>
+    <p>Décrivez votre besoin une seule fois — notre équipe identifie le bon fournisseur dans le réseau Cohesif Négoce et revient vers vous avec une offre personnalisée.</p>
+    <div class="reassure-badges">
+      <span>Réponse sous 24h</span>
+      <span>Sans engagement</span>
+      <span>Pro &amp; particuliers</span>
+      <span>Données protégées (RGPD)</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Formulaire ===== -->
+<section style="padding-top:0;">
+  <div class="container">
+    <div class="devis-layout">
+
+      <div>
+        <div class="devis-form-card">
+          <form data-devis-form novalidate>
+
+            <!-- Étape 1 -->
+            <div class="form-step">
+              <h3><span class="step-num">1</span> Vous êtes…</h3>
+              <div class="toggle-pair">
+                <button type="button" class="toggle-pill active" data-profil-toggle="professionnel">Professionnel</button>
+                <button type="button" class="toggle-pill" data-profil-toggle="particulier">Particulier</button>
+              </div>
+            </div>
+
+            <!-- Étape 2 -->
+            <div class="form-step">
+              <h3><span class="step-num">2</span> Vos coordonnées</h3>
+              <div class="field-stack">
+                <div class="field-row">
+                  <div class="field-group">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" required>
+                  </div>
+                  <div class="field-group">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" required>
+                  </div>
+                </div>
+                <div class="field-row">
+                  <div class="field-group">
+                    <label for="entreprise">Entreprise</label>
+                    <input type="text" id="entreprise" name="entreprise">
+                  </div>
+                  <div class="field-group" data-siret-group>
+                    <label for="siret">SIRET</label>
+                    <input type="text" id="siret" name="siret" pattern="[0-9]{14}" placeholder="14 chiffres" required>
+                  </div>
+                </div>
+                <div class="field-row">
+                  <div class="field-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                  </div>
+                  <div class="field-group">
+                    <label for="telephone">Téléphone</label>
+                    <input type="tel" id="telephone" name="telephone" required>
+                  </div>
+                </div>
+                <div class="field-group">
+                  <label for="ville">Ville / Code postal</label>
+                  <input type="text" id="ville" name="ville" placeholder="Ex. Lyon, 69003" required>
+                </div>
+              </div>
+            </div>
+
+            <!-- Étape 3 -->
+            <div class="form-step">
+              <h3><span class="step-num">3</span> Votre projet</h3>
+              <div class="field-stack">
+                <div class="field-group">
+                  <label for="categorie">Catégorie de matériaux</label>
+                  <select id="categorie" name="categorie" required>
+                    <option value="">Sélectionner…</option>
+                    <option>Bois & Charpente</option>
+                    <option>Métaux</option>
+                    <option>Cuivre</option>
+                    <option>Cloisons & Doublages</option>
+                    <option>Isolants</option>
+                    <option>Fixations</option>
+                    <option>Autre / Plusieurs catégories</option>
+                  </select>
+                </div>
+                <div class="field-group">
+                  <label for="description">Description du besoin</label>
+                  <textarea id="description" name="description" placeholder="Décrivez votre projet, les références recherchées, les contraintes éventuelles…" required></textarea>
+                </div>
+                <div class="field-row">
+                  <div class="field-group">
+                    <label for="quantite">Quantité estimée</label>
+                    <input type="text" id="quantite" name="quantite" placeholder="Ex. 80 m², 200 ml, 1 lot…" required>
+                  </div>
+                  <div class="field-group">
+                    <label for="delai">Délai souhaité</label>
+                    <select id="delai" name="delai" required>
+                      <option value="">Sélectionner…</option>
+                      <option>Dès que possible</option>
+                      <option>Sous 1 semaine</option>
+                      <option>Sous 1 mois</option>
+                      <option>Plus de 1 mois</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="field-group">
+                  <label for="budget">Budget indicatif (optionnel)</label>
+                  <select id="budget" name="budget">
+                    <option value="">Sélectionner…</option>
+                    <option>Moins de 500 €</option>
+                    <option>500 € – 2 000 €</option>
+                    <option>2 000 € – 10 000 €</option>
+                    <option>Plus de 10 000 €</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <!-- Étape 4 -->
+            <div class="form-step">
+              <h3><span class="step-num">4</span> Pièce jointe (optionnel)</h3>
+              <div class="field-group">
+                <label for="fichier">Plan, métré, devis comparatif… (PDF, Excel, Word, JPG)</label>
+                <input type="file" id="fichier" name="fichier" accept=".pdf,.xls,.xlsx,.doc,.docx,.jpg,.jpeg,.png">
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Envoyer ma demande de devis</button>
+          </form>
+
+          <div class="confirmation-box" data-devis-confirmation style="display:none;">
+            <div class="check">✓</div>
+            <h3>Votre demande a bien été envoyée</h3>
+            <p>Merci ! Notre équipe étudie votre projet et revient vers vous avec une offre personnalisée sous 24h ouvrées, par email ou téléphone selon votre préférence.</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="devis-side">
+        <div class="side-card">
+          <h4>Pourquoi nous faire confiance</h4>
+          <ul>
+            <li>Réponse personnalisée sous 24h ouvrées</li>
+            <li>Réseau de 38 fournisseurs certifiés</li>
+            <li>Aucun engagement, devis gratuit</li>
+            <li>Adossé au Groupe Cohesif, Paris 15e</li>
+          </ul>
+        </div>
+        <div class="side-card">
+          <h4>Coordonnées directes</h4>
+          <ul style="display:flex; flex-direction:column; gap:10px;">
+            <li style="padding-left:0;">contact@cohesifnegoce.fr</li>
+            <li style="padding-left:0;">Lun–Ven · 9h–18h</li>
+            <li style="padding-left:0;">200 rue de la Croix-Nivert, 75015 Paris</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a href="index.html" class="logo"><span class="logo-mark">CN</span> Cohesif Négoce</a>
+        <p>« La matière première des professionnels. »<br>
+        Groupe Cohesif — 200 rue de la Croix-Nivert, 75015 Paris<br>
+        SIRET 889 287 462 00036</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="catalogue.html">Catalogue</a></li>
+          <li><a href="fournisseurs.html">Fournisseurs</a></li>
+          <li><a href="abonnements.html">Abonnements</a></li>
+          <li><a href="actualites.html">Actualités</a></li>
+          <li><a href="devis.html">Devis</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Groupe Cohesif</h4>
+        <ul>
+          <li><a href="https://cohesifbtp.fr" target="_blank" rel="noopener">cohesifbtp.fr</a></li>
+          <li><a href="https://cohesifenergy.fr" target="_blank" rel="noopener">cohesifenergy.fr</a></li>
+          <li><a href="https://cohesifauto.fr" target="_blank" rel="noopener">cohesifauto.fr</a></li>
+          <li><a href="https://cohesifaccess.fr" target="_blank" rel="noopener">cohesifaccess.fr</a></li>
+          <li><a href="https://cohesifcommerce.fr" target="_blank" rel="noopener">cohesifcommerce.fr</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:contact@cohesifnegoce.fr">contact@cohesifnegoce.fr</a></li>
+          <li>Lun–Ven · 9h–18h</li>
+          <li><a href="devis.html">Demander un devis</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Cohesif Négoce — Groupe Cohesif</span>
+      <div class="legal-links">
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="cgv.html">CGV</a>
+        <a href="confidentialite.html">Confidentialité</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
