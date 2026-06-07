@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Actualités — Cohesif Négoce</title>
-<meta name="description" content="Marchés et cotations, conseils d'achat, BTP et réglementation : suivez l'actualité du négoce de matériaux avec Cohesif Négoce.">
+<title>Article — Cohesif Négoce</title>
+<meta name="description" content="Analyses, cotations et conseils d'achat pour les professionnels du négoce de matériaux — par Cohesif Négoce.">
 <link rel="icon" type="image/png" href="img/logo-mark-cohesif-negoce.png">
 <link rel="stylesheet" href="css/style.css">
 </head>
@@ -40,44 +40,41 @@
   </div>
 </header>
 
-<!-- ===== En-tête ===== -->
-<section class="page-header">
+<section style="padding-bottom:0;">
   <div class="container">
-    <h1>Actualités &amp; tendances négoce</h1>
-    <p>Marchés et cotations, conseils d'achat, BTP et réglementation, vie de la plateforme : suivez l'essentiel du secteur.</p>
+    <nav class="breadcrumb" aria-label="Fil d'ariane">
+      <a href="index.html">Accueil</a><span class="sep">/</span>
+      <a href="actualites.html">Actualités</a><span class="sep">/</span>
+      <a href="actualites.html" data-crumb-categorie>Catégorie</a><span class="sep">/</span>
+      <span class="current" data-crumb-titre>Article</span>
+    </nav>
   </div>
 </section>
 
-<section>
+<section data-article-detail style="padding-top:8px;">
   <div class="container">
-    <div class="actu-filters">
-      <button class="active" data-actu-filter="Toutes">Toutes</button>
-      <button data-actu-filter="Marchés & Cotations">Marchés &amp; Cotations</button>
-      <button data-actu-filter="Conseils achat">Conseils achat</button>
-      <button data-actu-filter="BTP & Réglementation">BTP &amp; Réglementation</button>
-      <button data-actu-filter="Cohesif Négoce">Cohesif Négoce</button>
+    <article class="article-detail">
+      <span class="cat-pill" data-art-cat>Catégorie</span>
+      <h1 data-art-titre>Titre de l'article</h1>
+      <div class="fa-meta" data-art-meta><span data-art-date>Date</span><span>·</span><span data-art-lecture>Lecture</span></div>
+      <div class="article-visual" data-art-visual></div>
+      <div class="article-body" data-art-body></div>
+
+      <div class="article-cta">
+        <div>
+          <strong>Une question sur ce sujet ou sur vos approvisionnements ?</strong>
+          <span>Notre équipe vous répond sous 24h, sans engagement.</span>
+        </div>
+        <a href="devis.html" class="btn btn-primary">Demander un devis</a>
+      </div>
+    </article>
+
+    <!-- À lire aussi -->
+    <div class="section-head" style="text-align:left; margin: 56px 0 24px; max-width:none;">
+      <span class="eyebrow">À lire aussi</span>
+      <h2>Dans la même catégorie</h2>
     </div>
-
-    <span class="eyebrow" style="display:block;">À la une</span>
-    <article class="featured-article" data-featured-article></article>
-
-    <div class="section-head" style="text-align:left; margin: 8px 0 24px; max-width:none;">
-      <span class="eyebrow">À explorer</span>
-      <h2 style="font-size: clamp(22px, 3vw, 28px);">Tous les articles</h2>
-    </div>
-    <div class="grid-3" data-articles-grid></div>
-
-    <div class="pagination" data-actu-pagination></div>
-
-    <div class="newsletter-block">
-      <h3>Recevez nos analyses chaque mois</h3>
-      <p>Cotations, conseils d'achat et actualités réglementaires directement dans votre boîte mail.</p>
-      <form class="newsletter-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Inscription confirmée ✓'; this.querySelector('button').disabled=true;">
-        <input type="email" placeholder="vous@exemple.fr" required aria-label="Adresse email">
-        <button type="submit" class="btn btn-primary">S'inscrire</button>
-      </form>
-      <p class="newsletter-rgpd">En vous inscrivant, vous acceptez de recevoir nos communications par email. Vos données sont traitées conformément à notre <a href="confidentialite.html" style="color:var(--green); font-weight:700;">politique de confidentialité</a> et vous pouvez vous désinscrire à tout moment.</p>
-    </div>
+    <div class="grid-3" data-art-related></div>
   </div>
 </section>
 

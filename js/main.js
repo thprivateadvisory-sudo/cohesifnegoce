@@ -469,13 +469,15 @@ function initActualites(articles){
   const featEl = document.querySelector('[data-featured-article]');
   if (featEl && featured){
     featEl.innerHTML = `
-      <div class="fa-media">${visualTileHTML(ARTICLE_VISUALS, featured.categorie)}</div>
-      <div class="fa-body">
-        <span class="cat-pill">${featured.categorie}</span>
-        <h2>${featured.titre}</h2>
-        <p>${featured.extrait}</p>
-        <div class="fa-meta"><span>${formatDateFR(featured.date)}</span><span>·</span><span>${featured.lecture} de lecture</span></div>
-      </div>
+      <a class="fa-link" href="article.html?id=${featured.id}" aria-label="Lire l'article : ${featured.titre}">
+        <div class="fa-media">${visualTileHTML(ARTICLE_VISUALS, featured.categorie)}</div>
+        <div class="fa-body">
+          <span class="cat-pill">${featured.categorie}</span>
+          <h2>${featured.titre}</h2>
+          <p>${featured.extrait}</p>
+          <div class="fa-meta"><span>${formatDateFR(featured.date)}</span><span>·</span><span>${featured.lecture} de lecture</span></div>
+        </div>
+      </a>
     `;
   }
 
@@ -493,13 +495,15 @@ function initActualites(articles){
 
     grid.innerHTML = slice.map(a => `
       <article class="article-card">
-        <div class="ac-media">${visualTileHTML(ARTICLE_VISUALS, a.categorie)}</div>
-        <div class="ac-body">
-          <span class="cat-pill">${a.categorie}</span>
-          <h3>${a.titre}</h3>
-          <p>${a.extrait}</p>
-          <div class="fa-meta"><span>${formatDateFR(a.date)}</span><span>·</span><span>${a.lecture} de lecture</span></div>
-        </div>
+        <a class="ac-link" href="article.html?id=${a.id}" aria-label="Lire l'article : ${a.titre}">
+          <div class="ac-media">${visualTileHTML(ARTICLE_VISUALS, a.categorie)}</div>
+          <div class="ac-body">
+            <span class="cat-pill">${a.categorie}</span>
+            <h3>${a.titre}</h3>
+            <p>${a.extrait}</p>
+            <div class="fa-meta"><span>${formatDateFR(a.date)}</span><span>·</span><span>${a.lecture} de lecture</span></div>
+          </div>
+        </a>
       </article>
     `).join('');
 
@@ -529,6 +533,65 @@ function initActualites(articles){
 function formatDateFR(iso){
   const d = new Date(iso);
   return d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
+}
+
+/* Lightweight body renderer: a line starting with "## " becomes a subheading */
+function articleBodyHTML(blocks){
+  return (blocks || []).map(b =>
+    b.startsWith('## ') ? `<h2>${b.slice(3)}</h2>` : `<p>${b}</p>`
+  ).join('');
+}
+
+/* ---------- Article detail page ---------- */
+function initArticleDetail(articles){
+  const root = document.querySelector('[data-article-detail]');
+  if (!root) return;
+
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get('id');
+  const article = articles.find(a => a.id === id) || articles[0];
+  if (!article) return;
+
+  document.title = `${article.titre} — Cohesif Négoce`;
+
+  const crumbCat = document.querySelector('[data-crumb-categorie]');
+  const crumbTitre = document.querySelector('[data-crumb-titre]');
+  if (crumbCat){ crumbCat.textContent = article.categorie; crumbCat.href = `actualites.html`; }
+  if (crumbTitre) crumbTitre.textContent = article.titre;
+
+  const catEl = document.querySelector('[data-art-cat]');
+  if (catEl) catEl.textContent = article.categorie;
+  const titreEl = document.querySelector('[data-art-titre]');
+  if (titreEl) titreEl.textContent = article.titre;
+  const dateEl = document.querySelector('[data-art-date]');
+  if (dateEl) dateEl.textContent = formatDateFR(article.date);
+  const lectureEl = document.querySelector('[data-art-lecture]');
+  if (lectureEl) lectureEl.textContent = `${article.lecture} de lecture`;
+
+  const visualEl = document.querySelector('[data-art-visual]');
+  if (visualEl) visualEl.innerHTML = visualTileHTML(ARTICLE_VISUALS, article.categorie);
+
+  const bodyEl = document.querySelector('[data-art-body]');
+  if (bodyEl) bodyEl.innerHTML = articleBodyHTML(article.contenu && article.contenu.length ? article.contenu : [article.extrait]);
+
+  const relatedEl = document.querySelector('[data-art-related]');
+  if (relatedEl){
+    const related = articles.filter(a => a.id !== article.id && a.categorie === article.categorie).slice(0, 3);
+    const fallback = related.length ? related : articles.filter(a => a.id !== article.id).slice(0, 3);
+    relatedEl.innerHTML = fallback.map(a => `
+      <article class="article-card">
+        <a class="ac-link" href="article.html?id=${a.id}" aria-label="Lire l'article : ${a.titre}">
+          <div class="ac-media">${visualTileHTML(ARTICLE_VISUALS, a.categorie)}</div>
+          <div class="ac-body">
+            <span class="cat-pill">${a.categorie}</span>
+            <h3>${a.titre}</h3>
+            <p>${a.extrait}</p>
+            <div class="fa-meta"><span>${formatDateFR(a.date)}</span><span>·</span><span>${a.lecture} de lecture</span></div>
+          </div>
+        </a>
+      </article>
+    `).join('');
+  }
 }
 
 /* ---------- Devis form ---------- */
@@ -598,7 +661,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   initPricingToggles();
 
   const needsProducts = document.querySelector('[data-catalogue-grid], [data-product-detail], [data-featured-products]');
-  const needsArticles = document.querySelector('[data-articles-grid]');
+  const needsArticles = document.querySelector('[data-articles-grid], [data-article-detail]');
 
   let produits = [];
   if (needsProducts){
@@ -621,5 +684,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (needsArticles){
     const articles = await loadJSON('data/articles.json');
     initActualites(articles);
+    initArticleDetail(articles);
   }
 });
