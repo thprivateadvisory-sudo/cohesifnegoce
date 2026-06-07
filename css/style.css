@@ -1300,7 +1300,10 @@ table.simple th{ background: var(--bg-secondary); font-family: var(--font-title)
   .sticky-mobile-bar{ display:flex; }
   body{ padding-bottom: 78px; }
 
-  .filters-row{ flex-direction:column; align-items:stretch; }
+  .filters-bar .container{ display:flex; flex-direction:column; align-items:stretch; }
+  .filters-toggle{ display:inline-flex; align-self:flex-start; }
+  .filters-row{ display:none; flex-direction:column; align-items:stretch; margin-top: 14px; }
+  .filters-row.open{ display:flex; }
   .filters-row select, .filters-row input{ width:100%; }
 
   .hero{ padding: 40px 0 64px; }
