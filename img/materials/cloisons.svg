@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Cloisons et doublages — plaques de plâtre BA13 empilées et ossature métallique, montrant la tranche feuilletée carton-plâtre-carton">
+  <defs>
+    <linearGradient id="cloBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ece6da"/>
+      <stop offset="1" stop-color="#a99a82"/>
+    </linearGradient>
+    <linearGradient id="plaqueFace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf8f2"/>
+      <stop offset="1" stop-color="#e3dccb"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#cloBg)"/>
+
+  <!-- stack of plasterboard sheets, staggered, edge view showing layered sandwich -->
+  <g stroke="#a8957a" stroke-width="1.6">
+    <g transform="translate(48,200)">
+      <rect width="230" height="14" fill="#cabfa9"/>
+      <rect y="2" width="230" height="3" fill="#8d7c61"/>
+      <rect y="9" width="230" height="3" fill="#8d7c61"/>
+    </g>
+    <g transform="translate(60,176)">
+      <rect width="250" height="14" fill="#d6cdba"/>
+      <rect y="2" width="250" height="3" fill="#9a8a6e"/>
+      <rect y="9" width="250" height="3" fill="#9a8a6e"/>
+    </g>
+    <g transform="translate(72,152)">
+      <rect width="270" height="14" fill="#e2dac9"/>
+      <rect y="2" width="270" height="3" fill="#a89878"/>
+      <rect y="9" width="270" height="3" fill="#a89878"/>
+    </g>
+  </g>
+
+  <!-- main face plate, front view -->
+  <g transform="translate(54,40)" stroke="#9c8c70" stroke-width="2">
+    <rect width="208" height="100" rx="3" fill="url(#plaqueFace)"/>
+    <rect x="10" y="10" width="188" height="80" rx="2" fill="none" stroke="#cabfa9" stroke-width="1.4" stroke-dasharray="6 5"/>
+    <text x="20" y="60" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#9c8c70" opacity="0.55">BA13</text>
+  </g>
+
+  <!-- metal stud profile (rail/montant) -->
+  <g transform="translate(294,46)" stroke="#7d92a0" stroke-width="2.2">
+    <path d="M0 0 H58 V14 H16 V160 H58 V174 H0 Z" fill="#cdd9e1"/>
+  </g>
+
+  <text x="20" y="290" font-family="Georgia, serif" font-size="13" fill="#675b46" opacity="0.8">Cloisons &amp; doublages — plaques BA13 et ossature</text>
+</svg>

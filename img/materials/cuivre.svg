@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Cuivre — tubes, coude à souder et plaque laminée, avec le reflet caractéristique du métal cuivre">
+  <defs>
+    <linearGradient id="cuiBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e7b48f"/>
+      <stop offset="1" stop-color="#9c5635"/>
+    </linearGradient>
+    <linearGradient id="pipeShine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6d2b3"/>
+      <stop offset="0.32" stop-color="#d6885b"/>
+      <stop offset="0.55" stop-color="#fbe3cd"/>
+      <stop offset="0.78" stop-color="#b8633d"/>
+      <stop offset="1" stop-color="#7c4226"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#cuiBg)"/>
+
+  <!-- three parallel copper tubes with longitudinal sheen -->
+  <g stroke="#6e3a22" stroke-width="2">
+    <rect x="40" y="64" width="320" height="34" rx="17" fill="url(#pipeShine)"/>
+    <rect x="40" y="116" width="320" height="34" rx="17" fill="url(#pipeShine)"/>
+    <rect x="40" y="168" width="320" height="34" rx="17" fill="url(#pipeShine)"/>
+  </g>
+
+  <!-- elbow fitting (coude à souder) -->
+  <g transform="translate(56,222)" stroke="#6e3a22" stroke-width="2.5">
+    <path d="M0 56 V20 a20 20 0 0 1 20 -20 H56" fill="none" stroke-width="26" stroke="url(#pipeShine)" stroke-linecap="round"/>
+  </g>
+
+  <!-- laminated copper plate -->
+  <g transform="translate(190,222)" stroke="#6e3a22" stroke-width="2">
+    <rect x="0" y="0" width="150" height="50" rx="4" fill="url(#pipeShine)"/>
+    <rect x="8" y="8" width="134" height="8" rx="3" fill="#fbe3cd" opacity="0.55"/>
+  </g>
+
+  <text x="20" y="294" font-family="Georgia, serif" font-size="13" fill="#5c2f1b" opacity="0.8">Cuivre — tubes, raccords et plaques laminées</text>
+</svg>

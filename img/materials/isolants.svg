@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Isolants — rouleau de laine minérale et panneaux rigides, montrant la texture fibreuse caractéristique">
+  <defs>
+    <linearGradient id="isoBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dcefe2"/>
+      <stop offset="1" stop-color="#7fae8f"/>
+    </linearGradient>
+    <linearGradient id="laineFace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbe9b8"/>
+      <stop offset="1" stop-color="#ecc878"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#isoBg)"/>
+
+  <!-- rolled mineral wool, end view (spiral) -->
+  <g transform="translate(108,150)" stroke="#caa24f" stroke-width="2.4">
+    <circle r="74" fill="url(#laineFace)"/>
+    <path d="M0 0 m0 -60 a60 60 0 1 1 -42 102" fill="none" opacity="0.55"/>
+    <path d="M0 0 m0 -44 a44 44 0 1 1 -31 75" fill="none" opacity="0.5"/>
+    <path d="M0 0 m0 -28 a28 28 0 1 1 -20 48" fill="none" opacity="0.45"/>
+    <circle r="9" fill="#fff7e3" opacity="0.7"/>
+  </g>
+
+  <!-- fibrous texture lines across roll body -->
+  <g transform="translate(108,150)" stroke="#d8b769" stroke-width="1.4" opacity="0.5">
+    <path d="M-74 -34 q74 -26 148 0" fill="none"/>
+    <path d="M-74 0 q74 -22 148 0" fill="none"/>
+    <path d="M-74 34 q74 -18 148 0" fill="none"/>
+  </g>
+
+  <!-- rigid insulation panels, stacked -->
+  <g stroke="#5f8a70" stroke-width="2">
+    <rect x="232" y="84" width="132" height="56" rx="3" fill="#cdeede"/>
+    <rect x="232" y="146" width="132" height="56" rx="3" fill="#bfe4d2"/>
+    <rect x="232" y="208" width="132" height="56" rx="3" fill="#aed8c2"/>
+    <g stroke="#7fae8f" stroke-width="1.2" opacity="0.6">
+      <path d="M244 102 q54 16 108 0 M244 164 q54 16 108 0 M244 226 q54 16 108 0" fill="none"/>
+    </g>
+  </g>
+
+  <text x="20" y="290" font-family="Georgia, serif" font-size="13" fill="#3f5f4c" opacity="0.8">Isolants — laine minérale et panneaux rigides</text>
+</svg>
