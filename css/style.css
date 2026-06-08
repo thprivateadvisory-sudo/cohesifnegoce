@@ -40,6 +40,25 @@ img{ max-width:100%; display:block; }
 
 a{ color: inherit; text-decoration:none; }
 
+/* Visible keyboard focus across all interactive elements */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible{
+  outline: 2px solid var(--green-bright);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+.btn:focus-visible{ border-radius: 999px; }
+.featured-article:focus-within,
+.article-card:focus-within{
+  outline: 2px solid var(--green-bright);
+  outline-offset: 2px;
+  border-radius: var(--radius);
+}
+
 ul{ list-style:none; }
 
 h1,h2,h3,h4{
@@ -1090,14 +1109,16 @@ footer{
 .actu-filters button.active{ background: var(--green); color:#fff; border-color: var(--green); }
 
 .featured-article{
-  display:grid;
-  grid-template-columns: 1.1fr 1fr;
-  gap: 36px;
   background: #fff;
   border-radius: var(--radius);
   overflow:hidden;
   box-shadow: var(--shadow-sm);
   margin-bottom: 48px;
+}
+.fa-link{
+  display:grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 36px;
 }
 .featured-article .fa-media{ background: var(--bg-secondary); aspect-ratio: 16/11; overflow:hidden; border-radius: var(--radius); }
 .featured-article .fa-body{ padding: 36px 36px 36px 0; display:flex; flex-direction:column; justify-content:center; gap: 12px; }
@@ -1111,16 +1132,15 @@ footer{
   overflow:hidden;
   box-shadow: var(--shadow-sm);
   transition: transform .2s ease, box-shadow .2s ease;
-  display:flex;
-  flex-direction:column;
 }
+.ac-link{ display:flex; flex-direction:column; height:100%; }
 .article-card:hover{ transform: translateY(-5px); box-shadow: var(--shadow-md); }
 .article-card .ac-media{ aspect-ratio: 16/10; background: var(--bg-secondary); overflow:hidden; }
 .article-card .ac-body{ padding: 22px; display:flex; flex-direction:column; gap: 10px; flex:1; }
 .article-card h3{ font-size: 17px; }
 .article-card p{ color: var(--text-secondary); font-size: 14px; }
 
-.fa-link, .ac-link{ display:contents; color:inherit; text-decoration:none; }
+.fa-link, .ac-link{ color:inherit; text-decoration:none; }
 .fa-link:hover h2, .ac-link:hover h3{ color: var(--green); }
 .featured-article h2, .article-card h3{ transition: color .15s ease; }
 
