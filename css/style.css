@@ -791,21 +791,22 @@ footer{
 .sticky-mobile-bar{
   display:none;
   position: fixed;
-  left:14px; right:14px; bottom: 14px;
+  left:16px; right:16px; bottom: 16px;
   z-index: 250;
-  background: linear-gradient(135deg, #357A5C 0%, #1F3B30 100%);
+  background: linear-gradient(135deg, #3D9970 0%, #1F3B30 100%);
   color:#fff;
-  border-radius: 18px;
-  padding: 13px 14px 13px 18px;
+  border-radius: 20px;
+  padding: 16px 18px 16px 22px;
   align-items:center;
   justify-content:space-between;
-  gap: 14px;
-  box-shadow: 0 16px 40px rgba(15,33,26,.32);
+  gap: 18px;
+  box-shadow: 0 20px 48px -8px rgba(15,33,26,.4), 0 2px 8px rgba(15,33,26,.18);
+  border: 1px solid rgba(255,255,255,.08);
 }
 .sticky-mobile-bar .smb-text{
   display:flex;
   align-items:center;
-  gap: 10px;
+  gap: 13px;
   font-size: 13px;
   line-height:1.25;
   flex: 1;
@@ -814,23 +815,23 @@ footer{
 .sticky-mobile-bar .smb-dot{
   width: 9px; height:9px;
   border-radius:50%;
-  background: var(--green-bright);
-  box-shadow: 0 0 0 4px rgba(61,153,112,.28);
+  background: #fff;
+  box-shadow: 0 0 0 4px rgba(255,255,255,.22);
   flex-shrink:0;
 }
-.sticky-mobile-bar .smb-copy{ display:flex; flex-direction:column; min-width:0; }
+.sticky-mobile-bar .smb-copy{ display:flex; flex-direction:column; gap: 3px; min-width:0; }
 .sticky-mobile-bar .smb-copy strong{
-  font-size: 14.5px;
+  font-size: 15px;
   font-weight:700;
-  letter-spacing:-.005em;
+  letter-spacing:-.01em;
   white-space: nowrap;
   overflow:hidden;
   text-overflow: ellipsis;
 }
 .sticky-mobile-bar .smb-sub{
-  color: rgba(255,255,255,.66);
+  color: rgba(255,255,255,.62);
   font-size: 12px;
-  margin-top: 1px;
+  letter-spacing:.005em;
   white-space: nowrap;
   overflow:hidden;
   text-overflow: ellipsis;
@@ -838,8 +839,9 @@ footer{
 .sticky-mobile-bar .btn{
   flex-shrink:0;
   width: auto;
-  padding: 11px 22px;
+  padding: 12px 24px;
   font-size: 14px;
+  letter-spacing:.01em;
 }
 .sticky-mobile-bar .count-pill{
   display:inline-block;
