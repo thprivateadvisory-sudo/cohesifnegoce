@@ -1358,7 +1358,7 @@ table.simple th{ background: var(--bg-secondary); font-family: var(--font-title)
 /* Pôles cards (a-propos) */
 .poles-grid{
   display:grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 18px;
 }
 .pole-card{
@@ -1370,6 +1370,8 @@ table.simple th{ background: var(--bg-secondary); font-family: var(--font-title)
   transition: transform .2s ease, background .2s ease;
 }
 .pole-card:hover{ transform: translateY(-5px); background: rgba(255,255,255,.16); }
+.pole-card--parent{ background: rgba(255,255,255,.16); border-color: var(--green-bright); }
+.pole-card--parent:hover{ background: rgba(255,255,255,.22); }
 .pole-card .pole-name{ font-family: var(--font-title); font-weight:700; font-size:16px; margin-bottom: 6px; }
 .pole-card .pole-domain{ font-size: 13px; opacity: .8; }
 
