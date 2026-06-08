@@ -1384,7 +1384,8 @@ table.simple th{ background: var(--bg-secondary); font-family: var(--font-title)
   .hero .container{ grid-template-columns: 1fr; }
   .hero-media{ order:-1; }
   .product-detail{ grid-template-columns: 1fr; }
-  .featured-article{ grid-template-columns: 1fr; }
+  .fa-link{ grid-template-columns: 1fr; gap: 0; }
+  .featured-article .fa-media{ aspect-ratio: 16/10; border-radius: 0; }
   .featured-article .fa-body{ padding: 28px; }
 }
 
