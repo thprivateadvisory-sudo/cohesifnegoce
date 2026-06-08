@@ -62,7 +62,10 @@
 
       <div>
         <div class="devis-form-card">
-          <form data-devis-form novalidate>
+          <form data-devis-form novalidate action="https://formsubmit.co/contact@cohesifnegoce.fr" method="POST">
+            <input type="hidden" name="_subject" value="Nouvelle demande de devis — Cohesif Négoce">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
 
             <!-- Étape 1 -->
             <div class="form-step">
@@ -180,6 +183,11 @@
             <div class="check">✓</div>
             <h3>Votre demande a bien été envoyée</h3>
             <p>Merci ! Notre équipe étudie votre projet et revient vers vous avec une offre personnalisée sous 24h ouvrées, par email ou téléphone selon votre préférence.</p>
+          </div>
+
+          <div class="confirmation-box" data-devis-error style="display:none;">
+            <h3>Un problème est survenu lors de l'envoi</h3>
+            <p>Votre message n'a pas pu être transmis. Merci de réessayer dans un instant, ou de nous contacter directement à <a href="mailto:contact@cohesifnegoce.fr" style="color:var(--green); font-weight:700;">contact@cohesifnegoce.fr</a>.</p>
           </div>
         </div>
       </div>

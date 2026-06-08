@@ -614,13 +614,37 @@ function initDevisForm(){
     });
   });
 
-  form.addEventListener('submit', (e) => {
+  const submitBtn = form.querySelector('button[type="submit"]');
+  const confirmation = document.querySelector('[data-devis-confirmation]');
+  const errorBox = document.querySelector('[data-devis-error]');
+
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
     if (!form.checkValidity()){ form.reportValidity(); return; }
-    form.style.display = 'none';
-    const confirmation = document.querySelector('[data-devis-confirmation]');
-    if (confirmation) confirmation.style.display = 'block';
-    window.scrollTo({ top: confirmation.offsetTop - 140, behavior: 'smooth' });
+
+    if (errorBox) errorBox.style.display = 'none';
+    if (submitBtn){ submitBtn.disabled = true; submitBtn.textContent = 'Envoi en cours…'; }
+
+    try {
+      const res = await fetch(form.action, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
+      });
+      if (!res.ok) throw new Error('Erreur réseau');
+
+      form.style.display = 'none';
+      if (confirmation){
+        confirmation.style.display = 'block';
+        window.scrollTo({ top: confirmation.offsetTop - 140, behavior: 'smooth' });
+      }
+    } catch(err){
+      if (errorBox){
+        errorBox.style.display = 'block';
+        window.scrollTo({ top: errorBox.offsetTop - 140, behavior: 'smooth' });
+      }
+      if (submitBtn){ submitBtn.disabled = false; submitBtn.textContent = 'Envoyer ma demande de devis'; }
+    }
   });
 }
 
