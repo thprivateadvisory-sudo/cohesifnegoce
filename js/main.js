@@ -160,7 +160,7 @@ function productCardHTML(p){
     <article class="product-card" data-id="${p.id}">
       <div class="pc-media">
         <span class="badge ${badgeClass(p.source)} pc-badge">${p.source}</span>
-        ${visualTileHTML(CATEGORY_VISUALS, p.categorie, p.id)}
+        ${productVisualHTML(p)}
       </div>
       <div class="pc-body">
         <span class="pc-cat">${p.categorie}</span>
@@ -186,6 +186,19 @@ function productCardHTML(p){
    specific reference), each category gets its own brand-consistent
    illustration: a gradient drawn from the palette, a glyph echoing the
    icons used on the homepage, and the item's reference for context. */
+/* Real product photos, added as they become available — takes priority
+   over the illustrated tile for the matching reference. */
+const PRODUCT_PHOTOS = {
+  'CN-CU-TUB-1214': { src: 'img/produits/cuivre-tube-ecroui-1214.jpg', alt: 'Tube cuivre écroui 12/14 — bottes de tubes cuivre' }
+};
+function productVisualHTML(p){
+  const photo = PRODUCT_PHOTOS[p.id];
+  if (photo){
+    return `<img class="pc-photo" src="${photo.src}" alt="${photo.alt}" loading="lazy">`;
+  }
+  return visualTileHTML(CATEGORY_VISUALS, p.categorie, p.id);
+}
+
 const CATEGORY_VISUALS = {
   'Bois & Charpente':     { cls: 'vt-bois',      icon: '▥' },
   'Métaux':               { cls: 'vt-metaux',    icon: '▦' },
@@ -317,7 +330,7 @@ function initProductDetail(produits){
 
   // Gallery
   const mainVisual = document.querySelector('[data-pd-main-visual]');
-  if (mainVisual) mainVisual.innerHTML = visualTileHTML(CATEGORY_VISUALS, produit.categorie, produit.id);
+  if (mainVisual) mainVisual.innerHTML = productVisualHTML(produit);
 
   // Price block
   const priceMain = document.querySelector('[data-pd-price-main]');
