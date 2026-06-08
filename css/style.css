@@ -500,45 +500,12 @@ section{ padding: 80px 0; }
    (real stock photography is rarely a true match for a specific reference,
    so each family gets an accurate technical illustration of its actual
    material — wood grain, copper sheen, plasterboard layering, etc.) */
-.visual-tile.vt-bois,
-.visual-tile.vt-metaux,
-.visual-tile.vt-cuivre,
-.visual-tile.vt-cloisons,
-.visual-tile.vt-isolants,
-.visual-tile.vt-fixations{
-  background-size: cover;
-  background-position: center;
-}
-.visual-tile.vt-bois{ background-image: url(../img/materials/bois.svg); }
-.visual-tile.vt-metaux{ background-image: url(../img/materials/metaux.svg); }
-.visual-tile.vt-cuivre{ background-image: url(../img/materials/cuivre.svg); }
-.visual-tile.vt-cloisons{ background-image: url(../img/materials/cloisons.svg); }
-.visual-tile.vt-isolants{ background-image: url(../img/materials/isolants.svg); }
-.visual-tile.vt-fixations{ background-image: url(../img/materials/fixations.svg); }
-
-.visual-tile.vt-bois::before,
-.visual-tile.vt-metaux::before,
-.visual-tile.vt-cuivre::before,
-.visual-tile.vt-cloisons::before,
-.visual-tile.vt-isolants::before,
-.visual-tile.vt-fixations::before{
-  background: linear-gradient(0deg, rgba(18,22,18,.66) 0%, rgba(18,22,18,0) 50%);
-}
-.visual-tile.vt-bois::after,
-.visual-tile.vt-metaux::after,
-.visual-tile.vt-cuivre::after,
-.visual-tile.vt-cloisons::after,
-.visual-tile.vt-isolants::after,
-.visual-tile.vt-fixations::after,
-.visual-tile.vt-bois .vt-icon,
-.visual-tile.vt-metaux .vt-icon,
-.visual-tile.vt-cuivre .vt-icon,
-.visual-tile.vt-cloisons .vt-icon,
-.visual-tile.vt-isolants .vt-icon,
-.visual-tile.vt-fixations .vt-icon{
-  display:none;
-}
-
+.visual-tile.vt-bois{ --vt-grad: linear-gradient(155deg, #c9a273 0%, #7d6240 100%); }
+.visual-tile.vt-metaux{ --vt-grad: linear-gradient(155deg, #7d99ad 0%, #44596d 100%); }
+.visual-tile.vt-cuivre{ --vt-grad: linear-gradient(155deg, #c17955 0%, #874935 100%); }
+.visual-tile.vt-cloisons{ --vt-grad: linear-gradient(155deg, #b3a48d 0%, #7c6f59 100%); }
+.visual-tile.vt-isolants{ --vt-grad: linear-gradient(155deg, #8bc4a4 0%, #2D6A4F 100%); }
+.visual-tile.vt-fixations{ --vt-grad: linear-gradient(155deg, #707a87 0%, #383d44 100%); }
 .visual-tile.vt-marches{ --vt-grad: linear-gradient(155deg, #4faf80 0%, #2D6A4F 100%); }
 .visual-tile.vt-conseils{ --vt-grad: linear-gradient(155deg, #d2a35a 0%, #a8721f 100%); }
 .visual-tile.vt-btp{ --vt-grad: linear-gradient(155deg, #7d99ad 0%, #46637A 100%); }
