@@ -1437,5 +1437,6 @@ table.simple th{ background: var(--bg-secondary); font-family: var(--font-title)
   .pricing-grid .btn, .price-card .btn{ width:100%; }
   .devis-form-card{ padding: 22px; }
   .newsletter-form{ flex-direction:column; }
+  .newsletter-form input{ width:100%; }
   .toggle-pair{ flex-direction:column; }
 }
