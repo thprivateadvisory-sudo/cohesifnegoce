@@ -440,15 +440,8 @@ section{ padding: 80px 0; }
   flex-direction:column;
 }
 .product-card:hover{ transform: translateY(-6px); box-shadow: var(--shadow-md); }
-.product-card .pc-media{
-  position:relative;
-  aspect-ratio: 4/3;
-  overflow:hidden;
-  background: var(--bg-secondary);
-}
-.product-card:hover .pc-media .visual-tile{ transform: scale(1.05); }
 
-/* ============ Visual tiles (branded product/article visuals) ============ */
+/* ============ Visual tiles (branded article visuals) ============ */
 /* Cohesive technical-illustration system used in place of stock photography:
    each category gets a distinct gradient + glyph, drawn from the brand palette. */
 .visual-tile{
@@ -524,8 +517,7 @@ section{ padding: 80px 0; }
 .badge-stock{ background: rgba(45,106,79,.12); color: var(--green); }
 .badge-partner{ background: rgba(70,99,122,.13); color: var(--blue-slate); }
 .badge-import{ background: rgba(183,121,31,.14); color: var(--ochre); }
-.pc-badge{ position:absolute; top:14px; left:14px; background:#fff; box-shadow: var(--shadow-sm); }
-.pc-badge.badge-stock{ background:#fff; }
+.pc-top-row{ display:flex; align-items:center; justify-content:space-between; gap:10px; }
 
 .pc-body{
   padding: 20px;
@@ -854,17 +846,10 @@ footer{
   gap: 56px;
   align-items:start;
 }
-.pd-gallery .pd-main{
-  border-radius: var(--radius);
-  overflow:hidden;
-  aspect-ratio: 4/3.4;
-  box-shadow: var(--shadow-sm);
-  background: var(--bg-secondary);
+.product-detail--no-visual{
+  grid-template-columns: 1fr;
+  max-width: 760px;
 }
-.pd-gallery .pd-main .vt-icon{ font-size: clamp(64px, 11vw, 130px); }
-.pd-gallery .pd-main .vt-cat{ font-size: 14px; }
-.pd-gallery .pd-main .vt-ref{ font-size: 13px; }
-.pd-gallery .pd-main .vt-meta{ padding: 22px 26px; }
 
 .pd-info h1{ font-size: clamp(26px,3.6vw,34px); margin: 10px 0 6px; }
 .pd-ref{ color: var(--text-secondary); font-size: 14px; margin-bottom: 18px; }

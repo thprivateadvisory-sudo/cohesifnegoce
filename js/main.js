@@ -158,12 +158,11 @@ function badgeClass(source){
 function productCardHTML(p){
   return `
     <article class="product-card" data-id="${p.id}">
-      <div class="pc-media">
-        <span class="badge ${badgeClass(p.source)} pc-badge">${p.source}</span>
-        ${visualTileHTML(CATEGORY_VISUALS, p.categorie, p.id)}
-      </div>
       <div class="pc-body">
-        <span class="pc-cat">${p.categorie}</span>
+        <div class="pc-top-row">
+          <span class="pc-cat">${p.categorie}</span>
+          <span class="badge ${badgeClass(p.source)} pc-badge">${p.source}</span>
+        </div>
         <h3 class="pc-title">${p.nom}</h3>
         <span class="pc-ref">Réf. ${p.id} · ${p.disponibilite}</span>
         <div class="pc-price-row">
@@ -181,19 +180,7 @@ function productCardHTML(p){
   `;
 }
 
-/* ---------- Visual tiles ----------
-   In place of stock photography (generic and rarely a true match for a
-   specific reference), each category gets its own brand-consistent
-   illustration: a gradient drawn from the palette, a glyph echoing the
-   icons used on the homepage, and the item's reference for context. */
-const CATEGORY_VISUALS = {
-  'Bois & Charpente':     { cls: 'vt-bois',      icon: '▥' },
-  'Métaux':               { cls: 'vt-metaux',    icon: '▦' },
-  'Cuivre':               { cls: 'vt-cuivre',    icon: '◉' },
-  'Cloisons & Doublages': { cls: 'vt-cloisons',  icon: '▤' },
-  'Isolants':             { cls: 'vt-isolants',  icon: '▧' },
-  'Fixations':            { cls: 'vt-fixations', icon: '✚' }
-};
+/* ---------- Visual tiles (article illustrations) ---------- */
 const ARTICLE_VISUALS = {
   'Marchés & Cotations':   { cls: 'vt-marches',  icon: '▲' },
   'Conseils achat':        { cls: 'vt-conseils', icon: '✎' },
@@ -314,10 +301,6 @@ function initProductDetail(produits){
     badgeEl.textContent = produit.source;
     badgeEl.className = `badge ${badgeClass(produit.source)}`;
   }
-
-  // Gallery
-  const mainVisual = document.querySelector('[data-pd-main-visual]');
-  if (mainVisual) mainVisual.innerHTML = visualTileHTML(CATEGORY_VISUALS, produit.categorie, produit.id);
 
   // Price block
   const priceMain = document.querySelector('[data-pd-price-main]');
