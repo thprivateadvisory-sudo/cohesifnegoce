@@ -1,0 +1,9 @@
+# robots.txt — cohesifnegoce.fr
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://cohesifnegoce.fr/sitemap.xml
+
+# Disallow admin/private paths (none currently)
+# Disallow:
