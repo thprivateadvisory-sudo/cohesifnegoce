@@ -525,7 +525,7 @@ footer .footer-wordmark{
 .footer-grid ul a, .footer-grid ul li{ font-size: 15px; color: var(--paper); }
 .footer-grid ul a:hover{ color: #6FD1A3; }
 .footer-about p{ font-size: 14.5px; margin: 18px 0; max-width: 300px; }
-.footer-about .logo img{ height: 40px; filter: brightness(0) invert(.95); }
+.footer-about .logo img{ height: 40px; }
 .footer-bottom{
   border-top: 1px solid rgba(243,241,234,.18); padding: 22px 0 28px;
   display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap: 12px;

@@ -1,5 +1,5 @@
 /* ============================================================
-   Cohesif Négoce — main.js
+   Cohesif Négoce : main.js
    ============================================================ */
 
 const TVA = 0.20;
@@ -191,7 +191,7 @@ function visualTileHTML(map, categorie, ref){
   const fallback = Object.values(map)[0];
   const v = map[categorie] || fallback;
   return `
-    <div class="visual-tile ${v.cls}" role="img" aria-label="${categorie}${ref ? ' — réf. ' + ref : ''}">
+    <div class="visual-tile ${v.cls}" role="img" aria-label="${categorie}${ref ? ', réf. ' + ref : ''}">
       <span class="vt-icon" aria-hidden="true">${v.icon}</span>
       <div class="vt-meta">
         <span class="vt-cat">${categorie}</span>
@@ -362,7 +362,7 @@ function initProductDetail(produits){
     });
   }
 
-  // Tabs (desktop) / accordion (mobile) — same markup driven by CSS
+  // Tabs (desktop) / accordion (mobile) (same markup) driven by CSS
   const tabButtons = document.querySelectorAll('[data-pd-tab]');
   tabButtons.forEach(btn => {
     btn.addEventListener('click', () => {
@@ -535,7 +535,7 @@ function initArticleDetail(articles){
   const article = articles.find(a => a.id === id) || articles[0];
   if (!article) return;
 
-  document.title = `${article.titre} — Cohesif Négoce`;
+  document.title = `${article.titre} | Cohesif Négoce`;
 
   const crumbCat = document.querySelector('[data-crumb-categorie]');
   const crumbTitre = document.querySelector('[data-crumb-titre]');
