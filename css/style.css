@@ -846,13 +846,16 @@ table.simple th{ background: var(--paper-2); font-family: var(--font-mono); font
 .supplier-card .sc-tags span{ font-family: var(--font-mono); font-size: 11px; border: 1px solid var(--line); padding: 3px 8px; color: var(--ink-2); }
 
 /* ---------- Pôles (à propos) ---------- */
-.poles-grid{ display:grid; grid-template-columns: repeat(3, 1fr); gap: 0; border: 1px solid rgba(243,241,234,.25); }
-.pole-card{ padding: 28px; text-align:left; border-right: 1px solid rgba(243,241,234,.25); border-bottom: 1px solid rgba(243,241,234,.25); transition: background .2s ease; }
-.pole-card:nth-child(3n){ border-right: none; }
-.pole-card:nth-last-child(-n+3){ border-bottom: none; }
-.pole-card:hover{ background: rgba(243,241,234,.08); }
-.pole-card--parent{ background: var(--paper); color: var(--ink); }
+.poles-grid{
+  display:grid; grid-template-columns: repeat(5, 1fr); gap: 1px;
+  background: rgba(243,241,234,.25); border: 1px solid rgba(243,241,234,.25);
+}
+.pole-card{ padding: 26px 22px; text-align:left; background: var(--forest); transition: background .2s ease; }
+.pole-card:hover{ background: #1d4a37; }
+.pole-card--parent{ grid-column: 1 / -1; background: var(--paper); color: var(--ink); }
 .pole-card--parent:hover{ background: var(--paper); }
+.pole-card--current{ background: var(--forest-2); }
+.pole-card--current .pole-domain{ color:#6FD1A3; opacity:1; }
 .pole-card .pole-name{ font-family: var(--font-title); font-weight:700; font-size: 22px; margin-bottom: 6px; }
 .pole-card .pole-domain{ font-family: var(--font-mono); font-size: 12px; opacity: .7; }
 
@@ -900,6 +903,7 @@ table.simple th{ background: var(--paper-2); font-family: var(--font-mono); font
   .arg-card:nth-child(n+3), .engagement-card:nth-child(n+3){ border-top: 1px solid var(--line); }
   .reassurance .item:nth-child(3){ padding-left:0; border-left:none; }
   .pricing-grid{ grid-template-columns: 1fr; }
+  .poles-grid{ grid-template-columns: repeat(2, 1fr); }
   .price-card + .price-card{ border-left:none; border-top: 1px solid rgba(243,241,234,.25); }
   .catalogue-grid{ grid-template-columns: repeat(2,1fr); }
   .footer-grid{ grid-template-columns: 1fr 1fr; }
@@ -949,8 +953,8 @@ table.simple th{ background: var(--paper-2); font-family: var(--font-mono); font
   .footer-grid{ grid-template-columns: 1fr 1fr; gap: 32px; }
   .footer-about{ grid-column: 1 / -1; }
   .poles-grid{ grid-template-columns: 1fr 1fr; }
-  .pole-card{ border-right: 1px solid rgba(243,241,234,.25) !important; border-bottom: 1px solid rgba(243,241,234,.25) !important; }
-  .pole-card:nth-child(2n){ border-right:none !important; }
+  .pole-card{ padding: 20px 16px; }
+  .pole-card .pole-name{ font-size: 18px; }
   .arguments-grid, .reassurance{ grid-template-columns: 1fr; }
   .arg-card, .arg-card + .arg-card{ padding: 22px 0 14px; border-left:none; }
   .arg-card + .arg-card{ border-top: 1px solid var(--line); }
