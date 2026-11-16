@@ -656,8 +656,27 @@ async function loadJSON(path){
   }
 }
 
+/* ---------- Scroll reveal + active nav link ---------- */
+function initReveal(){
+  const els = document.querySelectorAll('.reveal');
+  if (!els.length) return;
+  if (!('IntersectionObserver' in window)){ els.forEach(el => el.classList.add('in')); return; }
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0, rootMargin: '0px 0px -8% 0px' });
+  els.forEach(el => io.observe(el));
+}
+function initActiveNav(){
+  const page = location.pathname.split('/').pop() || 'index.html';
+  document.querySelectorAll('.nav-links a').forEach(a => {
+    if (a.getAttribute('href') === page) a.classList.add('active');
+  });
+}
+
 /* ---------- Boot ---------- */
 document.addEventListener('DOMContentLoaded', async () => {
+  initReveal();
+  initActiveNav();
   initMobileMenu();
   initTicker();
   initCounters();
