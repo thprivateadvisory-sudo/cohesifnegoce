@@ -14,7 +14,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tube cuivre écroui diamètre 12/14mm — conforme NF EN 1057 — usage plomberie et chauffage.",
+    "description": "Tube cuivre écroui diamètre 12/14mm, conforme NF EN 1057, usage plomberie et chauffage.",
     "specs": {
       "Diamètre": "12 x 14 mm",
       "Longueur": "5 m",
@@ -39,7 +39,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Panneau OSB 3 qualité structurelle, usage humide — 2500x1250x18mm — NF EN 300.",
+    "description": "Panneau OSB 3 qualité structurelle, usage humide, 2500x1250x18mm, NF EN 300.",
     "specs": {
       "Format": "2500 x 1250 mm",
       "Épaisseur": "18 mm",
@@ -63,7 +63,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Plaque de plâtre standard BA13 — 1200x2500mm — NF EN 520.",
+    "description": "Plaque de plâtre standard BA13, 1200x2500mm, NF EN 520.",
     "specs": {
       "Format": "1200 x 2500 mm",
       "Épaisseur": "13 mm",
@@ -87,7 +87,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Acier haute adhérence diamètre 10mm — barres de 12m — NF A35-080-1.",
+    "description": "Acier haute adhérence diamètre 10mm, barres de 12m, NF A35-080-1.",
     "specs": {
       "Diamètre": "10 mm",
       "Longueur": "12 m",
@@ -110,7 +110,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Chevron résineux raboté, classe d'emploi 2 — section 63x175mm — pour charpente traditionnelle.",
+    "description": "Chevron résineux raboté, classe d'emploi 2, section 63x175mm, pour charpente traditionnelle.",
     "specs": {
       "Section": "63 x 175 mm",
       "Essence": "Sapin / Épicéa",
@@ -132,7 +132,7 @@
       "France",
       "Suisse"
     ],
-    "description": "Poutre lamellé-collé GL24h section 140x400mm, longueur 6m — usage structurel.",
+    "description": "Poutre lamellé-collé GL24h section 140x400mm, longueur 6m, usage structurel.",
     "specs": {
       "Section": "140 x 400 mm",
       "Longueur": "6 m",
@@ -180,7 +180,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Profilé acier en I, hauteur 160mm — qualité S235JR — barres de 12m sur demande.",
+    "description": "Profilé acier en I, hauteur 160mm, qualité S235JR, barres de 12m sur demande.",
     "specs": {
       "Hauteur": "160 mm",
       "Nuance": "S235JR",
@@ -204,7 +204,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tube acier carré soudé 40x40mm, épaisseur 2mm — qualité S235JR.",
+    "description": "Tube acier carré soudé 40x40mm, épaisseur 2mm, qualité S235JR.",
     "specs": {
       "Section": "40 x 40 mm",
       "Épaisseur": "2 mm",
@@ -227,7 +227,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tôle inox 304L laminée à froid, finition 2B, épaisseur 2mm — format 2000x1000mm.",
+    "description": "Tôle inox 304L laminée à froid, finition 2B, épaisseur 2mm, format 2000x1000mm.",
     "specs": {
       "Format": "2000 x 1000 mm",
       "Épaisseur": "2 mm",
@@ -251,7 +251,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Cornière aluminium 40x40x3mm, alliage 6060 T5 — barres de 6m.",
+    "description": "Cornière aluminium 40x40x3mm, alliage 6060 T5, barres de 6m.",
     "specs": {
       "Section": "40 x 40 x 3 mm",
       "Alliage": "6060 T5",
@@ -272,7 +272,7 @@
       "France",
       "Suisse"
     ],
-    "description": "Plaque cuivre laminé qualité Cu-DHP, épaisseur 2mm — format 1000x2000mm.",
+    "description": "Plaque cuivre laminé qualité Cu-DHP, épaisseur 2mm, format 1000x2000mm.",
     "specs": {
       "Format": "1000 x 2000 mm",
       "Épaisseur": "2 mm",
@@ -296,7 +296,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Raccord coude cuivre à souder 90°, diamètre 14mm — conforme NF EN 1254.",
+    "description": "Raccord coude cuivre à souder 90°, diamètre 14mm, conforme NF EN 1254.",
     "specs": {
       "Diamètre": "14 mm",
       "Angle": "90°",
@@ -318,7 +318,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Gouttière cuivre demi-ronde développé 33cm, longueur 2m — pose toiture traditionnelle.",
+    "description": "Gouttière cuivre demi-ronde développé 33cm, longueur 2m, pose toiture traditionnelle.",
     "specs": {
       "Développé": "330 mm",
       "Longueur": "2 m",
@@ -389,7 +389,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Plaque hydrofuge type H1, format 1200x2500x13mm — pour pièces humides.",
+    "description": "Plaque hydrofuge type H1, format 1200x2500x13mm, pour pièces humides.",
     "specs": {
       "Format": "1200 x 2500 mm",
       "Épaisseur": "13 mm",
@@ -412,7 +412,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Plaque coupe-feu type F, épaisseur 15mm — résistance au feu renforcée.",
+    "description": "Plaque coupe-feu type F, épaisseur 15mm, résistance au feu renforcée.",
     "specs": {
       "Format": "1200 x 2500 mm",
       "Épaisseur": "15 mm",
@@ -436,7 +436,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Laine de verre en rouleau, épaisseur 100mm, R=2,50 — isolation combles et murs.",
+    "description": "Laine de verre en rouleau, épaisseur 100mm, R=2,50, isolation combles et murs.",
     "specs": {
       "Épaisseur": "100 mm",
       "Résistance R": "2,50 m².K/W",
@@ -459,7 +459,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Panneau semi-rigide laine de roche, épaisseur 120mm, R=3,15 — isolation thermique et acoustique.",
+    "description": "Panneau semi-rigide laine de roche, épaisseur 120mm, R=3,15, isolation thermique et acoustique.",
     "specs": {
       "Épaisseur": "120 mm",
       "Résistance R": "3,15 m².K/W",
@@ -482,7 +482,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Panneau polystyrène expansé graphité, épaisseur 140mm, R=4,40 — isolation par l'extérieur.",
+    "description": "Panneau polystyrène expansé graphité, épaisseur 140mm, R=4,40, isolation par l'extérieur.",
     "specs": {
       "Épaisseur": "140 mm",
       "Résistance R": "4,40 m².K/W",
@@ -551,7 +551,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Cheville nylon à frapper avec clou acier, diamètre 10mm — fixation rapide en maçonnerie pleine.",
+    "description": "Cheville nylon à frapper avec clou acier, diamètre 10mm, fixation rapide en maçonnerie pleine.",
     "specs": {
       "Diamètre": "10 mm",
       "Matière": "Nylon + clou acier",
@@ -574,7 +574,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tige filetée acier classe 4.8 zingué, M10, longueur 1m — usage structurel léger.",
+    "description": "Tige filetée acier classe 4.8 zingué, M10, longueur 1m, usage structurel léger.",
     "specs": {
       "Diamètre": "M10",
       "Longueur": "1 m",
@@ -598,7 +598,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Équerre acier galvanisé renforcée 90x90mm, épaisseur 2,5mm — assemblage charpente.",
+    "description": "Équerre acier galvanisé renforcée 90x90mm, épaisseur 2,5mm, assemblage charpente.",
     "specs": {
       "Dimensions": "90 x 90 mm",
       "Épaisseur": "2,5 mm",
@@ -669,7 +669,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Panneau treillis soudé ST25C, maille 150x150mm, format 2,40x6,00m — dallage et chapes.",
+    "description": "Panneau treillis soudé ST25C, maille 150x150mm, format 2,40x6,00m, dallage et chapes.",
     "specs": {
       "Format": "2,40 x 6,00 m",
       "Maille": "150 x 150 mm",
@@ -692,7 +692,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Membrane pare-vapeur hygrovariable Sd 18m, rouleau 1,50x50m — étanchéité à l'air.",
+    "description": "Membrane pare-vapeur hygrovariable Sd 18m, rouleau 1,50x50m, étanchéité à l'air.",
     "specs": {
       "Largeur rouleau": "1,50 m",
       "Longueur rouleau": "50 m",
@@ -736,7 +736,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Caillebotis acier galvanisé maille 30x30mm, porteur 30x2mm — passerelles et plateformes.",
+    "description": "Caillebotis acier galvanisé maille 30x30mm, porteur 30x2mm, passerelles et plateformes.",
     "specs": {
       "Maille": "30 x 30 mm",
       "Plat porteur": "30 x 2 mm",
@@ -758,7 +758,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Ancrage chimique résine vinylester avec tige filetée M12 — béton fissuré et plein.",
+    "description": "Ancrage chimique résine vinylester avec tige filetée M12, béton fissuré et plein.",
     "specs": {
       "Diamètre": "M12",
       "Résine": "Vinylester",
@@ -781,7 +781,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tube cuivre écroui diamètre 8/10mm — conforme NF EN 1057 — usage plomberie et chauffage.",
+    "description": "Tube cuivre écroui diamètre 8/10mm, conforme NF EN 1057, usage plomberie et chauffage.",
     "specs": {
       "Diamètre": "8 x 10 mm",
       "Longueur": "5 m",
@@ -805,7 +805,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Tube cuivre écroui diamètre 10/12mm — conforme NF EN 1057 — usage plomberie et chauffage.",
+    "description": "Tube cuivre écroui diamètre 10/12mm, conforme NF EN 1057, usage plomberie et chauffage.",
     "specs": {
       "Diamètre": "10 x 12 mm",
       "Longueur": "5 m",
@@ -830,7 +830,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tube cuivre écroui diamètre 14/16mm — conforme NF EN 1057 — usage plomberie et chauffage.",
+    "description": "Tube cuivre écroui diamètre 14/16mm, conforme NF EN 1057, usage plomberie et chauffage.",
     "specs": {
       "Diamètre": "14 x 16 mm",
       "Longueur": "5 m",
@@ -854,7 +854,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Tube cuivre écroui diamètre 16/18mm — conforme NF EN 1057 — usage plomberie et chauffage.",
+    "description": "Tube cuivre écroui diamètre 16/18mm, conforme NF EN 1057, usage plomberie et chauffage.",
     "specs": {
       "Diamètre": "16 x 18 mm",
       "Longueur": "5 m",
@@ -878,7 +878,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Tube cuivre écroui diamètre 18/20mm — conforme NF EN 1057 — usage plomberie et chauffage.",
+    "description": "Tube cuivre écroui diamètre 18/20mm, conforme NF EN 1057, usage plomberie et chauffage.",
     "specs": {
       "Diamètre": "18 x 20 mm",
       "Longueur": "5 m",
@@ -902,7 +902,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Tube cuivre écroui diamètre 20/22mm — conforme NF EN 1057 — usage plomberie et chauffage.",
+    "description": "Tube cuivre écroui diamètre 20/22mm, conforme NF EN 1057, usage plomberie et chauffage.",
     "specs": {
       "Diamètre": "20 x 22 mm",
       "Longueur": "5 m",
@@ -926,7 +926,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Tube cuivre écroui diamètre 22/24mm — conforme NF EN 1057 — usage plomberie et chauffage.",
+    "description": "Tube cuivre écroui diamètre 22/24mm, conforme NF EN 1057, usage plomberie et chauffage.",
     "specs": {
       "Diamètre": "22 x 24 mm",
       "Longueur": "5 m",
@@ -950,7 +950,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tube cuivre écroui diamètre 26/28mm — conforme NF EN 1057 — usage plomberie et chauffage.",
+    "description": "Tube cuivre écroui diamètre 26/28mm, conforme NF EN 1057, usage plomberie et chauffage.",
     "specs": {
       "Diamètre": "26 x 28 mm",
       "Longueur": "5 m",
@@ -973,7 +973,7 @@
       "France",
       "Suisse"
     ],
-    "description": "Tube cuivre écroui diamètre 28/30mm — conforme NF EN 1057 — usage plomberie et chauffage.",
+    "description": "Tube cuivre écroui diamètre 28/30mm, conforme NF EN 1057, usage plomberie et chauffage.",
     "specs": {
       "Diamètre": "28 x 30 mm",
       "Longueur": "5 m",
@@ -998,7 +998,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tube cuivre écroui diamètre 32/35mm — conforme NF EN 1057 — usage plomberie et chauffage.",
+    "description": "Tube cuivre écroui diamètre 32/35mm, conforme NF EN 1057, usage plomberie et chauffage.",
     "specs": {
       "Diamètre": "32 x 35 mm",
       "Longueur": "5 m",
@@ -1022,7 +1022,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Tube cuivre écroui diamètre 40/42mm — conforme NF EN 1057 — usage plomberie et chauffage.",
+    "description": "Tube cuivre écroui diamètre 40/42mm, conforme NF EN 1057, usage plomberie et chauffage.",
     "specs": {
       "Diamètre": "40 x 42 mm",
       "Longueur": "5 m",
@@ -1046,7 +1046,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Tube cuivre écroui diamètre 50/52mm — conforme NF EN 1057 — usage plomberie et chauffage.",
+    "description": "Tube cuivre écroui diamètre 50/52mm, conforme NF EN 1057, usage plomberie et chauffage.",
     "specs": {
       "Diamètre": "50 x 52 mm",
       "Longueur": "5 m",
@@ -1070,7 +1070,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Tube cuivre recuit en couronne, diamètre 6/8mm — conforme NF EN 1057 — pose souple sans raccord intermédiaire.",
+    "description": "Tube cuivre recuit en couronne, diamètre 6/8mm, conforme NF EN 1057, pose souple sans raccord intermédiaire.",
     "specs": {
       "Diamètre": "6 x 8 mm",
       "Conditionnement": "Couronne 25 m",
@@ -1094,7 +1094,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Tube cuivre recuit en couronne, diamètre 8/10mm — conforme NF EN 1057 — pose souple sans raccord intermédiaire.",
+    "description": "Tube cuivre recuit en couronne, diamètre 8/10mm, conforme NF EN 1057, pose souple sans raccord intermédiaire.",
     "specs": {
       "Diamètre": "8 x 10 mm",
       "Conditionnement": "Couronne 25 m",
@@ -1118,7 +1118,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Tube cuivre recuit en couronne, diamètre 10/12mm — conforme NF EN 1057 — pose souple sans raccord intermédiaire.",
+    "description": "Tube cuivre recuit en couronne, diamètre 10/12mm, conforme NF EN 1057, pose souple sans raccord intermédiaire.",
     "specs": {
       "Diamètre": "10 x 12 mm",
       "Conditionnement": "Couronne 25 m",
@@ -1142,7 +1142,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tube cuivre recuit en couronne, diamètre 12/14mm — conforme NF EN 1057 — pose souple sans raccord intermédiaire.",
+    "description": "Tube cuivre recuit en couronne, diamètre 12/14mm, conforme NF EN 1057, pose souple sans raccord intermédiaire.",
     "specs": {
       "Diamètre": "12 x 14 mm",
       "Conditionnement": "Couronne 25 m",
@@ -1165,7 +1165,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Tube cuivre recuit en couronne, diamètre 14/16mm — conforme NF EN 1057 — pose souple sans raccord intermédiaire.",
+    "description": "Tube cuivre recuit en couronne, diamètre 14/16mm, conforme NF EN 1057, pose souple sans raccord intermédiaire.",
     "specs": {
       "Diamètre": "14 x 16 mm",
       "Conditionnement": "Couronne 25 m",
@@ -1188,7 +1188,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Tube cuivre recuit en couronne, diamètre 16/18mm — conforme NF EN 1057 — pose souple sans raccord intermédiaire.",
+    "description": "Tube cuivre recuit en couronne, diamètre 16/18mm, conforme NF EN 1057, pose souple sans raccord intermédiaire.",
     "specs": {
       "Diamètre": "16 x 18 mm",
       "Conditionnement": "Couronne 25 m",
@@ -1211,7 +1211,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Plaque de cuivre laminé, épaisseur 0,6 mm — toiture, zinguerie d'art et ouvrages décoratifs.",
+    "description": "Plaque de cuivre laminé, épaisseur 0,6 mm, toiture, zinguerie d'art et ouvrages décoratifs.",
     "specs": {
       "Épaisseur": "0,6 mm",
       "Format": "1000 x 2000 mm",
@@ -1235,7 +1235,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Plaque de cuivre laminé, épaisseur 0,8 mm — toiture, zinguerie d'art et ouvrages décoratifs.",
+    "description": "Plaque de cuivre laminé, épaisseur 0,8 mm, toiture, zinguerie d'art et ouvrages décoratifs.",
     "specs": {
       "Épaisseur": "0,8 mm",
       "Format": "1000 x 2000 mm",
@@ -1258,7 +1258,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Plaque de cuivre laminé, épaisseur 1 mm — toiture, zinguerie d'art et ouvrages décoratifs.",
+    "description": "Plaque de cuivre laminé, épaisseur 1 mm, toiture, zinguerie d'art et ouvrages décoratifs.",
     "specs": {
       "Épaisseur": "1 mm",
       "Format": "1000 x 2000 mm",
@@ -1282,7 +1282,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Plaque de cuivre laminé, épaisseur 1,5 mm — toiture, zinguerie d'art et ouvrages décoratifs.",
+    "description": "Plaque de cuivre laminé, épaisseur 1,5 mm, toiture, zinguerie d'art et ouvrages décoratifs.",
     "specs": {
       "Épaisseur": "1,5 mm",
       "Format": "1000 x 2000 mm",
@@ -1305,7 +1305,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Plaque de cuivre laminé, épaisseur 2,5 mm — toiture, zinguerie d'art et ouvrages décoratifs.",
+    "description": "Plaque de cuivre laminé, épaisseur 2,5 mm, toiture, zinguerie d'art et ouvrages décoratifs.",
     "specs": {
       "Épaisseur": "2,5 mm",
       "Format": "1000 x 2000 mm",
@@ -1328,7 +1328,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Plaque de cuivre laminé, épaisseur 3 mm — toiture, zinguerie d'art et ouvrages décoratifs.",
+    "description": "Plaque de cuivre laminé, épaisseur 3 mm, toiture, zinguerie d'art et ouvrages décoratifs.",
     "specs": {
       "Épaisseur": "3 mm",
       "Format": "1000 x 2000 mm",
@@ -1351,7 +1351,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Coude cuivre à souder en cuivre, diamètre 12mm — assemblage par brasage capillaire — conforme NF EN 1254.",
+    "description": "Coude cuivre à souder en cuivre, diamètre 12mm, assemblage par brasage capillaire, conforme NF EN 1254.",
     "specs": {
       "Diamètre": "12 mm",
       "Norme": "NF EN 1254",
@@ -1375,7 +1375,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Coude cuivre à souder en cuivre, diamètre 16mm — assemblage par brasage capillaire — conforme NF EN 1254.",
+    "description": "Coude cuivre à souder en cuivre, diamètre 16mm, assemblage par brasage capillaire, conforme NF EN 1254.",
     "specs": {
       "Diamètre": "16 mm",
       "Norme": "NF EN 1254",
@@ -1399,7 +1399,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Coude cuivre à souder en cuivre, diamètre 18mm — assemblage par brasage capillaire — conforme NF EN 1254.",
+    "description": "Coude cuivre à souder en cuivre, diamètre 18mm, assemblage par brasage capillaire, conforme NF EN 1254.",
     "specs": {
       "Diamètre": "18 mm",
       "Norme": "NF EN 1254",
@@ -1422,7 +1422,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Coude cuivre à souder en cuivre, diamètre 22mm — assemblage par brasage capillaire — conforme NF EN 1254.",
+    "description": "Coude cuivre à souder en cuivre, diamètre 22mm, assemblage par brasage capillaire, conforme NF EN 1254.",
     "specs": {
       "Diamètre": "22 mm",
       "Norme": "NF EN 1254",
@@ -1445,7 +1445,7 @@
       "France",
       "Suisse"
     ],
-    "description": "Coude cuivre à souder en cuivre, diamètre 28mm — assemblage par brasage capillaire — conforme NF EN 1254.",
+    "description": "Coude cuivre à souder en cuivre, diamètre 28mm, assemblage par brasage capillaire, conforme NF EN 1254.",
     "specs": {
       "Diamètre": "28 mm",
       "Norme": "NF EN 1254",
@@ -1469,7 +1469,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Té cuivre à souder en cuivre, diamètre 12mm — assemblage par brasage capillaire — conforme NF EN 1254.",
+    "description": "Té cuivre à souder en cuivre, diamètre 12mm, assemblage par brasage capillaire, conforme NF EN 1254.",
     "specs": {
       "Diamètre": "12 mm",
       "Norme": "NF EN 1254",
@@ -1493,7 +1493,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Té cuivre à souder en cuivre, diamètre 16mm — assemblage par brasage capillaire — conforme NF EN 1254.",
+    "description": "Té cuivre à souder en cuivre, diamètre 16mm, assemblage par brasage capillaire, conforme NF EN 1254.",
     "specs": {
       "Diamètre": "16 mm",
       "Norme": "NF EN 1254",
@@ -1516,7 +1516,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Té cuivre à souder en cuivre, diamètre 18mm — assemblage par brasage capillaire — conforme NF EN 1254.",
+    "description": "Té cuivre à souder en cuivre, diamètre 18mm, assemblage par brasage capillaire, conforme NF EN 1254.",
     "specs": {
       "Diamètre": "18 mm",
       "Norme": "NF EN 1254",
@@ -1539,7 +1539,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Té cuivre à souder en cuivre, diamètre 22mm — assemblage par brasage capillaire — conforme NF EN 1254.",
+    "description": "Té cuivre à souder en cuivre, diamètre 22mm, assemblage par brasage capillaire, conforme NF EN 1254.",
     "specs": {
       "Diamètre": "22 mm",
       "Norme": "NF EN 1254",
@@ -1562,7 +1562,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Té cuivre à souder en cuivre, diamètre 28mm — assemblage par brasage capillaire — conforme NF EN 1254.",
+    "description": "Té cuivre à souder en cuivre, diamètre 28mm, assemblage par brasage capillaire, conforme NF EN 1254.",
     "specs": {
       "Diamètre": "28 mm",
       "Norme": "NF EN 1254",
@@ -1585,7 +1585,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Manchon cuivre à souder en cuivre, diamètre 12mm — assemblage par brasage capillaire — conforme NF EN 1254.",
+    "description": "Manchon cuivre à souder en cuivre, diamètre 12mm, assemblage par brasage capillaire, conforme NF EN 1254.",
     "specs": {
       "Diamètre": "12 mm",
       "Norme": "NF EN 1254",
@@ -1608,7 +1608,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Manchon cuivre à souder en cuivre, diamètre 16mm — assemblage par brasage capillaire — conforme NF EN 1254.",
+    "description": "Manchon cuivre à souder en cuivre, diamètre 16mm, assemblage par brasage capillaire, conforme NF EN 1254.",
     "specs": {
       "Diamètre": "16 mm",
       "Norme": "NF EN 1254",
@@ -1631,7 +1631,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Manchon cuivre à souder en cuivre, diamètre 18mm — assemblage par brasage capillaire — conforme NF EN 1254.",
+    "description": "Manchon cuivre à souder en cuivre, diamètre 18mm, assemblage par brasage capillaire, conforme NF EN 1254.",
     "specs": {
       "Diamètre": "18 mm",
       "Norme": "NF EN 1254",
@@ -1653,7 +1653,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Manchon cuivre à souder en cuivre, diamètre 22mm — assemblage par brasage capillaire — conforme NF EN 1254.",
+    "description": "Manchon cuivre à souder en cuivre, diamètre 22mm, assemblage par brasage capillaire, conforme NF EN 1254.",
     "specs": {
       "Diamètre": "22 mm",
       "Norme": "NF EN 1254",
@@ -1676,7 +1676,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Manchon cuivre à souder en cuivre, diamètre 28mm — assemblage par brasage capillaire — conforme NF EN 1254.",
+    "description": "Manchon cuivre à souder en cuivre, diamètre 28mm, assemblage par brasage capillaire, conforme NF EN 1254.",
     "specs": {
       "Diamètre": "28 mm",
       "Norme": "NF EN 1254",
@@ -1700,7 +1700,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Gouttière cuivre demi-ronde, développé 25cm — conforme NF EN 612 — pose toiture pente classique.",
+    "description": "Gouttière cuivre demi-ronde, développé 25cm, conforme NF EN 612, pose toiture pente classique.",
     "specs": {
       "Développé": "25 cm",
       "Profil": "Demi-rond",
@@ -1724,7 +1724,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Gouttière cuivre demi-ronde, développé 28cm — conforme NF EN 612 — pose toiture pente classique.",
+    "description": "Gouttière cuivre demi-ronde, développé 28cm, conforme NF EN 612, pose toiture pente classique.",
     "specs": {
       "Développé": "28 cm",
       "Profil": "Demi-rond",
@@ -1747,7 +1747,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Gouttière cuivre demi-ronde, développé 40cm — conforme NF EN 612 — pose toiture pente classique.",
+    "description": "Gouttière cuivre demi-ronde, développé 40cm, conforme NF EN 612, pose toiture pente classique.",
     "specs": {
       "Développé": "40 cm",
       "Profil": "Demi-rond",
@@ -1770,7 +1770,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Conducteur cuivre rigide H07V-U, section 1,5mm² — câblage électrique bâtiment — conforme NF C 32-201.",
+    "description": "Conducteur cuivre rigide H07V-U, section 1,5mm², câblage électrique bâtiment, conforme NF C 32-201.",
     "specs": {
       "Section": "1,5 mm²",
       "Norme": "NF C 32-201",
@@ -1793,7 +1793,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Conducteur cuivre rigide H07V-U, section 4mm² — câblage électrique bâtiment — conforme NF C 32-201.",
+    "description": "Conducteur cuivre rigide H07V-U, section 4mm², câblage électrique bâtiment, conforme NF C 32-201.",
     "specs": {
       "Section": "4 mm²",
       "Norme": "NF C 32-201",
@@ -1816,7 +1816,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Conducteur cuivre rigide H07V-U, section 6mm² — câblage électrique bâtiment — conforme NF C 32-201.",
+    "description": "Conducteur cuivre rigide H07V-U, section 6mm², câblage électrique bâtiment, conforme NF C 32-201.",
     "specs": {
       "Section": "6 mm²",
       "Norme": "NF C 32-201",
@@ -1839,7 +1839,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Conducteur cuivre rigide H07V-U, section 10mm² — câblage électrique bâtiment — conforme NF C 32-201.",
+    "description": "Conducteur cuivre rigide H07V-U, section 10mm², câblage électrique bâtiment, conforme NF C 32-201.",
     "specs": {
       "Section": "10 mm²",
       "Norme": "NF C 32-201",
@@ -1861,7 +1861,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Conducteur cuivre rigide H07V-U, section 16mm² — câblage électrique bâtiment — conforme NF C 32-201.",
+    "description": "Conducteur cuivre rigide H07V-U, section 16mm², câblage électrique bâtiment, conforme NF C 32-201.",
     "specs": {
       "Section": "16 mm²",
       "Norme": "NF C 32-201",
@@ -1884,7 +1884,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Conducteur cuivre rigide H07V-U, section 25mm² — câblage électrique bâtiment — conforme NF C 32-201.",
+    "description": "Conducteur cuivre rigide H07V-U, section 25mm², câblage électrique bâtiment, conforme NF C 32-201.",
     "specs": {
       "Section": "25 mm²",
       "Norme": "NF C 32-201",
@@ -1907,7 +1907,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Rond à béton crénelé haute adhérence HA6 — acier B500B — conforme NF A 35-080-1.",
+    "description": "Rond à béton crénelé haute adhérence HA6, acier B500B, conforme NF A 35-080-1.",
     "specs": {
       "Diamètre": "6 mm",
       "Nuance": "B500B",
@@ -1930,7 +1930,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Rond à béton crénelé haute adhérence HA8 — acier B500B — conforme NF A 35-080-1.",
+    "description": "Rond à béton crénelé haute adhérence HA8, acier B500B, conforme NF A 35-080-1.",
     "specs": {
       "Diamètre": "8 mm",
       "Nuance": "B500B",
@@ -1953,7 +1953,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Rond à béton crénelé haute adhérence HA12 — acier B500B — conforme NF A 35-080-1.",
+    "description": "Rond à béton crénelé haute adhérence HA12, acier B500B, conforme NF A 35-080-1.",
     "specs": {
       "Diamètre": "12 mm",
       "Nuance": "B500B",
@@ -1976,7 +1976,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Rond à béton crénelé haute adhérence HA14 — acier B500B — conforme NF A 35-080-1.",
+    "description": "Rond à béton crénelé haute adhérence HA14, acier B500B, conforme NF A 35-080-1.",
     "specs": {
       "Diamètre": "14 mm",
       "Nuance": "B500B",
@@ -1999,7 +1999,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Rond à béton crénelé haute adhérence HA16 — acier B500B — conforme NF A 35-080-1.",
+    "description": "Rond à béton crénelé haute adhérence HA16, acier B500B, conforme NF A 35-080-1.",
     "specs": {
       "Diamètre": "16 mm",
       "Nuance": "B500B",
@@ -2022,7 +2022,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Rond à béton crénelé haute adhérence HA20 — acier B500B — conforme NF A 35-080-1.",
+    "description": "Rond à béton crénelé haute adhérence HA20, acier B500B, conforme NF A 35-080-1.",
     "specs": {
       "Diamètre": "20 mm",
       "Nuance": "B500B",
@@ -2046,7 +2046,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Rond à béton crénelé haute adhérence HA25 — acier B500B — conforme NF A 35-080-1.",
+    "description": "Rond à béton crénelé haute adhérence HA25, acier B500B, conforme NF A 35-080-1.",
     "specs": {
       "Diamètre": "25 mm",
       "Nuance": "B500B",
@@ -2069,7 +2069,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Rond à béton crénelé haute adhérence HA32 — acier B500B — conforme NF A 35-080-1.",
+    "description": "Rond à béton crénelé haute adhérence HA32, acier B500B, conforme NF A 35-080-1.",
     "specs": {
       "Diamètre": "32 mm",
       "Nuance": "B500B",
@@ -2092,7 +2092,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Poutrelle acier laminé à chaud IPE 80 — nuance S235JR — conforme NF EN 10025 — structure et charpente métallique.",
+    "description": "Poutrelle acier laminé à chaud IPE 80, nuance S235JR, conforme NF EN 10025, structure et charpente métallique.",
     "specs": {
       "Hauteur": "80 mm",
       "Nuance": "S235JR",
@@ -2114,7 +2114,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Poutrelle acier laminé à chaud IPE 100 — nuance S235JR — conforme NF EN 10025 — structure et charpente métallique.",
+    "description": "Poutrelle acier laminé à chaud IPE 100, nuance S235JR, conforme NF EN 10025, structure et charpente métallique.",
     "specs": {
       "Hauteur": "100 mm",
       "Nuance": "S235JR",
@@ -2137,7 +2137,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Poutrelle acier laminé à chaud IPE 120 — nuance S235JR — conforme NF EN 10025 — structure et charpente métallique.",
+    "description": "Poutrelle acier laminé à chaud IPE 120, nuance S235JR, conforme NF EN 10025, structure et charpente métallique.",
     "specs": {
       "Hauteur": "120 mm",
       "Nuance": "S235JR",
@@ -2160,7 +2160,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Poutrelle acier laminé à chaud IPE 140 — nuance S235JR — conforme NF EN 10025 — structure et charpente métallique.",
+    "description": "Poutrelle acier laminé à chaud IPE 140, nuance S235JR, conforme NF EN 10025, structure et charpente métallique.",
     "specs": {
       "Hauteur": "140 mm",
       "Nuance": "S235JR",
@@ -2183,7 +2183,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Poutrelle acier laminé à chaud IPE 180 — nuance S235JR — conforme NF EN 10025 — structure et charpente métallique.",
+    "description": "Poutrelle acier laminé à chaud IPE 180, nuance S235JR, conforme NF EN 10025, structure et charpente métallique.",
     "specs": {
       "Hauteur": "180 mm",
       "Nuance": "S235JR",
@@ -2206,7 +2206,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Poutrelle acier laminé à chaud IPE 200 — nuance S235JR — conforme NF EN 10025 — structure et charpente métallique.",
+    "description": "Poutrelle acier laminé à chaud IPE 200, nuance S235JR, conforme NF EN 10025, structure et charpente métallique.",
     "specs": {
       "Hauteur": "200 mm",
       "Nuance": "S235JR",
@@ -2229,7 +2229,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Poutrelle acier laminé à chaud IPE 220 — nuance S235JR — conforme NF EN 10025 — structure et charpente métallique.",
+    "description": "Poutrelle acier laminé à chaud IPE 220, nuance S235JR, conforme NF EN 10025, structure et charpente métallique.",
     "specs": {
       "Hauteur": "220 mm",
       "Nuance": "S235JR",
@@ -2252,7 +2252,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Poutrelle acier laminé à chaud IPE 240 — nuance S235JR — conforme NF EN 10025 — structure et charpente métallique.",
+    "description": "Poutrelle acier laminé à chaud IPE 240, nuance S235JR, conforme NF EN 10025, structure et charpente métallique.",
     "specs": {
       "Hauteur": "240 mm",
       "Nuance": "S235JR",
@@ -2275,7 +2275,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Poutrelle acier laminé à chaud IPE 270 — nuance S235JR — conforme NF EN 10025 — structure et charpente métallique.",
+    "description": "Poutrelle acier laminé à chaud IPE 270, nuance S235JR, conforme NF EN 10025, structure et charpente métallique.",
     "specs": {
       "Hauteur": "270 mm",
       "Nuance": "S235JR",
@@ -2298,7 +2298,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Poutrelle acier laminé à chaud IPE 300 — nuance S235JR — conforme NF EN 10025 — structure et charpente métallique.",
+    "description": "Poutrelle acier laminé à chaud IPE 300, nuance S235JR, conforme NF EN 10025, structure et charpente métallique.",
     "specs": {
       "Hauteur": "300 mm",
       "Nuance": "S235JR",
@@ -2321,7 +2321,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Poutrelle acier laminé à chaud IPE 330 — nuance S235JR — conforme NF EN 10025 — structure et charpente métallique.",
+    "description": "Poutrelle acier laminé à chaud IPE 330, nuance S235JR, conforme NF EN 10025, structure et charpente métallique.",
     "specs": {
       "Hauteur": "330 mm",
       "Nuance": "S235JR",
@@ -2343,7 +2343,7 @@
       "France",
       "Suisse"
     ],
-    "description": "Poutrelle acier laminé à chaud IPN 80 — nuance S235JR — conforme NF EN 10025 — linteaux et renforts de structure.",
+    "description": "Poutrelle acier laminé à chaud IPN 80, nuance S235JR, conforme NF EN 10025, linteaux et renforts de structure.",
     "specs": {
       "Hauteur": "80 mm",
       "Nuance": "S235JR",
@@ -2366,7 +2366,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Poutrelle acier laminé à chaud IPN 100 — nuance S235JR — conforme NF EN 10025 — linteaux et renforts de structure.",
+    "description": "Poutrelle acier laminé à chaud IPN 100, nuance S235JR, conforme NF EN 10025, linteaux et renforts de structure.",
     "specs": {
       "Hauteur": "100 mm",
       "Nuance": "S235JR",
@@ -2389,7 +2389,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Poutrelle acier laminé à chaud IPN 120 — nuance S235JR — conforme NF EN 10025 — linteaux et renforts de structure.",
+    "description": "Poutrelle acier laminé à chaud IPN 120, nuance S235JR, conforme NF EN 10025, linteaux et renforts de structure.",
     "specs": {
       "Hauteur": "120 mm",
       "Nuance": "S235JR",
@@ -2413,7 +2413,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Poutrelle acier laminé à chaud IPN 140 — nuance S235JR — conforme NF EN 10025 — linteaux et renforts de structure.",
+    "description": "Poutrelle acier laminé à chaud IPN 140, nuance S235JR, conforme NF EN 10025, linteaux et renforts de structure.",
     "specs": {
       "Hauteur": "140 mm",
       "Nuance": "S235JR",
@@ -2437,7 +2437,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Poutrelle acier laminé à chaud IPN 160 — nuance S235JR — conforme NF EN 10025 — linteaux et renforts de structure.",
+    "description": "Poutrelle acier laminé à chaud IPN 160, nuance S235JR, conforme NF EN 10025, linteaux et renforts de structure.",
     "specs": {
       "Hauteur": "160 mm",
       "Nuance": "S235JR",
@@ -2460,7 +2460,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Poutrelle acier laminé à chaud IPN 180 — nuance S235JR — conforme NF EN 10025 — linteaux et renforts de structure.",
+    "description": "Poutrelle acier laminé à chaud IPN 180, nuance S235JR, conforme NF EN 10025, linteaux et renforts de structure.",
     "specs": {
       "Hauteur": "180 mm",
       "Nuance": "S235JR",
@@ -2483,7 +2483,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Poutrelle acier laminé à chaud IPN 200 — nuance S235JR — conforme NF EN 10025 — linteaux et renforts de structure.",
+    "description": "Poutrelle acier laminé à chaud IPN 200, nuance S235JR, conforme NF EN 10025, linteaux et renforts de structure.",
     "specs": {
       "Hauteur": "200 mm",
       "Nuance": "S235JR",
@@ -2506,7 +2506,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Tube acier carré 20x20x2mm — nuance S235JR — conforme NF EN 10219 — ossatures et menuiseries métalliques.",
+    "description": "Tube acier carré 20x20x2mm, nuance S235JR, conforme NF EN 10219, ossatures et menuiseries métalliques.",
     "specs": {
       "Section": "20 x 20 x 2 mm",
       "Nuance": "S235JR",
@@ -2528,7 +2528,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Tube acier carré 25x25x2mm — nuance S235JR — conforme NF EN 10219 — ossatures et menuiseries métalliques.",
+    "description": "Tube acier carré 25x25x2mm, nuance S235JR, conforme NF EN 10219, ossatures et menuiseries métalliques.",
     "specs": {
       "Section": "25 x 25 x 2 mm",
       "Nuance": "S235JR",
@@ -2551,7 +2551,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Tube acier carré 30x30x2mm — nuance S235JR — conforme NF EN 10219 — ossatures et menuiseries métalliques.",
+    "description": "Tube acier carré 30x30x2mm, nuance S235JR, conforme NF EN 10219, ossatures et menuiseries métalliques.",
     "specs": {
       "Section": "30 x 30 x 2 mm",
       "Nuance": "S235JR",
@@ -2573,7 +2573,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Tube acier carré 50x50x3mm — nuance S235JR — conforme NF EN 10219 — ossatures et menuiseries métalliques.",
+    "description": "Tube acier carré 50x50x3mm, nuance S235JR, conforme NF EN 10219, ossatures et menuiseries métalliques.",
     "specs": {
       "Section": "50 x 50 x 3 mm",
       "Nuance": "S235JR",
@@ -2595,7 +2595,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Tube acier carré 60x60x3mm — nuance S235JR — conforme NF EN 10219 — ossatures et menuiseries métalliques.",
+    "description": "Tube acier carré 60x60x3mm, nuance S235JR, conforme NF EN 10219, ossatures et menuiseries métalliques.",
     "specs": {
       "Section": "60 x 60 x 3 mm",
       "Nuance": "S235JR",
@@ -2619,7 +2619,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tube acier carré 80x80x4mm — nuance S235JR — conforme NF EN 10219 — ossatures et menuiseries métalliques.",
+    "description": "Tube acier carré 80x80x4mm, nuance S235JR, conforme NF EN 10219, ossatures et menuiseries métalliques.",
     "specs": {
       "Section": "80 x 80 x 4 mm",
       "Nuance": "S235JR",
@@ -2642,7 +2642,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Tube acier carré 100x100x4mm — nuance S235JR — conforme NF EN 10219 — ossatures et menuiseries métalliques.",
+    "description": "Tube acier carré 100x100x4mm, nuance S235JR, conforme NF EN 10219, ossatures et menuiseries métalliques.",
     "specs": {
       "Section": "100 x 100 x 4 mm",
       "Nuance": "S235JR",
@@ -2666,7 +2666,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tube acier rond diamètre 21,3mm, épaisseur 2,3mm — nuance S235JR — conforme NF EN 10219 — garde-corps et structures tubulaires.",
+    "description": "Tube acier rond diamètre 21,3mm, épaisseur 2,3mm, nuance S235JR, conforme NF EN 10219, garde-corps et structures tubulaires.",
     "specs": {
       "Diamètre extérieur": "21,3 mm",
       "Épaisseur": "2,3 mm",
@@ -2690,7 +2690,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Tube acier rond diamètre 26,9mm, épaisseur 2,3mm — nuance S235JR — conforme NF EN 10219 — garde-corps et structures tubulaires.",
+    "description": "Tube acier rond diamètre 26,9mm, épaisseur 2,3mm, nuance S235JR, conforme NF EN 10219, garde-corps et structures tubulaires.",
     "specs": {
       "Diamètre extérieur": "26,9 mm",
       "Épaisseur": "2,3 mm",
@@ -2714,7 +2714,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Tube acier rond diamètre 33,7mm, épaisseur 2,3mm — nuance S235JR — conforme NF EN 10219 — garde-corps et structures tubulaires.",
+    "description": "Tube acier rond diamètre 33,7mm, épaisseur 2,3mm, nuance S235JR, conforme NF EN 10219, garde-corps et structures tubulaires.",
     "specs": {
       "Diamètre extérieur": "33,7 mm",
       "Épaisseur": "2,3 mm",
@@ -2738,7 +2738,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Tube acier rond diamètre 42,4mm, épaisseur 2,3mm — nuance S235JR — conforme NF EN 10219 — garde-corps et structures tubulaires.",
+    "description": "Tube acier rond diamètre 42,4mm, épaisseur 2,3mm, nuance S235JR, conforme NF EN 10219, garde-corps et structures tubulaires.",
     "specs": {
       "Diamètre extérieur": "42,4 mm",
       "Épaisseur": "2,3 mm",
@@ -2761,7 +2761,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Tube acier rond diamètre 48,3mm, épaisseur 2,3mm — nuance S235JR — conforme NF EN 10219 — garde-corps et structures tubulaires.",
+    "description": "Tube acier rond diamètre 48,3mm, épaisseur 2,3mm, nuance S235JR, conforme NF EN 10219, garde-corps et structures tubulaires.",
     "specs": {
       "Diamètre extérieur": "48,3 mm",
       "Épaisseur": "2,3 mm",
@@ -2785,7 +2785,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Tube acier rond diamètre 60,3mm, épaisseur 2,3mm — nuance S235JR — conforme NF EN 10219 — garde-corps et structures tubulaires.",
+    "description": "Tube acier rond diamètre 60,3mm, épaisseur 2,3mm, nuance S235JR, conforme NF EN 10219, garde-corps et structures tubulaires.",
     "specs": {
       "Diamètre extérieur": "60,3 mm",
       "Épaisseur": "2,3 mm",
@@ -2809,7 +2809,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tôle inox 304L, épaisseur 0,5 mm — finition 2B — conforme NF EN 10088 — agroalimentaire, habillage et bardage.",
+    "description": "Tôle inox 304L, épaisseur 0,5 mm, finition 2B, conforme NF EN 10088, agroalimentaire, habillage et bardage.",
     "specs": {
       "Épaisseur": "0,5 mm",
       "Nuance": "304L",
@@ -2832,7 +2832,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Tôle inox 304L, épaisseur 0,8 mm — finition 2B — conforme NF EN 10088 — agroalimentaire, habillage et bardage.",
+    "description": "Tôle inox 304L, épaisseur 0,8 mm, finition 2B, conforme NF EN 10088, agroalimentaire, habillage et bardage.",
     "specs": {
       "Épaisseur": "0,8 mm",
       "Nuance": "304L",
@@ -2857,7 +2857,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tôle inox 304L, épaisseur 1 mm — finition 2B — conforme NF EN 10088 — agroalimentaire, habillage et bardage.",
+    "description": "Tôle inox 304L, épaisseur 1 mm, finition 2B, conforme NF EN 10088, agroalimentaire, habillage et bardage.",
     "specs": {
       "Épaisseur": "1 mm",
       "Nuance": "304L",
@@ -2882,7 +2882,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tôle inox 304L, épaisseur 1,5 mm — finition 2B — conforme NF EN 10088 — agroalimentaire, habillage et bardage.",
+    "description": "Tôle inox 304L, épaisseur 1,5 mm, finition 2B, conforme NF EN 10088, agroalimentaire, habillage et bardage.",
     "specs": {
       "Épaisseur": "1,5 mm",
       "Nuance": "304L",
@@ -2906,7 +2906,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Tôle inox 304L, épaisseur 3 mm — finition 2B — conforme NF EN 10088 — agroalimentaire, habillage et bardage.",
+    "description": "Tôle inox 304L, épaisseur 3 mm, finition 2B, conforme NF EN 10088, agroalimentaire, habillage et bardage.",
     "specs": {
       "Épaisseur": "3 mm",
       "Nuance": "304L",
@@ -2930,7 +2930,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Tôle inox 304L, épaisseur 4 mm — finition 2B — conforme NF EN 10088 — agroalimentaire, habillage et bardage.",
+    "description": "Tôle inox 304L, épaisseur 4 mm, finition 2B, conforme NF EN 10088, agroalimentaire, habillage et bardage.",
     "specs": {
       "Épaisseur": "4 mm",
       "Nuance": "304L",
@@ -2955,7 +2955,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tôle acier galvanisée à chaud, épaisseur 0,75 mm — protection Z275 — conforme NF EN 10346 — bardage, couverture et habillage technique.",
+    "description": "Tôle acier galvanisée à chaud, épaisseur 0,75 mm, protection Z275, conforme NF EN 10346, bardage, couverture et habillage technique.",
     "specs": {
       "Épaisseur": "0,75 mm",
       "Revêtement": "Galvanisation Z275",
@@ -2979,7 +2979,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tôle acier galvanisée à chaud, épaisseur 1 mm — protection Z275 — conforme NF EN 10346 — bardage, couverture et habillage technique.",
+    "description": "Tôle acier galvanisée à chaud, épaisseur 1 mm, protection Z275, conforme NF EN 10346, bardage, couverture et habillage technique.",
     "specs": {
       "Épaisseur": "1 mm",
       "Revêtement": "Galvanisation Z275",
@@ -3002,7 +3002,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tôle acier galvanisée à chaud, épaisseur 1,5 mm — protection Z275 — conforme NF EN 10346 — bardage, couverture et habillage technique.",
+    "description": "Tôle acier galvanisée à chaud, épaisseur 1,5 mm, protection Z275, conforme NF EN 10346, bardage, couverture et habillage technique.",
     "specs": {
       "Épaisseur": "1,5 mm",
       "Revêtement": "Galvanisation Z275",
@@ -3024,7 +3024,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Tôle acier galvanisée à chaud, épaisseur 2 mm — protection Z275 — conforme NF EN 10346 — bardage, couverture et habillage technique.",
+    "description": "Tôle acier galvanisée à chaud, épaisseur 2 mm, protection Z275, conforme NF EN 10346, bardage, couverture et habillage technique.",
     "specs": {
       "Épaisseur": "2 mm",
       "Revêtement": "Galvanisation Z275",
@@ -3047,7 +3047,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tôle acier galvanisée à chaud, épaisseur 3 mm — protection Z275 — conforme NF EN 10346 — bardage, couverture et habillage technique.",
+    "description": "Tôle acier galvanisée à chaud, épaisseur 3 mm, protection Z275, conforme NF EN 10346, bardage, couverture et habillage technique.",
     "specs": {
       "Épaisseur": "3 mm",
       "Revêtement": "Galvanisation Z275",
@@ -3070,7 +3070,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Cornière aluminium 20x20mm — alliage 6060 T5 — anodisé naturel — finitions, habillages et petites ossatures.",
+    "description": "Cornière aluminium 20x20mm, alliage 6060 T5, anodisé naturel, finitions, habillages et petites ossatures.",
     "specs": {
       "Section": "20 x 20 mm",
       "Alliage": "6060 T5",
@@ -3093,7 +3093,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Cornière aluminium 25x25mm — alliage 6060 T5 — anodisé naturel — finitions, habillages et petites ossatures.",
+    "description": "Cornière aluminium 25x25mm, alliage 6060 T5, anodisé naturel, finitions, habillages et petites ossatures.",
     "specs": {
       "Section": "25 x 25 mm",
       "Alliage": "6060 T5",
@@ -3117,7 +3117,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Cornière aluminium 30x30mm — alliage 6060 T5 — anodisé naturel — finitions, habillages et petites ossatures.",
+    "description": "Cornière aluminium 30x30mm, alliage 6060 T5, anodisé naturel, finitions, habillages et petites ossatures.",
     "specs": {
       "Section": "30 x 30 mm",
       "Alliage": "6060 T5",
@@ -3140,7 +3140,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Cornière aluminium 50x50mm — alliage 6060 T5 — anodisé naturel — finitions, habillages et petites ossatures.",
+    "description": "Cornière aluminium 50x50mm, alliage 6060 T5, anodisé naturel, finitions, habillages et petites ossatures.",
     "specs": {
       "Section": "50 x 50 mm",
       "Alliage": "6060 T5",
@@ -3163,7 +3163,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Cornière aluminium 60x60mm — alliage 6060 T5 — anodisé naturel — finitions, habillages et petites ossatures.",
+    "description": "Cornière aluminium 60x60mm, alliage 6060 T5, anodisé naturel, finitions, habillages et petites ossatures.",
     "specs": {
       "Section": "60 x 60 mm",
       "Alliage": "6060 T5",
@@ -3187,7 +3187,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Panneau de treillis soudé ST20 — acier B500A — conforme NF A 35-024 — armature de dallages et chapes.",
+    "description": "Panneau de treillis soudé ST20, acier B500A, conforme NF A 35-024, armature de dallages et chapes.",
     "specs": {
       "Type": "ST20",
       "Nuance": "B500A",
@@ -3210,7 +3210,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Panneau de treillis soudé ST35 — acier B500A — conforme NF A 35-024 — armature de dallages et chapes.",
+    "description": "Panneau de treillis soudé ST35, acier B500A, conforme NF A 35-024, armature de dallages et chapes.",
     "specs": {
       "Type": "ST35",
       "Nuance": "B500A",
@@ -3233,7 +3233,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Panneau de treillis soudé ST50 — acier B500A — conforme NF A 35-024 — armature de dallages et chapes.",
+    "description": "Panneau de treillis soudé ST50, acier B500A, conforme NF A 35-024, armature de dallages et chapes.",
     "specs": {
       "Type": "ST50",
       "Nuance": "B500A",
@@ -3256,7 +3256,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Caillebotis acier galvanisé, maille porteuse — conforme NF EN ISO 14122 — passerelles et zones techniques industrielles.",
+    "description": "Caillebotis acier galvanisé, maille porteuse, conforme NF EN ISO 14122, passerelles et zones techniques industrielles.",
     "specs": {
       "Matière": "Acier galvanisé",
       "Maille": "30 x 30 mm",
@@ -3279,7 +3279,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Caillebotis acier galvanisé, maille porteuse — conforme NF EN ISO 14122 — passerelles et zones techniques industrielles.",
+    "description": "Caillebotis acier galvanisé, maille porteuse, conforme NF EN ISO 14122, passerelles et zones techniques industrielles.",
     "specs": {
       "Matière": "Acier galvanisé",
       "Maille": "30 x 10 mm",
@@ -3301,7 +3301,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Caillebotis inox 304l, maille porteuse — conforme NF EN ISO 14122 — passerelles et zones techniques industrielles.",
+    "description": "Caillebotis inox 304l, maille porteuse, conforme NF EN ISO 14122, passerelles et zones techniques industrielles.",
     "specs": {
       "Matière": "Inox 304L",
       "Maille": "30 x 30 mm",
@@ -3324,7 +3324,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Panneau OSB 3 (classe humide), épaisseur 9mm — conforme NF EN 300 — plancher, support de couverture et ossature bois.",
+    "description": "Panneau OSB 3 (classe humide), épaisseur 9mm, conforme NF EN 300, plancher, support de couverture et ossature bois.",
     "specs": {
       "Format": "2500 x 1250 mm",
       "Épaisseur": "9 mm",
@@ -3347,7 +3347,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Panneau OSB 3 (classe humide), épaisseur 12mm — conforme NF EN 300 — plancher, support de couverture et ossature bois.",
+    "description": "Panneau OSB 3 (classe humide), épaisseur 12mm, conforme NF EN 300, plancher, support de couverture et ossature bois.",
     "specs": {
       "Format": "2500 x 1250 mm",
       "Épaisseur": "12 mm",
@@ -3370,7 +3370,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Panneau OSB 3 (classe humide), épaisseur 15mm — conforme NF EN 300 — plancher, support de couverture et ossature bois.",
+    "description": "Panneau OSB 3 (classe humide), épaisseur 15mm, conforme NF EN 300, plancher, support de couverture et ossature bois.",
     "specs": {
       "Format": "2500 x 1250 mm",
       "Épaisseur": "15 mm",
@@ -3394,7 +3394,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Panneau OSB 3 (classe humide), épaisseur 22mm — conforme NF EN 300 — plancher, support de couverture et ossature bois.",
+    "description": "Panneau OSB 3 (classe humide), épaisseur 22mm, conforme NF EN 300, plancher, support de couverture et ossature bois.",
     "specs": {
       "Format": "2500 x 1250 mm",
       "Épaisseur": "22 mm",
@@ -3417,7 +3417,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Panneau OSB 3 (classe humide), épaisseur 25mm — conforme NF EN 300 — plancher, support de couverture et ossature bois.",
+    "description": "Panneau OSB 3 (classe humide), épaisseur 25mm, conforme NF EN 300, plancher, support de couverture et ossature bois.",
     "specs": {
       "Format": "2500 x 1250 mm",
       "Épaisseur": "25 mm",
@@ -3440,7 +3440,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Chevron sapin/épicéa raboté, section 38x90mm — classe C24 — conforme NF EN 14081 — charpente traditionnelle et ossature bois.",
+    "description": "Chevron sapin/épicéa raboté, section 38x90mm, classe C24, conforme NF EN 14081, charpente traditionnelle et ossature bois.",
     "specs": {
       "Section": "38 x 90 mm",
       "Essence": "Sapin/épicéa",
@@ -3464,7 +3464,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Chevron sapin/épicéa raboté, section 40x60mm — classe C24 — conforme NF EN 14081 — charpente traditionnelle et ossature bois.",
+    "description": "Chevron sapin/épicéa raboté, section 40x60mm, classe C24, conforme NF EN 14081, charpente traditionnelle et ossature bois.",
     "specs": {
       "Section": "40 x 60 mm",
       "Essence": "Sapin/épicéa",
@@ -3488,7 +3488,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Chevron sapin/épicéa raboté, section 50x75mm — classe C24 — conforme NF EN 14081 — charpente traditionnelle et ossature bois.",
+    "description": "Chevron sapin/épicéa raboté, section 50x75mm, classe C24, conforme NF EN 14081, charpente traditionnelle et ossature bois.",
     "specs": {
       "Section": "50 x 75 mm",
       "Essence": "Sapin/épicéa",
@@ -3511,7 +3511,7 @@
       "France",
       "Suisse"
     ],
-    "description": "Chevron sapin/épicéa raboté, section 75x100mm — classe C24 — conforme NF EN 14081 — charpente traditionnelle et ossature bois.",
+    "description": "Chevron sapin/épicéa raboté, section 75x100mm, classe C24, conforme NF EN 14081, charpente traditionnelle et ossature bois.",
     "specs": {
       "Section": "75 x 100 mm",
       "Essence": "Sapin/épicéa",
@@ -3534,7 +3534,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Chevron sapin/épicéa raboté, section 75x150mm — classe C24 — conforme NF EN 14081 — charpente traditionnelle et ossature bois.",
+    "description": "Chevron sapin/épicéa raboté, section 75x150mm, classe C24, conforme NF EN 14081, charpente traditionnelle et ossature bois.",
     "specs": {
       "Section": "75 x 150 mm",
       "Essence": "Sapin/épicéa",
@@ -3558,7 +3558,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Chevron sapin/épicéa raboté, section 100x100mm — classe C24 — conforme NF EN 14081 — charpente traditionnelle et ossature bois.",
+    "description": "Chevron sapin/épicéa raboté, section 100x100mm, classe C24, conforme NF EN 14081, charpente traditionnelle et ossature bois.",
     "specs": {
       "Section": "100 x 100 mm",
       "Essence": "Sapin/épicéa",
@@ -3582,7 +3582,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Chevron sapin/épicéa raboté, section 100x150mm — classe C24 — conforme NF EN 14081 — charpente traditionnelle et ossature bois.",
+    "description": "Chevron sapin/épicéa raboté, section 100x150mm, classe C24, conforme NF EN 14081, charpente traditionnelle et ossature bois.",
     "specs": {
       "Section": "100 x 150 mm",
       "Essence": "Sapin/épicéa",
@@ -3606,7 +3606,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Bastaing douglas brut de sciage, section 50x150mm — durabilité naturelle classe 3 — charpente, ossature et structures extérieures.",
+    "description": "Bastaing douglas brut de sciage, section 50x150mm, durabilité naturelle classe 3, charpente, ossature et structures extérieures.",
     "specs": {
       "Section": "50 x 150 mm",
       "Essence": "Douglas",
@@ -3630,7 +3630,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Bastaing douglas brut de sciage, section 63x175mm — durabilité naturelle classe 3 — charpente, ossature et structures extérieures.",
+    "description": "Bastaing douglas brut de sciage, section 63x175mm, durabilité naturelle classe 3, charpente, ossature et structures extérieures.",
     "specs": {
       "Section": "63 x 175 mm",
       "Essence": "Douglas",
@@ -3654,7 +3654,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Bastaing douglas brut de sciage, section 75x200mm — durabilité naturelle classe 3 — charpente, ossature et structures extérieures.",
+    "description": "Bastaing douglas brut de sciage, section 75x200mm, durabilité naturelle classe 3, charpente, ossature et structures extérieures.",
     "specs": {
       "Section": "75 x 200 mm",
       "Essence": "Douglas",
@@ -3678,7 +3678,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Bastaing douglas brut de sciage, section 100x250mm — durabilité naturelle classe 3 — charpente, ossature et structures extérieures.",
+    "description": "Bastaing douglas brut de sciage, section 100x250mm, durabilité naturelle classe 3, charpente, ossature et structures extérieures.",
     "specs": {
       "Section": "100 x 250 mm",
       "Essence": "Douglas",
@@ -3700,7 +3700,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Poutre en lamellé-collé GL24h, section 80x200mm, longueur 6m — conforme NF EN 14080 — portées importantes et structures apparentes.",
+    "description": "Poutre en lamellé-collé GL24h, section 80x200mm, longueur 6m, conforme NF EN 14080, portées importantes et structures apparentes.",
     "specs": {
       "Section": "80 x 200 mm",
       "Longueur": "6 m",
@@ -3723,7 +3723,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Poutre en lamellé-collé GL24h, section 100x240mm, longueur 6m — conforme NF EN 14080 — portées importantes et structures apparentes.",
+    "description": "Poutre en lamellé-collé GL24h, section 100x240mm, longueur 6m, conforme NF EN 14080, portées importantes et structures apparentes.",
     "specs": {
       "Section": "100 x 240 mm",
       "Longueur": "6 m",
@@ -3746,7 +3746,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Poutre en lamellé-collé GL24h, section 120x280mm, longueur 6m — conforme NF EN 14080 — portées importantes et structures apparentes.",
+    "description": "Poutre en lamellé-collé GL24h, section 120x280mm, longueur 6m, conforme NF EN 14080, portées importantes et structures apparentes.",
     "specs": {
       "Section": "120 x 280 mm",
       "Longueur": "6 m",
@@ -3768,7 +3768,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Poutre en lamellé-collé GL24h, section 140x320mm, longueur 6m — conforme NF EN 14080 — portées importantes et structures apparentes.",
+    "description": "Poutre en lamellé-collé GL24h, section 140x320mm, longueur 6m, conforme NF EN 14080, portées importantes et structures apparentes.",
     "specs": {
       "Section": "140 x 320 mm",
       "Longueur": "6 m",
@@ -3792,7 +3792,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Poutre en lamellé-collé GL24h, section 160x360mm, longueur 6m — conforme NF EN 14080 — portées importantes et structures apparentes.",
+    "description": "Poutre en lamellé-collé GL24h, section 160x360mm, longueur 6m, conforme NF EN 14080, portées importantes et structures apparentes.",
     "specs": {
       "Section": "160 x 360 mm",
       "Longueur": "6 m",
@@ -3815,7 +3815,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Poutre en lamellé-collé GL24h, section 200x400mm, longueur 6m — conforme NF EN 14080 — portées importantes et structures apparentes.",
+    "description": "Poutre en lamellé-collé GL24h, section 200x400mm, longueur 6m, conforme NF EN 14080, portées importantes et structures apparentes.",
     "specs": {
       "Section": "200 x 400 mm",
       "Longueur": "6 m",
@@ -3839,7 +3839,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Panneau contreplaqué okoumé, épaisseur 5mm — collage extérieur classe 3 — conforme NF EN 636 — agencement, coffrage et menuiserie.",
+    "description": "Panneau contreplaqué okoumé, épaisseur 5mm, collage extérieur classe 3, conforme NF EN 636, agencement, coffrage et menuiserie.",
     "specs": {
       "Format": "2500 x 1220 mm",
       "Épaisseur": "5 mm",
@@ -3863,7 +3863,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Panneau contreplaqué okoumé, épaisseur 8mm — collage extérieur classe 3 — conforme NF EN 636 — agencement, coffrage et menuiserie.",
+    "description": "Panneau contreplaqué okoumé, épaisseur 8mm, collage extérieur classe 3, conforme NF EN 636, agencement, coffrage et menuiserie.",
     "specs": {
       "Format": "2500 x 1220 mm",
       "Épaisseur": "8 mm",
@@ -3886,7 +3886,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Panneau contreplaqué okoumé, épaisseur 10mm — collage extérieur classe 3 — conforme NF EN 636 — agencement, coffrage et menuiserie.",
+    "description": "Panneau contreplaqué okoumé, épaisseur 10mm, collage extérieur classe 3, conforme NF EN 636, agencement, coffrage et menuiserie.",
     "specs": {
       "Format": "2500 x 1220 mm",
       "Épaisseur": "10 mm",
@@ -3910,7 +3910,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Panneau contreplaqué okoumé, épaisseur 12mm — collage extérieur classe 3 — conforme NF EN 636 — agencement, coffrage et menuiserie.",
+    "description": "Panneau contreplaqué okoumé, épaisseur 12mm, collage extérieur classe 3, conforme NF EN 636, agencement, coffrage et menuiserie.",
     "specs": {
       "Format": "2500 x 1220 mm",
       "Épaisseur": "12 mm",
@@ -3933,7 +3933,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Panneau contreplaqué okoumé, épaisseur 15mm — collage extérieur classe 3 — conforme NF EN 636 — agencement, coffrage et menuiserie.",
+    "description": "Panneau contreplaqué okoumé, épaisseur 15mm, collage extérieur classe 3, conforme NF EN 636, agencement, coffrage et menuiserie.",
     "specs": {
       "Format": "2500 x 1220 mm",
       "Épaisseur": "15 mm",
@@ -3955,7 +3955,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Panneau contreplaqué okoumé, épaisseur 22mm — collage extérieur classe 3 — conforme NF EN 636 — agencement, coffrage et menuiserie.",
+    "description": "Panneau contreplaqué okoumé, épaisseur 22mm, collage extérieur classe 3, conforme NF EN 636, agencement, coffrage et menuiserie.",
     "specs": {
       "Format": "2500 x 1220 mm",
       "Épaisseur": "22 mm",
@@ -3978,7 +3978,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Panneau contreplaqué okoumé, épaisseur 25mm — collage extérieur classe 3 — conforme NF EN 636 — agencement, coffrage et menuiserie.",
+    "description": "Panneau contreplaqué okoumé, épaisseur 25mm, collage extérieur classe 3, conforme NF EN 636, agencement, coffrage et menuiserie.",
     "specs": {
       "Format": "2500 x 1220 mm",
       "Épaisseur": "25 mm",
@@ -4001,7 +4001,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Panneau massif trois plis en épicéa, épaisseur 19mm — conforme NF EN 13986 — planchers, escaliers et agencement intérieur.",
+    "description": "Panneau massif trois plis en épicéa, épaisseur 19mm, conforme NF EN 13986, planchers, escaliers et agencement intérieur.",
     "specs": {
       "Format": "2500 x 1250 mm",
       "Épaisseur": "19 mm",
@@ -4025,7 +4025,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Panneau massif trois plis en épicéa, épaisseur 27mm — conforme NF EN 13986 — planchers, escaliers et agencement intérieur.",
+    "description": "Panneau massif trois plis en épicéa, épaisseur 27mm, conforme NF EN 13986, planchers, escaliers et agencement intérieur.",
     "specs": {
       "Format": "2500 x 1250 mm",
       "Épaisseur": "27 mm",
@@ -4048,7 +4048,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Panneau massif trois plis en épicéa, épaisseur 32mm — conforme NF EN 13986 — planchers, escaliers et agencement intérieur.",
+    "description": "Panneau massif trois plis en épicéa, épaisseur 32mm, conforme NF EN 13986, planchers, escaliers et agencement intérieur.",
     "specs": {
       "Format": "2500 x 1250 mm",
       "Épaisseur": "32 mm",
@@ -4072,7 +4072,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Panneau massif trois plis en épicéa, épaisseur 42mm — conforme NF EN 13986 — planchers, escaliers et agencement intérieur.",
+    "description": "Panneau massif trois plis en épicéa, épaisseur 42mm, conforme NF EN 13986, planchers, escaliers et agencement intérieur.",
     "specs": {
       "Format": "2500 x 1250 mm",
       "Épaisseur": "42 mm",
@@ -4095,7 +4095,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Madrier en sapin du nord, section 50x150mm — qualité charpente — usage structurel et coffrages lourds.",
+    "description": "Madrier en sapin du nord, section 50x150mm, qualité charpente, usage structurel et coffrages lourds.",
     "specs": {
       "Section": "50 x 150 mm",
       "Essence": "Sapin du nord",
@@ -4117,7 +4117,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Madrier en sapin du nord, section 63x175mm — qualité charpente — usage structurel et coffrages lourds.",
+    "description": "Madrier en sapin du nord, section 63x175mm, qualité charpente, usage structurel et coffrages lourds.",
     "specs": {
       "Section": "63 x 175 mm",
       "Essence": "Sapin du nord",
@@ -4139,7 +4139,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Madrier en sapin du nord, section 75x200mm — qualité charpente — usage structurel et coffrages lourds.",
+    "description": "Madrier en sapin du nord, section 75x200mm, qualité charpente, usage structurel et coffrages lourds.",
     "specs": {
       "Section": "75 x 200 mm",
       "Essence": "Sapin du nord",
@@ -4161,7 +4161,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Liteau sapin raboté, section 25x40mm, traité classe 2 — conforme NF EN 14951 — support de couverture et bardage.",
+    "description": "Liteau sapin raboté, section 25x40mm, traité classe 2, conforme NF EN 14951, support de couverture et bardage.",
     "specs": {
       "Section": "25 x 40 mm",
       "Essence": "Sapin",
@@ -4184,7 +4184,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Liteau sapin raboté, section 27x40mm, traité classe 2 — conforme NF EN 14951 — support de couverture et bardage.",
+    "description": "Liteau sapin raboté, section 27x40mm, traité classe 2, conforme NF EN 14951, support de couverture et bardage.",
     "specs": {
       "Section": "27 x 40 mm",
       "Essence": "Sapin",
@@ -4207,7 +4207,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Liteau sapin raboté, section 30x50mm, traité classe 2 — conforme NF EN 14951 — support de couverture et bardage.",
+    "description": "Liteau sapin raboté, section 30x50mm, traité classe 2, conforme NF EN 14951, support de couverture et bardage.",
     "specs": {
       "Section": "30 x 50 mm",
       "Essence": "Sapin",
@@ -4229,7 +4229,7 @@
       "France",
       "Suisse"
     ],
-    "description": "Plaque de plâtre standard BA13, longueur 2,00 m — conforme NF EN 520 — cloisons et doublages intérieurs courants.",
+    "description": "Plaque de plâtre standard BA13, longueur 2,00 m, conforme NF EN 520, cloisons et doublages intérieurs courants.",
     "specs": {
       "Format": "1200 x 2,00 m",
       "Épaisseur": "13 mm",
@@ -4252,7 +4252,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Plaque de plâtre standard BA13, longueur 2,60 m — conforme NF EN 520 — cloisons et doublages intérieurs courants.",
+    "description": "Plaque de plâtre standard BA13, longueur 2,60 m, conforme NF EN 520, cloisons et doublages intérieurs courants.",
     "specs": {
       "Format": "1200 x 2,60 m",
       "Épaisseur": "13 mm",
@@ -4275,7 +4275,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Plaque de plâtre standard BA13, longueur 3,00 m — conforme NF EN 520 — cloisons et doublages intérieurs courants.",
+    "description": "Plaque de plâtre standard BA13, longueur 3,00 m, conforme NF EN 520, cloisons et doublages intérieurs courants.",
     "specs": {
       "Format": "1200 x 3,00 m",
       "Épaisseur": "13 mm",
@@ -4299,7 +4299,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Plaque de plâtre hydrofuge BA13, longueur 2,00 m, âme verte — conforme NF EN 520 — pièces humides (sanitaires, cuisines, buanderies).",
+    "description": "Plaque de plâtre hydrofuge BA13, longueur 2,00 m, âme verte, conforme NF EN 520, pièces humides (sanitaires, cuisines, buanderies).",
     "specs": {
       "Format": "1200 x 2,00 m",
       "Épaisseur": "13 mm",
@@ -4322,7 +4322,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Plaque de plâtre hydrofuge BA13, longueur 2,60 m, âme verte — conforme NF EN 520 — pièces humides (sanitaires, cuisines, buanderies).",
+    "description": "Plaque de plâtre hydrofuge BA13, longueur 2,60 m, âme verte, conforme NF EN 520, pièces humides (sanitaires, cuisines, buanderies).",
     "specs": {
       "Format": "1200 x 2,60 m",
       "Épaisseur": "13 mm",
@@ -4345,7 +4345,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Plaque de plâtre hydrofuge BA13, longueur 3,00 m, âme verte — conforme NF EN 520 — pièces humides (sanitaires, cuisines, buanderies).",
+    "description": "Plaque de plâtre hydrofuge BA13, longueur 3,00 m, âme verte, conforme NF EN 520, pièces humides (sanitaires, cuisines, buanderies).",
     "specs": {
       "Format": "1200 x 3,00 m",
       "Épaisseur": "13 mm",
@@ -4368,7 +4368,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Plaque de plâtre coupe-feu BA15, longueur 2,00 m, âme rose renforcée fibres — conforme NF EN 520 — cloisons et gaines techniques classées EI.",
+    "description": "Plaque de plâtre coupe-feu BA15, longueur 2,00 m, âme rose renforcée fibres, conforme NF EN 520, cloisons et gaines techniques classées EI.",
     "specs": {
       "Format": "1200 x 2,00 m",
       "Épaisseur": "15 mm",
@@ -4391,7 +4391,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Plaque de plâtre coupe-feu BA15, longueur 2,60 m, âme rose renforcée fibres — conforme NF EN 520 — cloisons et gaines techniques classées EI.",
+    "description": "Plaque de plâtre coupe-feu BA15, longueur 2,60 m, âme rose renforcée fibres, conforme NF EN 520, cloisons et gaines techniques classées EI.",
     "specs": {
       "Format": "1200 x 2,60 m",
       "Épaisseur": "15 mm",
@@ -4414,7 +4414,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Plaque de plâtre coupe-feu BA15, longueur 3,00 m, âme rose renforcée fibres — conforme NF EN 520 — cloisons et gaines techniques classées EI.",
+    "description": "Plaque de plâtre coupe-feu BA15, longueur 3,00 m, âme rose renforcée fibres, conforme NF EN 520, cloisons et gaines techniques classées EI.",
     "specs": {
       "Format": "1200 x 3,00 m",
       "Épaisseur": "15 mm",
@@ -4436,7 +4436,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Plaque de plâtre standard BA18, forte épaisseur — conforme NF EN 520 — cloisons à hautes performances acoustiques et mécaniques.",
+    "description": "Plaque de plâtre standard BA18, forte épaisseur, conforme NF EN 520, cloisons à hautes performances acoustiques et mécaniques.",
     "specs": {
       "Format": "1200 x 2500 mm",
       "Épaisseur": "18 mm",
@@ -4459,7 +4459,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Plaque de plâtre standard BA25, forte épaisseur — conforme NF EN 520 — doublages et cloisons à très hautes exigences mécaniques.",
+    "description": "Plaque de plâtre standard BA25, forte épaisseur, conforme NF EN 520, doublages et cloisons à très hautes exigences mécaniques.",
     "specs": {
       "Format": "1200 x 2500 mm",
       "Épaisseur": "25 mm",
@@ -4482,7 +4482,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Rail métallique 70/35 — acier galvanisé — conforme NF EN 14195 — ossature de cloisons et plafonds suspendus.",
+    "description": "Rail métallique 70/35, acier galvanisé, conforme NF EN 14195, ossature de cloisons et plafonds suspendus.",
     "specs": {
       "Profil": "70/35 mm",
       "Matière": "Acier galvanisé",
@@ -4505,7 +4505,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Rail métallique 90/35 — acier galvanisé — conforme NF EN 14195 — ossature de cloisons et plafonds suspendus.",
+    "description": "Rail métallique 90/35, acier galvanisé, conforme NF EN 14195, ossature de cloisons et plafonds suspendus.",
     "specs": {
       "Profil": "90/35 mm",
       "Matière": "Acier galvanisé",
@@ -4528,7 +4528,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Rail métallique 100/35 — acier galvanisé — conforme NF EN 14195 — ossature de cloisons et plafonds suspendus.",
+    "description": "Rail métallique 100/35, acier galvanisé, conforme NF EN 14195, ossature de cloisons et plafonds suspendus.",
     "specs": {
       "Profil": "100/35 mm",
       "Matière": "Acier galvanisé",
@@ -4551,7 +4551,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Rail métallique 150/35 — acier galvanisé — conforme NF EN 14195 — ossature de cloisons et plafonds suspendus.",
+    "description": "Rail métallique 150/35, acier galvanisé, conforme NF EN 14195, ossature de cloisons et plafonds suspendus.",
     "specs": {
       "Profil": "150/35 mm",
       "Matière": "Acier galvanisé",
@@ -4574,7 +4574,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Montant métallique 70/35 — acier galvanisé — conforme NF EN 14195 — ossature verticale de cloisons sèches.",
+    "description": "Montant métallique 70/35, acier galvanisé, conforme NF EN 14195, ossature verticale de cloisons sèches.",
     "specs": {
       "Profil": "70/35 mm",
       "Matière": "Acier galvanisé",
@@ -4597,7 +4597,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Montant métallique 90/35 — acier galvanisé — conforme NF EN 14195 — ossature verticale de cloisons sèches.",
+    "description": "Montant métallique 90/35, acier galvanisé, conforme NF EN 14195, ossature verticale de cloisons sèches.",
     "specs": {
       "Profil": "90/35 mm",
       "Matière": "Acier galvanisé",
@@ -4619,7 +4619,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Montant métallique 100/35 — acier galvanisé — conforme NF EN 14195 — ossature verticale de cloisons sèches.",
+    "description": "Montant métallique 100/35, acier galvanisé, conforme NF EN 14195, ossature verticale de cloisons sèches.",
     "specs": {
       "Profil": "100/35 mm",
       "Matière": "Acier galvanisé",
@@ -4641,7 +4641,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Montant métallique 150/35 — acier galvanisé — conforme NF EN 14195 — ossature verticale de cloisons sèches.",
+    "description": "Montant métallique 150/35, acier galvanisé, conforme NF EN 14195, ossature verticale de cloisons sèches.",
     "specs": {
       "Profil": "150/35 mm",
       "Matière": "Acier galvanisé",
@@ -4664,7 +4664,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Bande à joint papier micro-perforée — conforme NF EN 13963 — traitement des joints de plaques de plâtre.",
+    "description": "Bande à joint papier micro-perforée, conforme NF EN 13963, traitement des joints de plaques de plâtre.",
     "specs": {
       "Largeur": "50 mm",
       "Matière": "Papier micro-perforé",
@@ -4686,7 +4686,7 @@
       "France",
       "Suisse"
     ],
-    "description": "Enduit de jointoiement en poudre à prise — conforme NF EN 13963 — traitement des joints et finitions de plaques de plâtre.",
+    "description": "Enduit de jointoiement en poudre à prise, conforme NF EN 13963, traitement des joints et finitions de plaques de plâtre.",
     "specs": {
       "Conditionnement": "Sac 25 kg",
       "Temps de prise": "≈ 60 min",
@@ -4710,7 +4710,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Cornière d'angle métallique perforée — acier galvanisé — protection et renfort des arêtes de plaques de plâtre.",
+    "description": "Cornière d'angle métallique perforée, acier galvanisé, protection et renfort des arêtes de plaques de plâtre.",
     "specs": {
       "Profil": "25 x 25 mm",
       "Matière": "Acier galvanisé",
@@ -4734,7 +4734,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Fourrure métallique F530 — acier galvanisé — conforme NF EN 14195 — plafonds suspendus et doublages sur ossature.",
+    "description": "Fourrure métallique F530, acier galvanisé, conforme NF EN 14195, plafonds suspendus et doublages sur ossature.",
     "specs": {
       "Profil": "F530",
       "Matière": "Acier galvanisé",
@@ -4758,7 +4758,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Rouleau de laine de verre, épaisseur 45mm, résistance thermique adaptée — conforme NF EN 13162 — isolation combles et rampants.",
+    "description": "Rouleau de laine de verre, épaisseur 45mm, résistance thermique adaptée, conforme NF EN 13162, isolation combles et rampants.",
     "specs": {
       "Épaisseur": "45 mm",
       "Résistance thermique R": "1.1 m².K/W",
@@ -4781,7 +4781,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Rouleau de laine de verre, épaisseur 60mm, résistance thermique adaptée — conforme NF EN 13162 — isolation combles et rampants.",
+    "description": "Rouleau de laine de verre, épaisseur 60mm, résistance thermique adaptée, conforme NF EN 13162, isolation combles et rampants.",
     "specs": {
       "Épaisseur": "60 mm",
       "Résistance thermique R": "1.5 m².K/W",
@@ -4804,7 +4804,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Rouleau de laine de verre, épaisseur 75mm, résistance thermique adaptée — conforme NF EN 13162 — isolation combles et rampants.",
+    "description": "Rouleau de laine de verre, épaisseur 75mm, résistance thermique adaptée, conforme NF EN 13162, isolation combles et rampants.",
     "specs": {
       "Épaisseur": "75 mm",
       "Résistance thermique R": "1.9 m².K/W",
@@ -4827,7 +4827,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Rouleau de laine de verre, épaisseur 120mm, résistance thermique adaptée — conforme NF EN 13162 — isolation combles et rampants.",
+    "description": "Rouleau de laine de verre, épaisseur 120mm, résistance thermique adaptée, conforme NF EN 13162, isolation combles et rampants.",
     "specs": {
       "Épaisseur": "120 mm",
       "Résistance thermique R": "3.0 m².K/W",
@@ -4849,7 +4849,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Rouleau de laine de verre, épaisseur 140mm, résistance thermique adaptée — conforme NF EN 13162 — isolation combles et rampants.",
+    "description": "Rouleau de laine de verre, épaisseur 140mm, résistance thermique adaptée, conforme NF EN 13162, isolation combles et rampants.",
     "specs": {
       "Épaisseur": "140 mm",
       "Résistance thermique R": "3.5 m².K/W",
@@ -4872,7 +4872,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Rouleau de laine de verre, épaisseur 160mm, résistance thermique adaptée — conforme NF EN 13162 — isolation combles et rampants.",
+    "description": "Rouleau de laine de verre, épaisseur 160mm, résistance thermique adaptée, conforme NF EN 13162, isolation combles et rampants.",
     "specs": {
       "Épaisseur": "160 mm",
       "Résistance thermique R": "4.0 m².K/W",
@@ -4895,7 +4895,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Rouleau de laine de verre, épaisseur 200mm, résistance thermique adaptée — conforme NF EN 13162 — isolation combles et rampants.",
+    "description": "Rouleau de laine de verre, épaisseur 200mm, résistance thermique adaptée, conforme NF EN 13162, isolation combles et rampants.",
     "specs": {
       "Épaisseur": "200 mm",
       "Résistance thermique R": "5.0 m².K/W",
@@ -4917,7 +4917,7 @@
       "France",
       "Suisse"
     ],
-    "description": "Rouleau de laine de verre, épaisseur 220mm, résistance thermique adaptée — conforme NF EN 13162 — isolation combles et rampants.",
+    "description": "Rouleau de laine de verre, épaisseur 220mm, résistance thermique adaptée, conforme NF EN 13162, isolation combles et rampants.",
     "specs": {
       "Épaisseur": "220 mm",
       "Résistance thermique R": "5.5 m².K/W",
@@ -4940,7 +4940,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Rouleau de laine de verre, épaisseur 240mm, résistance thermique adaptée — conforme NF EN 13162 — isolation combles et rampants.",
+    "description": "Rouleau de laine de verre, épaisseur 240mm, résistance thermique adaptée, conforme NF EN 13162, isolation combles et rampants.",
     "specs": {
       "Épaisseur": "240 mm",
       "Résistance thermique R": "6.0 m².K/W",
@@ -4963,7 +4963,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Rouleau de laine de verre, épaisseur 260mm, résistance thermique adaptée — conforme NF EN 13162 — isolation combles et rampants.",
+    "description": "Rouleau de laine de verre, épaisseur 260mm, résistance thermique adaptée, conforme NF EN 13162, isolation combles et rampants.",
     "specs": {
       "Épaisseur": "260 mm",
       "Résistance thermique R": "6.5 m².K/W",
@@ -4986,7 +4986,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Rouleau de laine de verre, épaisseur 300mm, résistance thermique adaptée — conforme NF EN 13162 — isolation combles et rampants.",
+    "description": "Rouleau de laine de verre, épaisseur 300mm, résistance thermique adaptée, conforme NF EN 13162, isolation combles et rampants.",
     "specs": {
       "Épaisseur": "300 mm",
       "Résistance thermique R": "7.5 m².K/W",
@@ -5009,7 +5009,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Panneau rigide de laine de roche, épaisseur 40mm — haute performance thermique et acoustique — conforme NF EN 13162.",
+    "description": "Panneau rigide de laine de roche, épaisseur 40mm, haute performance thermique et acoustique, conforme NF EN 13162.",
     "specs": {
       "Épaisseur": "40 mm",
       "Résistance thermique R": "1.1 m².K/W",
@@ -5032,7 +5032,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Panneau rigide de laine de roche, épaisseur 60mm — haute performance thermique et acoustique — conforme NF EN 13162.",
+    "description": "Panneau rigide de laine de roche, épaisseur 60mm, haute performance thermique et acoustique, conforme NF EN 13162.",
     "specs": {
       "Épaisseur": "60 mm",
       "Résistance thermique R": "1.7 m².K/W",
@@ -5055,7 +5055,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Panneau rigide de laine de roche, épaisseur 80mm — haute performance thermique et acoustique — conforme NF EN 13162.",
+    "description": "Panneau rigide de laine de roche, épaisseur 80mm, haute performance thermique et acoustique, conforme NF EN 13162.",
     "specs": {
       "Épaisseur": "80 mm",
       "Résistance thermique R": "2.3 m².K/W",
@@ -5077,7 +5077,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Panneau rigide de laine de roche, épaisseur 140mm — haute performance thermique et acoustique — conforme NF EN 13162.",
+    "description": "Panneau rigide de laine de roche, épaisseur 140mm, haute performance thermique et acoustique, conforme NF EN 13162.",
     "specs": {
       "Épaisseur": "140 mm",
       "Résistance thermique R": "4.0 m².K/W",
@@ -5100,7 +5100,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Panneau rigide de laine de roche, épaisseur 160mm — haute performance thermique et acoustique — conforme NF EN 13162.",
+    "description": "Panneau rigide de laine de roche, épaisseur 160mm, haute performance thermique et acoustique, conforme NF EN 13162.",
     "specs": {
       "Épaisseur": "160 mm",
       "Résistance thermique R": "4.6 m².K/W",
@@ -5122,7 +5122,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Panneau rigide de laine de roche, épaisseur 180mm — haute performance thermique et acoustique — conforme NF EN 13162.",
+    "description": "Panneau rigide de laine de roche, épaisseur 180mm, haute performance thermique et acoustique, conforme NF EN 13162.",
     "specs": {
       "Épaisseur": "180 mm",
       "Résistance thermique R": "5.1 m².K/W",
@@ -5144,7 +5144,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Panneau rigide de laine de roche, épaisseur 200mm — haute performance thermique et acoustique — conforme NF EN 13162.",
+    "description": "Panneau rigide de laine de roche, épaisseur 200mm, haute performance thermique et acoustique, conforme NF EN 13162.",
     "specs": {
       "Épaisseur": "200 mm",
       "Résistance thermique R": "5.7 m².K/W",
@@ -5167,7 +5167,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Panneau de polystyrène expansé graphité, épaisseur 60mm — conforme NF EN 13163 — isolation par l'extérieur (ITE) et planchers.",
+    "description": "Panneau de polystyrène expansé graphité, épaisseur 60mm, conforme NF EN 13163, isolation par l'extérieur (ITE) et planchers.",
     "specs": {
       "Épaisseur": "60 mm",
       "Résistance thermique R": "2.0 m².K/W",
@@ -5190,7 +5190,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Panneau de polystyrène expansé graphité, épaisseur 80mm — conforme NF EN 13163 — isolation par l'extérieur (ITE) et planchers.",
+    "description": "Panneau de polystyrène expansé graphité, épaisseur 80mm, conforme NF EN 13163, isolation par l'extérieur (ITE) et planchers.",
     "specs": {
       "Épaisseur": "80 mm",
       "Résistance thermique R": "2.7 m².K/W",
@@ -5214,7 +5214,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Panneau de polystyrène expansé graphité, épaisseur 100mm — conforme NF EN 13163 — isolation par l'extérieur (ITE) et planchers.",
+    "description": "Panneau de polystyrène expansé graphité, épaisseur 100mm, conforme NF EN 13163, isolation par l'extérieur (ITE) et planchers.",
     "specs": {
       "Épaisseur": "100 mm",
       "Résistance thermique R": "3.3 m².K/W",
@@ -5238,7 +5238,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Panneau de polystyrène expansé graphité, épaisseur 120mm — conforme NF EN 13163 — isolation par l'extérieur (ITE) et planchers.",
+    "description": "Panneau de polystyrène expansé graphité, épaisseur 120mm, conforme NF EN 13163, isolation par l'extérieur (ITE) et planchers.",
     "specs": {
       "Épaisseur": "120 mm",
       "Résistance thermique R": "4.0 m².K/W",
@@ -5262,7 +5262,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Panneau de polystyrène expansé graphité, épaisseur 160mm — conforme NF EN 13163 — isolation par l'extérieur (ITE) et planchers.",
+    "description": "Panneau de polystyrène expansé graphité, épaisseur 160mm, conforme NF EN 13163, isolation par l'extérieur (ITE) et planchers.",
     "specs": {
       "Épaisseur": "160 mm",
       "Résistance thermique R": "5.3 m².K/W",
@@ -5285,7 +5285,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Panneau de polystyrène expansé graphité, épaisseur 180mm — conforme NF EN 13163 — isolation par l'extérieur (ITE) et planchers.",
+    "description": "Panneau de polystyrène expansé graphité, épaisseur 180mm, conforme NF EN 13163, isolation par l'extérieur (ITE) et planchers.",
     "specs": {
       "Épaisseur": "180 mm",
       "Résistance thermique R": "6.0 m².K/W",
@@ -5307,7 +5307,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Panneau de polystyrène expansé graphité, épaisseur 200mm — conforme NF EN 13163 — isolation par l'extérieur (ITE) et planchers.",
+    "description": "Panneau de polystyrène expansé graphité, épaisseur 200mm, conforme NF EN 13163, isolation par l'extérieur (ITE) et planchers.",
     "specs": {
       "Épaisseur": "200 mm",
       "Résistance thermique R": "6.7 m².K/W",
@@ -5330,7 +5330,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Panneau de polystyrène expansé graphité, épaisseur 240mm — conforme NF EN 13163 — isolation par l'extérieur (ITE) et planchers.",
+    "description": "Panneau de polystyrène expansé graphité, épaisseur 240mm, conforme NF EN 13163, isolation par l'extérieur (ITE) et planchers.",
     "specs": {
       "Épaisseur": "240 mm",
       "Résistance thermique R": "8.0 m².K/W",
@@ -5352,7 +5352,7 @@
       "France",
       "Suisse"
     ],
-    "description": "Panneau rigide en mousse polyuréthane, épaisseur 40mm, parements aluminium — conforme NF EN 13165 — toitures-terrasses et bardages.",
+    "description": "Panneau rigide en mousse polyuréthane, épaisseur 40mm, parements aluminium, conforme NF EN 13165, toitures-terrasses et bardages.",
     "specs": {
       "Épaisseur": "40 mm",
       "Résistance thermique R": "1.8 m².K/W",
@@ -5374,7 +5374,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Panneau rigide en mousse polyuréthane, épaisseur 60mm, parements aluminium — conforme NF EN 13165 — toitures-terrasses et bardages.",
+    "description": "Panneau rigide en mousse polyuréthane, épaisseur 60mm, parements aluminium, conforme NF EN 13165, toitures-terrasses et bardages.",
     "specs": {
       "Épaisseur": "60 mm",
       "Résistance thermique R": "2.7 m².K/W",
@@ -5397,7 +5397,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Panneau rigide en mousse polyuréthane, épaisseur 100mm, parements aluminium — conforme NF EN 13165 — toitures-terrasses et bardages.",
+    "description": "Panneau rigide en mousse polyuréthane, épaisseur 100mm, parements aluminium, conforme NF EN 13165, toitures-terrasses et bardages.",
     "specs": {
       "Épaisseur": "100 mm",
       "Résistance thermique R": "4.5 m².K/W",
@@ -5420,7 +5420,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Panneau rigide en mousse polyuréthane, épaisseur 120mm, parements aluminium — conforme NF EN 13165 — toitures-terrasses et bardages.",
+    "description": "Panneau rigide en mousse polyuréthane, épaisseur 120mm, parements aluminium, conforme NF EN 13165, toitures-terrasses et bardages.",
     "specs": {
       "Épaisseur": "120 mm",
       "Résistance thermique R": "5.5 m².K/W",
@@ -5443,7 +5443,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Panneau rigide en mousse polyuréthane, épaisseur 140mm, parements aluminium — conforme NF EN 13165 — toitures-terrasses et bardages.",
+    "description": "Panneau rigide en mousse polyuréthane, épaisseur 140mm, parements aluminium, conforme NF EN 13165, toitures-terrasses et bardages.",
     "specs": {
       "Épaisseur": "140 mm",
       "Résistance thermique R": "6.4 m².K/W",
@@ -5467,7 +5467,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Panneau rigide en mousse polyuréthane, épaisseur 160mm, parements aluminium — conforme NF EN 13165 — toitures-terrasses et bardages.",
+    "description": "Panneau rigide en mousse polyuréthane, épaisseur 160mm, parements aluminium, conforme NF EN 13165, toitures-terrasses et bardages.",
     "specs": {
       "Épaisseur": "160 mm",
       "Résistance thermique R": "7.3 m².K/W",
@@ -5490,7 +5490,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Membrane pare-vapeur Sd 2m, pose côté chaud des isolants — conforme NF EN 13984 — maîtrise de la migration de vapeur d'eau.",
+    "description": "Membrane pare-vapeur Sd 2m, pose côté chaud des isolants, conforme NF EN 13984, maîtrise de la migration de vapeur d'eau.",
     "specs": {
       "Performance Sd": "Sd ≥ 2 m",
       "Norme": "NF EN 13984",
@@ -5513,7 +5513,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Membrane pare-vapeur Sd 90m, pose côté chaud des isolants — conforme NF EN 13984 — maîtrise de la migration de vapeur d'eau.",
+    "description": "Membrane pare-vapeur Sd 90m, pose côté chaud des isolants, conforme NF EN 13984, maîtrise de la migration de vapeur d'eau.",
     "specs": {
       "Performance Sd": "Sd ≥ 90 m",
       "Norme": "NF EN 13984",
@@ -5534,7 +5534,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Frein-vapeur hygrovariable, pose côté chaud des isolants — conforme NF EN 13984 — maîtrise de la migration de vapeur d'eau.",
+    "description": "Frein-vapeur hygrovariable, pose côté chaud des isolants, conforme NF EN 13984, maîtrise de la migration de vapeur d'eau.",
     "specs": {
       "Performance Sd": "Sd variable 0,2 à 5 m",
       "Norme": "NF EN 13984",
@@ -5556,7 +5556,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Panneau isolant en laine de bois, épaisseur 40mm — forte densité, déphasage thermique élevé — conforme NF EN 13171.",
+    "description": "Panneau isolant en laine de bois, épaisseur 40mm, forte densité, déphasage thermique élevé, conforme NF EN 13171.",
     "specs": {
       "Épaisseur": "40 mm",
       "Densité": "≈ 160 kg/m³",
@@ -5578,7 +5578,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Panneau isolant en laine de bois, épaisseur 60mm — forte densité, déphasage thermique élevé — conforme NF EN 13171.",
+    "description": "Panneau isolant en laine de bois, épaisseur 60mm, forte densité, déphasage thermique élevé, conforme NF EN 13171.",
     "specs": {
       "Épaisseur": "60 mm",
       "Densité": "≈ 160 kg/m³",
@@ -5600,7 +5600,7 @@
       "France",
       "Suisse"
     ],
-    "description": "Panneau isolant en laine de bois, épaisseur 100mm — forte densité, déphasage thermique élevé — conforme NF EN 13171.",
+    "description": "Panneau isolant en laine de bois, épaisseur 100mm, forte densité, déphasage thermique élevé, conforme NF EN 13171.",
     "specs": {
       "Épaisseur": "100 mm",
       "Densité": "≈ 160 kg/m³",
@@ -5623,7 +5623,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Panneau isolant en laine de bois, épaisseur 140mm — forte densité, déphasage thermique élevé — conforme NF EN 13171.",
+    "description": "Panneau isolant en laine de bois, épaisseur 140mm, forte densité, déphasage thermique élevé, conforme NF EN 13171.",
     "specs": {
       "Épaisseur": "140 mm",
       "Densité": "≈ 160 kg/m³",
@@ -5646,7 +5646,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Ouate de cellulose en flocons, traitée ignifuge et fongicide — conforme ATEx — isolation par soufflage de combles perdus.",
+    "description": "Ouate de cellulose en flocons, traitée ignifuge et fongicide, conforme ATEx, isolation par soufflage de combles perdus.",
     "specs": {
       "Conditionnement": "Sac 12,5 kg",
       "Traitement": "Ignifuge et fongicide",
@@ -5670,7 +5670,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Panneau de fibre de bois rigide, épaisseur 60mm — pare-pluie rigide et isolation par l'extérieur — conforme NF EN 13171.",
+    "description": "Panneau de fibre de bois rigide, épaisseur 60mm, pare-pluie rigide et isolation par l'extérieur, conforme NF EN 13171.",
     "specs": {
       "Épaisseur": "60 mm",
       "Norme": "NF EN 13171",
@@ -5693,7 +5693,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Panneau de fibre de bois souple, épaisseur 100mm — confort d'été et isolation phonique — conforme NF EN 13171.",
+    "description": "Panneau de fibre de bois souple, épaisseur 100mm, confort d'été et isolation phonique, conforme NF EN 13171.",
     "specs": {
       "Épaisseur": "100 mm",
       "Norme": "NF EN 13171",
@@ -5716,7 +5716,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Vis à bois tête fraisée pozidrive, dimensions 3,5x30mm, acier zingué — conforme NF EN 14592 — assemblages bois courants.",
+    "description": "Vis à bois tête fraisée pozidrive, dimensions 3,5x30mm, acier zingué, conforme NF EN 14592, assemblages bois courants.",
     "specs": {
       "Dimensions": "3,5 x 30 mm",
       "Tête": "Fraisée Pozidrive",
@@ -5739,7 +5739,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Vis à bois tête fraisée pozidrive, dimensions 3,5x40mm, acier zingué — conforme NF EN 14592 — assemblages bois courants.",
+    "description": "Vis à bois tête fraisée pozidrive, dimensions 3,5x40mm, acier zingué, conforme NF EN 14592, assemblages bois courants.",
     "specs": {
       "Dimensions": "3,5 x 40 mm",
       "Tête": "Fraisée Pozidrive",
@@ -5762,7 +5762,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Vis à bois tête fraisée pozidrive, dimensions 4x40mm, acier zingué — conforme NF EN 14592 — assemblages bois courants.",
+    "description": "Vis à bois tête fraisée pozidrive, dimensions 4x40mm, acier zingué, conforme NF EN 14592, assemblages bois courants.",
     "specs": {
       "Dimensions": "4 x 40 mm",
       "Tête": "Fraisée Pozidrive",
@@ -5785,7 +5785,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Vis à bois tête fraisée pozidrive, dimensions 4x50mm, acier zingué — conforme NF EN 14592 — assemblages bois courants.",
+    "description": "Vis à bois tête fraisée pozidrive, dimensions 4x50mm, acier zingué, conforme NF EN 14592, assemblages bois courants.",
     "specs": {
       "Dimensions": "4 x 50 mm",
       "Tête": "Fraisée Pozidrive",
@@ -5808,7 +5808,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Vis à bois tête fraisée pozidrive, dimensions 4x60mm, acier zingué — conforme NF EN 14592 — assemblages bois courants.",
+    "description": "Vis à bois tête fraisée pozidrive, dimensions 4x60mm, acier zingué, conforme NF EN 14592, assemblages bois courants.",
     "specs": {
       "Dimensions": "4 x 60 mm",
       "Tête": "Fraisée Pozidrive",
@@ -5831,7 +5831,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Vis à bois tête fraisée pozidrive, dimensions 5x60mm, acier zingué — conforme NF EN 14592 — assemblages bois courants.",
+    "description": "Vis à bois tête fraisée pozidrive, dimensions 5x60mm, acier zingué, conforme NF EN 14592, assemblages bois courants.",
     "specs": {
       "Dimensions": "5 x 60 mm",
       "Tête": "Fraisée Pozidrive",
@@ -5854,7 +5854,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Vis à bois tête fraisée pozidrive, dimensions 5x70mm, acier zingué — conforme NF EN 14592 — assemblages bois courants.",
+    "description": "Vis à bois tête fraisée pozidrive, dimensions 5x70mm, acier zingué, conforme NF EN 14592, assemblages bois courants.",
     "specs": {
       "Dimensions": "5 x 70 mm",
       "Tête": "Fraisée Pozidrive",
@@ -5878,7 +5878,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Vis à bois tête fraisée pozidrive, dimensions 5x90mm, acier zingué — conforme NF EN 14592 — assemblages bois courants.",
+    "description": "Vis à bois tête fraisée pozidrive, dimensions 5x90mm, acier zingué, conforme NF EN 14592, assemblages bois courants.",
     "specs": {
       "Dimensions": "5 x 90 mm",
       "Tête": "Fraisée Pozidrive",
@@ -5901,7 +5901,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Vis à bois tête fraisée pozidrive, dimensions 5x100mm, acier zingué — conforme NF EN 14592 — assemblages bois courants.",
+    "description": "Vis à bois tête fraisée pozidrive, dimensions 5x100mm, acier zingué, conforme NF EN 14592, assemblages bois courants.",
     "specs": {
       "Dimensions": "5 x 100 mm",
       "Tête": "Fraisée Pozidrive",
@@ -5924,7 +5924,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Vis à bois tête fraisée pozidrive, dimensions 6x100mm, acier zingué — conforme NF EN 14592 — assemblages bois courants.",
+    "description": "Vis à bois tête fraisée pozidrive, dimensions 6x100mm, acier zingué, conforme NF EN 14592, assemblages bois courants.",
     "specs": {
       "Dimensions": "6 x 100 mm",
       "Tête": "Fraisée Pozidrive",
@@ -5947,7 +5947,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Vis à bois tête fraisée pozidrive, dimensions 6x120mm, acier zingué — conforme NF EN 14592 — assemblages bois courants.",
+    "description": "Vis à bois tête fraisée pozidrive, dimensions 6x120mm, acier zingué, conforme NF EN 14592, assemblages bois courants.",
     "specs": {
       "Dimensions": "6 x 120 mm",
       "Tête": "Fraisée Pozidrive",
@@ -5971,7 +5971,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Vis à bois tête fraisée pozidrive, dimensions 6x140mm, acier zingué — conforme NF EN 14592 — assemblages bois courants.",
+    "description": "Vis à bois tête fraisée pozidrive, dimensions 6x140mm, acier zingué, conforme NF EN 14592, assemblages bois courants.",
     "specs": {
       "Dimensions": "6 x 140 mm",
       "Tête": "Fraisée Pozidrive",
@@ -5993,7 +5993,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Vis à bois tête fraisée pozidrive, dimensions 8x160mm, acier zingué — conforme NF EN 14592 — assemblages bois courants.",
+    "description": "Vis à bois tête fraisée pozidrive, dimensions 8x160mm, acier zingué, conforme NF EN 14592, assemblages bois courants.",
     "specs": {
       "Dimensions": "8 x 160 mm",
       "Tête": "Fraisée Pozidrive",
@@ -6016,7 +6016,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Vis à bois tête fraisée pozidrive, dimensions 8x200mm, acier zingué — conforme NF EN 14592 — assemblages bois courants.",
+    "description": "Vis à bois tête fraisée pozidrive, dimensions 8x200mm, acier zingué, conforme NF EN 14592, assemblages bois courants.",
     "specs": {
       "Dimensions": "8 x 200 mm",
       "Tête": "Fraisée Pozidrive",
@@ -6038,7 +6038,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Cheville nylon à frapper, diamètre 5mm, avec clou intégré — conforme ETA — fixations légères en matériaux pleins et creux.",
+    "description": "Cheville nylon à frapper, diamètre 5mm, avec clou intégré, conforme ETA, fixations légères en matériaux pleins et creux.",
     "specs": {
       "Diamètre": "5 mm",
       "Matière": "Nylon polyamide",
@@ -6061,7 +6061,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Cheville nylon à frapper, diamètre 6mm, avec clou intégré — conforme ETA — fixations légères en matériaux pleins et creux.",
+    "description": "Cheville nylon à frapper, diamètre 6mm, avec clou intégré, conforme ETA, fixations légères en matériaux pleins et creux.",
     "specs": {
       "Diamètre": "6 mm",
       "Matière": "Nylon polyamide",
@@ -6084,7 +6084,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Cheville nylon à frapper, diamètre 8mm, avec clou intégré — conforme ETA — fixations légères en matériaux pleins et creux.",
+    "description": "Cheville nylon à frapper, diamètre 8mm, avec clou intégré, conforme ETA, fixations légères en matériaux pleins et creux.",
     "specs": {
       "Diamètre": "8 mm",
       "Matière": "Nylon polyamide",
@@ -6107,7 +6107,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Cheville nylon à frapper, diamètre 12mm, avec clou intégré — conforme ETA — fixations légères en matériaux pleins et creux.",
+    "description": "Cheville nylon à frapper, diamètre 12mm, avec clou intégré, conforme ETA, fixations légères en matériaux pleins et creux.",
     "specs": {
       "Diamètre": "12 mm",
       "Matière": "Nylon polyamide",
@@ -6130,7 +6130,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Cheville nylon à frapper, diamètre 14mm, avec clou intégré — conforme ETA — fixations légères en matériaux pleins et creux.",
+    "description": "Cheville nylon à frapper, diamètre 14mm, avec clou intégré, conforme ETA, fixations légères en matériaux pleins et creux.",
     "specs": {
       "Diamètre": "14 mm",
       "Matière": "Nylon polyamide",
@@ -6153,7 +6153,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Tige filetée M6, longueur 1m, acier zingué classe 4.8 — conforme NF EN ISO 898 — suspentes et assemblages techniques.",
+    "description": "Tige filetée M6, longueur 1m, acier zingué classe 4.8, conforme NF EN ISO 898, suspentes et assemblages techniques.",
     "specs": {
       "Diamètre": "M6",
       "Longueur": "1 m",
@@ -6177,7 +6177,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Tige filetée M8, longueur 1m, acier zingué classe 4.8 — conforme NF EN ISO 898 — suspentes et assemblages techniques.",
+    "description": "Tige filetée M8, longueur 1m, acier zingué classe 4.8, conforme NF EN ISO 898, suspentes et assemblages techniques.",
     "specs": {
       "Diamètre": "M8",
       "Longueur": "1 m",
@@ -6202,7 +6202,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tige filetée M12, longueur 1m, acier zingué classe 4.8 — conforme NF EN ISO 898 — suspentes et assemblages techniques.",
+    "description": "Tige filetée M12, longueur 1m, acier zingué classe 4.8, conforme NF EN ISO 898, suspentes et assemblages techniques.",
     "specs": {
       "Diamètre": "M12",
       "Longueur": "1 m",
@@ -6225,7 +6225,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Tige filetée M14, longueur 1m, acier zingué classe 4.8 — conforme NF EN ISO 898 — suspentes et assemblages techniques.",
+    "description": "Tige filetée M14, longueur 1m, acier zingué classe 4.8, conforme NF EN ISO 898, suspentes et assemblages techniques.",
     "specs": {
       "Diamètre": "M14",
       "Longueur": "1 m",
@@ -6249,7 +6249,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tige filetée M16, longueur 1m, acier zingué classe 4.8 — conforme NF EN ISO 898 — suspentes et assemblages techniques.",
+    "description": "Tige filetée M16, longueur 1m, acier zingué classe 4.8, conforme NF EN ISO 898, suspentes et assemblages techniques.",
     "specs": {
       "Diamètre": "M16",
       "Longueur": "1 m",
@@ -6273,7 +6273,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tige filetée M20, longueur 1m, acier zingué classe 4.8 — conforme NF EN ISO 898 — suspentes et assemblages techniques.",
+    "description": "Tige filetée M20, longueur 1m, acier zingué classe 4.8, conforme NF EN ISO 898, suspentes et assemblages techniques.",
     "specs": {
       "Diamètre": "M20",
       "Longueur": "1 m",
@@ -6297,7 +6297,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Tige filetée M24, longueur 1m, acier zingué classe 4.8 — conforme NF EN ISO 898 — suspentes et assemblages techniques.",
+    "description": "Tige filetée M24, longueur 1m, acier zingué classe 4.8, conforme NF EN ISO 898, suspentes et assemblages techniques.",
     "specs": {
       "Diamètre": "M24",
       "Longueur": "1 m",
@@ -6321,7 +6321,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Équerre de fixation renforcée 40x40mm, acier galvanisé — conforme NF EN 14545 — ossatures bois et structures légères.",
+    "description": "Équerre de fixation renforcée 40x40mm, acier galvanisé, conforme NF EN 14545, ossatures bois et structures légères.",
     "specs": {
       "Dimensions": "40 x 40 mm",
       "Matière": "Acier galvanisé",
@@ -6345,7 +6345,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Équerre de fixation renforcée 60x60mm, acier galvanisé — conforme NF EN 14545 — ossatures bois et structures légères.",
+    "description": "Équerre de fixation renforcée 60x60mm, acier galvanisé, conforme NF EN 14545, ossatures bois et structures légères.",
     "specs": {
       "Dimensions": "60 x 60 mm",
       "Matière": "Acier galvanisé",
@@ -6369,7 +6369,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Équerre de fixation renforcée 70x70mm, acier galvanisé — conforme NF EN 14545 — ossatures bois et structures légères.",
+    "description": "Équerre de fixation renforcée 70x70mm, acier galvanisé, conforme NF EN 14545, ossatures bois et structures légères.",
     "specs": {
       "Dimensions": "70 x 70 mm",
       "Matière": "Acier galvanisé",
@@ -6392,7 +6392,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Équerre de fixation renforcée 105x105mm, acier galvanisé — conforme NF EN 14545 — ossatures bois et structures légères.",
+    "description": "Équerre de fixation renforcée 105x105mm, acier galvanisé, conforme NF EN 14545, ossatures bois et structures légères.",
     "specs": {
       "Dimensions": "105 x 105 mm",
       "Matière": "Acier galvanisé",
@@ -6415,7 +6415,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Équerre de fixation renforcée 120x120mm, acier galvanisé — conforme NF EN 14545 — ossatures bois et structures légères.",
+    "description": "Équerre de fixation renforcée 120x120mm, acier galvanisé, conforme NF EN 14545, ossatures bois et structures légères.",
     "specs": {
       "Dimensions": "120 x 120 mm",
       "Matière": "Acier galvanisé",
@@ -6439,7 +6439,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Boulon hexagonal haute résistance M8x80mm, classe 8.8, écrou et rondelle inclus — conforme NF EN ISO 4014 — assemblages structurels.",
+    "description": "Boulon hexagonal haute résistance M8x80mm, classe 8.8, écrou et rondelle inclus, conforme NF EN ISO 4014, assemblages structurels.",
     "specs": {
       "Diamètre": "M8",
       "Longueur": "80 mm",
@@ -6463,7 +6463,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Boulon hexagonal haute résistance M10x80mm, classe 8.8, écrou et rondelle inclus — conforme NF EN ISO 4014 — assemblages structurels.",
+    "description": "Boulon hexagonal haute résistance M10x80mm, classe 8.8, écrou et rondelle inclus, conforme NF EN ISO 4014, assemblages structurels.",
     "specs": {
       "Diamètre": "M10",
       "Longueur": "80 mm",
@@ -6486,7 +6486,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Boulon hexagonal haute résistance M14x80mm, classe 8.8, écrou et rondelle inclus — conforme NF EN ISO 4014 — assemblages structurels.",
+    "description": "Boulon hexagonal haute résistance M14x80mm, classe 8.8, écrou et rondelle inclus, conforme NF EN ISO 4014, assemblages structurels.",
     "specs": {
       "Diamètre": "M14",
       "Longueur": "80 mm",
@@ -6509,7 +6509,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Boulon hexagonal haute résistance M16x80mm, classe 8.8, écrou et rondelle inclus — conforme NF EN ISO 4014 — assemblages structurels.",
+    "description": "Boulon hexagonal haute résistance M16x80mm, classe 8.8, écrou et rondelle inclus, conforme NF EN ISO 4014, assemblages structurels.",
     "specs": {
       "Diamètre": "M16",
       "Longueur": "80 mm",
@@ -6533,7 +6533,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Boulon hexagonal haute résistance M20x80mm, classe 8.8, écrou et rondelle inclus — conforme NF EN ISO 4014 — assemblages structurels.",
+    "description": "Boulon hexagonal haute résistance M20x80mm, classe 8.8, écrou et rondelle inclus, conforme NF EN ISO 4014, assemblages structurels.",
     "specs": {
       "Diamètre": "M20",
       "Longueur": "80 mm",
@@ -6558,7 +6558,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Boulon hexagonal haute résistance M24x80mm, classe 8.8, écrou et rondelle inclus — conforme NF EN ISO 4014 — assemblages structurels.",
+    "description": "Boulon hexagonal haute résistance M24x80mm, classe 8.8, écrou et rondelle inclus, conforme NF EN ISO 4014, assemblages structurels.",
     "specs": {
       "Diamètre": "M24",
       "Longueur": "80 mm",
@@ -6583,7 +6583,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Cheville chimique à base de résine vinylester, pour goujon M8 — conforme ETA — fixations structurelles dans béton fissuré et plein.",
+    "description": "Cheville chimique à base de résine vinylester, pour goujon M8, conforme ETA, fixations structurelles dans béton fissuré et plein.",
     "specs": {
       "Filetage compatible": "M8",
       "Résine": "Vinylester sans styrène",
@@ -6606,7 +6606,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Cheville chimique à base de résine vinylester, pour goujon M10 — conforme ETA — fixations structurelles dans béton fissuré et plein.",
+    "description": "Cheville chimique à base de résine vinylester, pour goujon M10, conforme ETA, fixations structurelles dans béton fissuré et plein.",
     "specs": {
       "Filetage compatible": "M10",
       "Résine": "Vinylester sans styrène",
@@ -6629,7 +6629,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Cheville chimique à base de résine vinylester, pour goujon M16 — conforme ETA — fixations structurelles dans béton fissuré et plein.",
+    "description": "Cheville chimique à base de résine vinylester, pour goujon M16, conforme ETA, fixations structurelles dans béton fissuré et plein.",
     "specs": {
       "Filetage compatible": "M16",
       "Résine": "Vinylester sans styrène",
@@ -6652,7 +6652,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Cheville chimique à base de résine vinylester, pour goujon M20 — conforme ETA — fixations structurelles dans béton fissuré et plein.",
+    "description": "Cheville chimique à base de résine vinylester, pour goujon M20, conforme ETA, fixations structurelles dans béton fissuré et plein.",
     "specs": {
       "Filetage compatible": "M20",
       "Résine": "Vinylester sans styrène",
@@ -6675,7 +6675,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Vis autoperceuse tête hexagonale 4,2x13mm, rondelle EPDM — conforme NF EN 14566 — fixation de bardages et couvertures métalliques.",
+    "description": "Vis autoperceuse tête hexagonale 4,2x13mm, rondelle EPDM, conforme NF EN 14566, fixation de bardages et couvertures métalliques.",
     "specs": {
       "Dimensions": "4,2 x 13 mm",
       "Tête": "Hexagonale avec rondelle EPDM",
@@ -6698,7 +6698,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Vis autoperceuse tête hexagonale 4,8x16mm, rondelle EPDM — conforme NF EN 14566 — fixation de bardages et couvertures métalliques.",
+    "description": "Vis autoperceuse tête hexagonale 4,8x16mm, rondelle EPDM, conforme NF EN 14566, fixation de bardages et couvertures métalliques.",
     "specs": {
       "Dimensions": "4,8 x 16 mm",
       "Tête": "Hexagonale avec rondelle EPDM",
@@ -6721,7 +6721,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Vis autoperceuse tête hexagonale 5,5x19mm, rondelle EPDM — conforme NF EN 14566 — fixation de bardages et couvertures métalliques.",
+    "description": "Vis autoperceuse tête hexagonale 5,5x19mm, rondelle EPDM, conforme NF EN 14566, fixation de bardages et couvertures métalliques.",
     "specs": {
       "Dimensions": "5,5 x 19 mm",
       "Tête": "Hexagonale avec rondelle EPDM",
@@ -6744,7 +6744,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Vis autoperceuse tête hexagonale 6,3x25mm, rondelle EPDM — conforme NF EN 14566 — fixation de bardages et couvertures métalliques.",
+    "description": "Vis autoperceuse tête hexagonale 6,3x25mm, rondelle EPDM, conforme NF EN 14566, fixation de bardages et couvertures métalliques.",
     "specs": {
       "Dimensions": "6,3 x 25 mm",
       "Tête": "Hexagonale avec rondelle EPDM",
@@ -6767,7 +6767,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Rivet aveugle aluminium/acier, dimensions 3,2x8mm — conforme NF EN ISO 15977 — assemblages tôlerie et menuiserie métallique.",
+    "description": "Rivet aveugle aluminium/acier, dimensions 3,2x8mm, conforme NF EN ISO 15977, assemblages tôlerie et menuiserie métallique.",
     "specs": {
       "Dimensions": "3,2 x 8 mm",
       "Matière": "Corps alu / clou acier",
@@ -6790,7 +6790,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Rivet aveugle aluminium/acier, dimensions 4x10mm — conforme NF EN ISO 15977 — assemblages tôlerie et menuiserie métallique.",
+    "description": "Rivet aveugle aluminium/acier, dimensions 4x10mm, conforme NF EN ISO 15977, assemblages tôlerie et menuiserie métallique.",
     "specs": {
       "Dimensions": "4 x 10 mm",
       "Matière": "Corps alu / clou acier",
@@ -6813,7 +6813,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Rivet aveugle aluminium/acier, dimensions 4,8x14mm — conforme NF EN ISO 15977 — assemblages tôlerie et menuiserie métallique.",
+    "description": "Rivet aveugle aluminium/acier, dimensions 4,8x14mm, conforme NF EN ISO 15977, assemblages tôlerie et menuiserie métallique.",
     "specs": {
       "Dimensions": "4,8 x 14 mm",
       "Matière": "Corps alu / clou acier",
@@ -6836,7 +6836,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Rivet aveugle aluminium/acier, dimensions 6,4x18mm — conforme NF EN ISO 15977 — assemblages tôlerie et menuiserie métallique.",
+    "description": "Rivet aveugle aluminium/acier, dimensions 6,4x18mm, conforme NF EN ISO 15977, assemblages tôlerie et menuiserie métallique.",
     "specs": {
       "Dimensions": "6,4 x 18 mm",
       "Matière": "Corps alu / clou acier",
@@ -6859,7 +6859,7 @@
       "Belgique",
       "Luxembourg"
     ],
-    "description": "Clou torsadé en acier, dimensions 2,5x50mm — forte résistance à l'arrachement — conforme NF EN 10230 — charpente et bardage bois.",
+    "description": "Clou torsadé en acier, dimensions 2,5x50mm, forte résistance à l'arrachement, conforme NF EN 10230, charpente et bardage bois.",
     "specs": {
       "Dimensions": "2,5 x 50 mm",
       "Matière": "Acier",
@@ -6883,7 +6883,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Clou torsadé en acier, dimensions 2,8x65mm — forte résistance à l'arrachement — conforme NF EN 10230 — charpente et bardage bois.",
+    "description": "Clou torsadé en acier, dimensions 2,8x65mm, forte résistance à l'arrachement, conforme NF EN 10230, charpente et bardage bois.",
     "specs": {
       "Dimensions": "2,8 x 65 mm",
       "Matière": "Acier",
@@ -6906,7 +6906,7 @@
       "Belgique",
       "Suisse"
     ],
-    "description": "Clou torsadé en acier, dimensions 3,1x80mm — forte résistance à l'arrachement — conforme NF EN 10230 — charpente et bardage bois.",
+    "description": "Clou torsadé en acier, dimensions 3,1x80mm, forte résistance à l'arrachement, conforme NF EN 10230, charpente et bardage bois.",
     "specs": {
       "Dimensions": "3,1 x 80 mm",
       "Matière": "Acier",
@@ -6929,7 +6929,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Patte de scellement plate en acier galvanisé, perforée — conforme DTU 20.1 — fixation de menuiseries et habillages en façade.",
+    "description": "Patte de scellement plate en acier galvanisé, perforée, conforme DTU 20.1, fixation de menuiseries et habillages en façade.",
     "specs": {
       "Longueur": "200 mm",
       "Matière": "Acier galvanisé",
@@ -6952,7 +6952,7 @@
       "Suisse",
       "Luxembourg"
     ],
-    "description": "Suspente métallique réglable pour ossature de plafond suspendu — conforme NF EN 14195 — pose rapide et réglage en hauteur.",
+    "description": "Suspente métallique réglable pour ossature de plafond suspendu, conforme NF EN 14195, pose rapide et réglage en hauteur.",
     "specs": {
       "Type": "Suspente à œillet réglable",
       "Matière": "Acier galvanisé",
@@ -6974,7 +6974,7 @@
       "France",
       "Belgique"
     ],
-    "description": "Connecteur métallique pour fixation de lisse basse sur dalle béton — acier galvanisé — conforme NF EN 14545 — ossature bois.",
+    "description": "Connecteur métallique pour fixation de lisse basse sur dalle béton, acier galvanisé, conforme NF EN 14545, ossature bois.",
     "specs": {
       "Matière": "Acier galvanisé",
       "Épaisseur": "3 mm",
