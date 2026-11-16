@@ -148,15 +148,15 @@
       background: #1a2744;
       color: #fff;
       border: none;
-      border-radius: 50px;
+      border-radius: 2px;
       padding: 13px 18px 13px 14px;
-      font-family: 'Inter', sans-serif;
+      font-family: inherit;
       font-size: 13px;
       font-weight: 600;
       cursor: pointer;
       box-shadow: 0 6px 24px rgba(26,39,68,0.40);
       transform: translateX(calc(-100% - 30px));
-      transition: transform 0.55s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s, opacity 0.3s;
+      transition: transform 0.55s cubic-bezier(.2,.7,.2,1), box-shadow 0.2s, opacity 0.3s;
     }
     .leasing-trigger.show { transform: translateX(0); }
     .leasing-trigger:hover {
@@ -217,17 +217,17 @@
 
     .leasing-modal {
       background: #fff;
-      border-radius: 22px;
+      border-radius: 2px;
       max-width: 620px; width: 100%;
       max-height: 90vh; overflow-y: auto;
       box-shadow: 0 24px 70px rgba(0,0,0,0.28);
       transform: translateY(24px) scale(0.97);
-      transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+      transition: transform 0.35s cubic-bezier(.2,.7,.2,1);
     }
     .leasing-modal-overlay.open .leasing-modal { transform: translateY(0) scale(1); }
 
     .leasing-modal-header {
-      border-radius: 22px 22px 0 0;
+      border-radius: 0;
       overflow: hidden;
     }
     .leasing-logo-zone {
@@ -265,7 +265,7 @@
     .leasing-simulator {
       background: #f7f8fc;
       border: 1.5px solid #e5e8f0;
-      border-radius: 14px;
+      border-radius: 2px;
       padding: 22px;
       margin-bottom: 26px;
     }
@@ -286,15 +286,15 @@
     .leasing-sim-field select {
       width: 100%; padding: 10px 12px;
       border: 1.5px solid #d4d4d4;
-      border-radius: 8px;
-      font-family: 'Inter', sans-serif; font-size: 14px; color: #0a0a0a;
+      border-radius: 2px;
+      font-family: inherit; font-size: 14px; color: #0a0a0a;
       background: #fff; outline: none;
       transition: border-color 0.2s;
     }
     .leasing-sim-field input:focus,
     .leasing-sim-field select:focus { border-color: #c9a840; }
     .leasing-sim-result {
-      background: #1a2744; border-radius: 10px;
+      background: #1a2744; border-radius: 2px;
       padding: 16px 20px;
       display: flex; align-items: center; justify-content: space-between;
     }
@@ -313,8 +313,8 @@
     .leasing-form-field input,
     .leasing-form-field textarea {
       padding: 10px 12px;
-      border: 1.5px solid #d4d4d4; border-radius: 8px;
-      font-family: 'Inter', sans-serif; font-size: 14px; color: #0a0a0a;
+      border: 1.5px solid #d4d4d4; border-radius: 2px;
+      font-family: inherit; font-size: 14px; color: #0a0a0a;
       outline: none; transition: border-color 0.2s; background: #fff;
     }
     .leasing-form-field input:focus,
@@ -323,8 +323,8 @@
     .leasing-form-submit {
       width: 100%; padding: 16px;
       background: #1a2744; color: #fff; border: none;
-      border-radius: 10px;
-      font-family: 'Inter', sans-serif; font-size: 15px; font-weight: 700;
+      border-radius: 2px;
+      font-family: inherit; font-size: 15px; font-weight: 700;
       cursor: pointer; margin-top: 6px;
       transition: background 0.2s, transform 0.15s;
     }
@@ -334,7 +334,7 @@
     .leasing-success {
       display: none; text-align: center; padding: 28px 20px;
       background: #f0fdf4; border: 1px solid #bbf7d0;
-      border-radius: 12px; margin-bottom: 8px;
+      border-radius: 2px; margin-bottom: 8px;
     }
     .leasing-success .l-check { font-size: 40px; margin-bottom: 12px; }
     .leasing-success h3 { color: #15803d; font-size: 17px; font-weight: 700; margin-bottom: 6px; }
@@ -387,158 +387,205 @@
     <a href="actualites.html">Actualités</a>
     <a href="a-propos.html">À propos</a>
     <div class="nav-actions">
-      <a href="fournisseurs.html" class="btn btn-outline">Déposer une annonce</a>
       <a href="devis.html" class="btn btn-primary">Demander un devis</a>
+      <a href="fournisseurs.html" class="btn btn-outline">Déposer une annonce</a>
     </div>
   </div>
 </header>
 
-<!-- ===== Ticker cotations ===== -->
-<div class="ticker-wrap">
+<!-- ===== Bandeau cotations ===== -->
+<div class="ticker-wrap" aria-label="Cotations indicatives">
   <div class="ticker-track">
-    <span>Cuivre <strong>8 420 €/t</strong> <span class="up">+1,2%</span></span>
-    <span>Acier rond <strong>620 €/t</strong> <span class="down">-0,4%</span></span>
-    <span>OSB 18mm <strong>14,20 €/m²</strong> <span class="up">+0,8%</span></span>
-    <span>Aluminium <strong>2 310 €/t</strong> <span class="up">+0,3%</span></span>
-    <span>Placo BA13 <strong>5,90 €/m²</strong> stable</span>
-    <span>Laine de verre <strong>8,40 €/m²</strong> <span class="up">+1,1%</span></span>
+    <span>CUIVRE <strong>8 420 €/t</strong> <span class="up">▲ 1,2%</span></span>
+    <span>ACIER ROND <strong>620 €/t</strong> <span class="down">▼ 0,4%</span></span>
+    <span>OSB 3 18MM <strong>14,20 €/m²</strong> <span class="up">▲ 0,8%</span></span>
+    <span>ALUMINIUM <strong>2 310 €/t</strong> <span class="up">▲ 0,3%</span></span>
+    <span>PLACO BA13 <strong>5,90 €/m²</strong> = 0,0%</span>
+    <span>LAINE DE VERRE <strong>8,40 €/m²</strong> <span class="up">▲ 1,1%</span></span>
   </div>
-  <span class="ticker-note">Indicatifs — mis à jour quotidiennement</span>
+  <span class="ticker-note">Indicatif · MAJ quotidienne</span>
 </div>
 
 <!-- ===== Hero ===== -->
 <section class="hero">
   <div class="container">
     <div class="hero-text">
-      <span class="eyebrow">Négoce de matériaux B2B & particuliers</span>
-      <h1>Les matériaux professionnels. <span>Sans intermédiaire inutile.</span></h1>
-      <p class="lead">Cohesif Négoce connecte scieries, négociants et distributeurs certifiés à plus de 300 références — bois, métaux, cuivre, cloisons, isolants, fixations — au prix négoce, livrées en France et en Europe.</p>
+      <span class="eyebrow">Négoce de matériaux · Pros &amp; particuliers</span>
+      <h1>Les matériaux du chantier, <em>au prix négoce.</em></h1>
+      <p class="lead">Bois, métaux, cuivre, cloisons, isolants, fixations. Plus de 300 références de scieries et distributeurs vérifiés, livrées en France et en Europe.</p>
       <div class="hero-ctas">
-        <a href="catalogue.html" class="btn btn-primary">Voir le catalogue</a>
-        <a href="devis.html" class="btn btn-outline">Demander un devis gratuit</a>
+        <a href="devis.html" class="btn btn-primary">Demander un devis gratuit</a>
+        <a href="catalogue.html" class="btn btn-outline">Parcourir le catalogue</a>
+      </div>
+      <div class="hero-proof">
+        <span>Réponse sous 24h ouvrées</span>
+        <span>Sans compte pro</span>
+        <span>FR · BE · CH · LU</span>
       </div>
     </div>
-    <div class="hero-media">
-      <div class="hero-visual">
-        <div class="hv-mosaic" aria-hidden="true"></div>
-        <div class="hv-center">
-          <img src="img/logo-mark-cohesif-negoce.png" alt="" class="hv-mark">
-          <strong>300+ références</strong>
-          <span>6 familles de matériaux,<br>un seul réseau de confiance</span>
-        </div>
+
+    <aside class="board" aria-label="Prix indicatifs du jour">
+      <div class="board-head">
+        <span>Prix du jour</span>
+        <span class="live">Stock Cohesif</span>
       </div>
-      <div class="hero-badge"><span class="dot"></span> Réponse garantie sous 24h</div>
+      <table>
+        <thead>
+          <tr><th>Référence</th><th class="num">Prix HT</th><th class="num">Var.</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Tube cuivre écroui 12/14</td><td class="num">3,80 € <span class="unit">/ml</span></td><td class="num up">+1,2%</td></tr>
+          <tr><td>OSB 3 — 18 mm</td><td class="num">14,20 € <span class="unit">/m²</span></td><td class="num up">+0,8%</td></tr>
+          <tr><td>Plaque BA13 — 2,50 m</td><td class="num">5,90 € <span class="unit">/m²</span></td><td class="num flat">0,0%</td></tr>
+          <tr><td>Rond à béton HA10</td><td class="num">0,95 € <span class="unit">/ml</span></td><td class="num down">−0,4%</td></tr>
+          <tr><td>Laine de verre 100 mm</td><td class="num">8,40 € <span class="unit">/m²</span></td><td class="num up">+1,1%</td></tr>
+        </tbody>
+      </table>
+      <div class="board-foot">
+        <small>Tarifs indicatifs, hors livraison</small>
+        <a href="catalogue.html">Tout le catalogue</a>
+      </div>
+    </aside>
+  </div>
+
+  <div class="container facts-wrap">
+    <div class="facts">
+      <div>
+        <div class="stat-num"><span class="count-target" data-count-to="300" data-prefix="+">+300</span></div>
+        <div class="stat-label">Références</div>
+      </div>
+      <div>
+        <div class="stat-num"><span class="count-target" data-count-to="38">38</span></div>
+        <div class="stat-label">Fournisseurs vérifiés</div>
+      </div>
+      <div>
+        <div class="stat-num"><span class="count-target" data-count-to="24" data-suffix="h">24h</span></div>
+        <div class="stat-label">Délai de réponse</div>
+      </div>
+      <div>
+        <div class="stat-num">4</div>
+        <div class="stat-label">Pays livrés</div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ===== Chiffres animés ===== -->
-<section class="stats">
-  <div class="container">
-    <div class="stats-grid">
-      <div>
-        <div class="stat-num"><span class="count-target" data-count-to="300" data-prefix="+">0</span></div>
-        <div class="stat-label">références produits</div>
-      </div>
-      <div>
-        <div class="stat-num"><span class="count-target" data-count-to="38">0</span></div>
-        <div class="stat-label">fournisseurs certifiés</div>
-      </div>
-      <div>
-        <div class="stat-num"><span class="count-target" data-count-to="5">0</span></div>
-        <div class="stat-label">pôles Groupe Cohesif</div>
-      </div>
-      <div>
-        <div class="stat-num"><span class="count-target" data-count-to="24" data-suffix="h">0</span></div>
-        <div class="stat-label">délai de réponse</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== Catégories produits ===== -->
+<!-- ===== Catalogue ===== -->
 <section class="categories">
   <div class="container">
-    <div class="section-head">
-      <span class="eyebrow">Notre catalogue</span>
-      <h2>Six familles de matériaux, une seule plateforme</h2>
-      <p>Des références sélectionnées et mises à jour en continu, du gros œuvre à la finition.</p>
+    <div class="section-head reveal">
+      <span class="eyebrow">01 — Catalogue</span>
+      <h2>Six familles, du gros œuvre à la finition.</h2>
+      <p>Chaque référence est sourcée chez un fournisseur que nous connaissons, avec un prix et un délai affichés.</p>
     </div>
-    <div class="grid-3">
-      <a class="cat-card" href="catalogue.html?categorie=Bois%20%26%20Charpente">
-        <div class="cat-icon">▥</div>
+    <div class="cat-index">
+      <a class="cat-row" href="catalogue.html?categorie=Bois%20%26%20Charpente">
+        <span class="cr-num">01</span>
         <h3>Bois &amp; Charpente</h3>
         <p>Chevrons, bastaings, lamellé-collé, panneaux OSB et contreplaqué.</p>
-        <span class="cat-link">Découvrir →</span>
+        <span class="cr-go"><span>Voir</span></span>
       </a>
-      <a class="cat-card" href="catalogue.html?categorie=M%C3%A9taux">
-        <div class="cat-icon">▦</div>
+      <a class="cat-row" href="catalogue.html?categorie=M%C3%A9taux">
+        <span class="cr-num">02</span>
         <h3>Métaux</h3>
         <p>Aciers de structure, profilés, tubes, treillis soudés, inox et aluminium.</p>
-        <span class="cat-link">Découvrir →</span>
+        <span class="cr-go"><span>Voir</span></span>
       </a>
-      <a class="cat-card" href="catalogue.html?categorie=Cuivre">
-        <div class="cat-icon">◉</div>
+      <a class="cat-row" href="catalogue.html?categorie=Cuivre">
+        <span class="cr-num">03</span>
         <h3>Cuivre</h3>
         <p>Tubes écrouis, plaques laminées, raccords, gouttières et fils électriques.</p>
-        <span class="cat-link">Découvrir →</span>
+        <span class="cr-go"><span>Voir</span></span>
       </a>
-      <a class="cat-card" href="catalogue.html?categorie=Cloisons%20%26%20Doublages">
-        <div class="cat-icon">▤</div>
+      <a class="cat-row" href="catalogue.html?categorie=Cloisons%20%26%20Doublages">
+        <span class="cr-num">04</span>
         <h3>Cloisons &amp; Doublages</h3>
         <p>Plaques de plâtre, rails, montants, isolants intégrés et accessoires.</p>
-        <span class="cat-link">Découvrir →</span>
+        <span class="cr-go"><span>Voir</span></span>
       </a>
-      <a class="cat-card" href="catalogue.html?categorie=Isolants">
-        <div class="cat-icon">▧</div>
+      <a class="cat-row" href="catalogue.html?categorie=Isolants">
+        <span class="cr-num">05</span>
         <h3>Isolants</h3>
         <p>Laines minérales, panneaux PSE et PUR, membranes pare-vapeur.</p>
-        <span class="cat-link">Découvrir →</span>
+        <span class="cr-go"><span>Voir</span></span>
       </a>
-      <a class="cat-card" href="catalogue.html?categorie=Fixations">
-        <div class="cat-icon">✚</div>
+      <a class="cat-row" href="catalogue.html?categorie=Fixations">
+        <span class="cr-num">06</span>
         <h3>Fixations</h3>
         <p>Vis, chevilles, tiges filetées, équerres, boulonnerie haute résistance.</p>
-        <span class="cat-link">Découvrir →</span>
+        <span class="cr-go"><span>Voir</span></span>
       </a>
     </div>
   </div>
 </section>
 
 <!-- ===== Produits vedettes ===== -->
-<section class="featured">
+<section class="featured" style="padding-top:0">
   <div class="container">
-    <div class="section-head" style="display:flex; align-items:flex-end; justify-content:space-between; text-align:left; max-width:none; gap:24px; flex-wrap:wrap;">
-      <div>
-        <span class="eyebrow">Sélection du moment</span>
-        <h2 style="margin-bottom:6px;">Produits vedettes — stock Cohesif</h2>
-        <p style="margin:0;">Disponibles immédiatement, expédiés sous 24 à 48h.</p>
-      </div>
-      <div class="htttc-toggle">
-        <button data-mode="HT" class="active">Prix HT</button>
-        <button data-mode="TTC">Prix TTC</button>
+    <div class="section-head reveal">
+      <span class="eyebrow">02 — En stock</span>
+      <h2>Disponible maintenant, expédié sous 48h.</h2>
+      <div style="display:flex; align-items:center; justify-content:space-between; gap:20px; flex-wrap:wrap;">
+        <p style="margin:0">Prix affichés au détail. Au-delà d'une palette, on vous fait un prix.</p>
+        <div class="htttc-toggle">
+          <button data-mode="HT" class="active">HT</button>
+          <button data-mode="TTC">TTC</button>
+        </div>
       </div>
     </div>
     <div class="grid-4" data-featured-products></div>
   </div>
 </section>
 
-<!-- ===== Section fournisseurs ===== -->
+<!-- ===== Méthode ===== -->
+<section class="why" style="padding-top:0">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">03 — Comment ça marche</span>
+      <h2>Un interlocuteur, un devis, une livraison.</h2>
+      <p>Cohesif Négoce est adossé au Groupe Cohesif et à ses cinq pôles d'activité.</p>
+    </div>
+    <div class="arguments-grid">
+      <div class="arg-card">
+        <span class="arg-icon">01</span>
+        <h3>Vous décrivez le besoin</h3>
+        <p>Une liste de références, un métré ou une simple photo du plan. Pas besoin de compte professionnel.</p>
+      </div>
+      <div class="arg-card">
+        <span class="arg-icon">02</span>
+        <h3>On consulte le réseau</h3>
+        <p>Nous interrogeons nos fournisseurs vérifiés et retenons la meilleure combinaison prix / délai.</p>
+      </div>
+      <div class="arg-card">
+        <span class="arg-icon">03</span>
+        <h3>Devis sous 24h</h3>
+        <p>Un devis chiffré et ferme, sans relance, avec la date de livraison annoncée.</p>
+      </div>
+      <div class="arg-card">
+        <span class="arg-icon">04</span>
+        <h3>Livraison chantier</h3>
+        <p>France, Belgique, Suisse et Luxembourg. Livraison sur chantier ou retrait.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Fournisseurs ===== -->
 <section class="supplier-section">
   <div class="container">
-    <div class="section-head">
-      <span class="eyebrow" style="color:#BFE9D6;">Rejoindre le réseau</span>
-      <h2>Vous êtes scierie, négociant ou distributeur ?</h2>
-      <p>Diffusez vos produits auprès de milliers de professionnels et particuliers, sans commission sur vos ventes.</p>
+    <div class="section-head reveal">
+      <span class="eyebrow">04 — Fournisseurs</span>
+      <h2>Scierie, négociant, distributeur&nbsp;? Vendez ici.</h2>
+      <p>Vos produits devant des milliers d'artisans, d'entreprises du BTP et de particuliers. Aucune commission sur vos ventes.</p>
     </div>
     <div class="pricing-grid">
       <div class="price-card">
         <h3>Starter</h3>
-        <div class="price">99 € <small>/ mois</small></div>
+        <div class="price">99&nbsp;€ <small>/ mois HT</small></div>
         <ul>
           <li>Jusqu'à 50 références en ligne</li>
           <li>Fiche fournisseur dans l'annuaire</li>
-          <li>Statistiques de consultation de base</li>
+          <li>Statistiques de consultation</li>
           <li>Support par email</li>
         </ul>
         <a href="abonnements.html" class="btn btn-ghost-white">Choisir Starter</a>
@@ -546,7 +593,7 @@
       <div class="price-card featured">
         <span class="ribbon">Le plus choisi</span>
         <h3>Business</h3>
-        <div class="price">199 € <small>/ mois</small></div>
+        <div class="price">199&nbsp;€ <small>/ mois HT</small></div>
         <ul>
           <li>Jusqu'à 300 références en ligne</li>
           <li>Mise en avant dans le catalogue</li>
@@ -557,7 +604,7 @@
       </div>
       <div class="price-card">
         <h3>Premium</h3>
-        <div class="price">399 € <small>/ mois</small></div>
+        <div class="price">399&nbsp;€ <small>/ mois HT</small></div>
         <ul>
           <li>Références illimitées</li>
           <li>Badge Partenaire Vérifié</li>
@@ -567,70 +614,31 @@
         <a href="abonnements.html" class="btn btn-ghost-white">Choisir Premium</a>
       </div>
     </div>
-    <div style="text-align:center; margin-top:40px;">
-      <a href="fournisseurs.html" class="btn btn-white">Déposer une annonce</a>
-    </div>
-  </div>
-</section>
-
-<!-- ===== Pourquoi Cohesif Négoce ===== -->
-<section class="why">
-  <div class="container">
-    <div class="section-head">
-      <span class="eyebrow">Pourquoi nous choisir</span>
-      <h2>Pourquoi Cohesif Négoce</h2>
-      <p>Une plateforme adossée à un groupe solide, pensée pour la rapidité et la transparence des prix.</p>
-    </div>
-    <div class="arguments-grid">
-      <div class="arg-card">
-        <div class="arg-icon">◆</div>
-        <div>
-          <h3>Groupe solide</h3>
-          <p>Adossée au Groupe Cohesif et à ses cinq pôles d'activité, la plateforme s'appuie sur une assise financière et logistique éprouvée.</p>
-        </div>
-      </div>
-      <div class="arg-card">
-        <div class="arg-icon">◷</div>
-        <div>
-          <h3>Réponse 24h</h3>
-          <p>Chaque demande de devis reçoit une réponse personnalisée sous 24 heures ouvrées, sans relance nécessaire.</p>
-        </div>
-      </div>
-      <div class="arg-card">
-        <div class="arg-icon">€</div>
-        <div>
-          <h3>Prix négoce</h3>
-          <p>Accès direct aux tarifs professionnels grâce à un réseau de fournisseurs certifiés, sans marge d'intermédiaire superflue.</p>
-        </div>
-      </div>
-      <div class="arg-card">
-        <div class="arg-icon">▷</div>
-        <div>
-          <h3>Livraison EU</h3>
-          <p>Expéditions organisées vers la France, la Belgique, la Suisse et le Luxembourg, avec délais annoncés sur chaque fiche produit.</p>
-        </div>
-      </div>
-    </div>
   </div>
 </section>
 
 <!-- ===== Particuliers ===== -->
 <section class="band-particuliers">
   <div class="container">
-    <span class="eyebrow">Pour les particuliers</span>
-    <h2>Vous rénovez votre maison ?</h2>
-    <p>Pas besoin de compte professionnel : décrivez votre projet et recevez un devis personnalisé sous 24h, au même tarif que nos clients pros.</p>
-    <a href="devis.html" class="btn btn-primary">Je demande un devis sans compte</a>
+    <div>
+      <span class="eyebrow">05 — Particuliers</span>
+      <h2>Vous rénovez&nbsp;? Même prix que les pros.</h2>
+    </div>
+    <div>
+      <p>Décrivez votre projet en quelques lignes. Vous recevez un devis personnalisé sous 24h, sans ouvrir de compte et sans engagement.</p>
+      <a href="devis.html" class="btn btn-primary">Demander mon devis</a>
+    </div>
   </div>
 </section>
 
 <!-- ===== Footer ===== -->
 <footer>
   <div class="container">
+    <div class="footer-wordmark" aria-hidden="true">Cohesif Négoce</div>
     <div class="footer-grid">
       <div class="footer-about">
-        <a href="index.html" class="logo"><img src="img/logo-cohesif-negoce.png" loading="lazy" alt="Cohesif Négoce — La matière première des professionnels"></a>
-        <p>« La matière première des professionnels. »<br>
+        <a href="index.html" class="logo"><img src="img/logo-cohesif-negoce.png" loading="lazy" alt="Cohesif Négoce"></a>
+        <p>La matière première des professionnels.<br>
         Groupe Cohesif — 200 rue de la Croix-Nivert, 75015 Paris<br>
         SIRET 889 287 462 00036</p>
       </div>
@@ -659,8 +667,8 @@
         <h4>Contact</h4>
         <ul>
           <li><a href="mailto:contact@cohesifnegoce.fr">contact@cohesifnegoce.fr</a></li>
+          <li><a href="https://wa.me/33756855727" target="_blank" rel="noopener">WhatsApp +33 7 56 85 57 27</a></li>
           <li>Lun–Ven · 9h–18h</li>
-          <li><a href="devis.html">Demander un devis</a></li>
         </ul>
       </div>
     </div>
@@ -678,7 +686,7 @@
 <div class="sticky-mobile-bar">
   <span class="smb-text">
     <span class="smb-dot"></span>
-    <span class="smb-copy"><strong>Demander un devis</strong><span class="smb-sub">Réponse garantie sous 24h</span></span>
+    <span class="smb-copy"><strong>Demander un devis</strong><span class="smb-sub">Réponse sous 24h</span></span>
   </span>
   <a href="devis.html" class="btn btn-white btn-sm">Démarrer</a>
 </div>
@@ -913,7 +921,7 @@
       align-items: center;
       justify-content: center;
       box-shadow: 0 4px 16px rgba(37,211,102,0.45);
-      z-index: 99999;
+      z-index: 240;
       text-decoration: none;
       transition: transform .2s ease, box-shadow .2s ease;
     }
@@ -921,8 +929,8 @@
       transform: scale(1.12);
       box-shadow: 0 6px 24px rgba(37,211,102,0.55);
     }
-    @media (max-width: 600px) {
-      .whatsapp-float { bottom: 18px; right: 18px; width: 52px; height: 52px; }
+    @media (max-width: 760px) {
+      .whatsapp-float { bottom: 14px; right: 12px; width: 60px; height: 60px; }
     }
   </style>
 </body>
